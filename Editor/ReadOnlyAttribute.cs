@@ -1,9 +1,9 @@
+#if UNITY_EDITOR
 using UnityEditor;
 using UnityEngine;
 
 namespace Scream.UniMO.Editor
 {
-#if UNITY_EDITOR
     public class ReadOnlyAttribute : PropertyAttribute { }
 
     [CustomPropertyDrawer(typeof(ReadOnlyAttribute))]
@@ -19,5 +19,5 @@ namespace Scream.UniMO.Editor
             GUI.enabled = true;
         }
     }
-#endif
 }
+#endif

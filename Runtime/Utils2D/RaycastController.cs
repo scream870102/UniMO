@@ -1,7 +1,8 @@
 ﻿using System.Collections.Generic;
-using Scream.UniMO.Editor;
 using UnityEngine;
-
+#if UNITY_EDITOR
+using Scream.UniMO.Editor;
+#endif
 namespace Scream.UniMO.Utils2D
 {
     [System.Serializable]

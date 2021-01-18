@@ -1,5 +1,7 @@
 using UnityEngine;
+#if UNITY_EDITOR
 using Scream.UniMO.Editor;
+#endif
 
 namespace Scream.UniMO
 {

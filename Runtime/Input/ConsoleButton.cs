@@ -3,7 +3,9 @@ using System;
 using UnityEngine.Events;
 using UnityEngine.UI;
 using UnityEngine;
+#if UNITY_EDITOR
 using Scream.UniMO.Editor;
+#endif
 
 namespace Scream.UniMO.Input
 {
