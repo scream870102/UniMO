@@ -1,3 +1,6 @@
+## 1.2.1
+- Fix save package.json with UTF8
+
 ## 1.2.0
 ### Timer
 #### Add
