@@ -1,3 +1,8 @@
+## 1.3.0
+- Add Scream.UniMO.Collections.PrefabContainer
+- Add Scream.UniMO.Collections.Container
+- Add Scream.UniMO.Collections.ObjectContainer
+
 ## 1.2.1
 - Fix save package.json with UTF8
 
