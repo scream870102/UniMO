@@ -1,0 +1,51 @@
+{
+    "metadata": [
+        {
+            "src": [
+                {
+                    "src": "..",
+                    "files": [
+                        "**/*.cs",
+                        "*.cs"
+                    ]
+                }
+            ],
+            "globalNamespaceId": "Global",
+            "dest": "api"
+        }
+    ],
+    "build": {
+        "globalMetadata": {
+            "_appTitle": "UniMO",
+            "_appFooter": "UniMO documentation",
+            "_enableSearch": true
+        },
+        "content": [
+            {
+                "files": [
+                    "index.md",
+                    "toc.yml"
+                ]
+            },
+            {
+                "src": "api",
+                "files": [
+                    "*.yml"
+                ],
+                "dest": "api"
+            },
+            {
+                "src": "manual",
+                "files": [
+                    "toc.yml",
+                    "*.md"
+                ],
+                "dest": "manual"
+            }
+        ],
+        "sitemap": {
+            "baseUrl": "https://scream870102.github.io/UniMO"
+        },
+        "dest": "../_site"
+    }
+}

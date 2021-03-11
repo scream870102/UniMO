@@ -1,0 +1,7 @@
+apiRules:
+- include:
+    uidRegex: ^Scream
+    type: Namespace
+- include:
+    uidRegex: ^Global
+    type: Namespace
