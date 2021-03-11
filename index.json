@@ -164,8 +164,8 @@
     "title": "UniMO | UniMO",
     "keywords": "UniMO Utils collection for Unity API References UniMO's API References are hosted at scream870102.github.io/UniMO by DocFX License This library is under the MIT License ."
   },
-  "manual/manual.html": {
-    "href": "manual/manual.html",
+  "manual/unimo_manual.html": {
+    "href": "manual/unimo_manual.html",
     "title": "UniMO Manual | UniMO",
     "keywords": "UniMO Manual UNDER CONSTRUCTION"
   }
