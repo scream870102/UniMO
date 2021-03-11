@@ -1,3 +1,6 @@
+## 1.3.1
+- Update PrefabContainer AssetMenu update
+
 ## 1.3.0
 - Add Scream.UniMO.Collections.PrefabContainer
 - Add Scream.UniMO.Collections.Container
