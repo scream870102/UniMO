@@ -417,7 +417,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "bvMYGUWqEMAjeYA0inypmA=="
+          "hash": "5nOjBu5VZoUQbO43bbiEoQ=="
         }
       },
       "is_incremental": false,
@@ -425,11 +425,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "manual/brief.md",
+      "source_relative_path": "manual/manual.md",
       "output": {
         ".html": {
-          "relative_path": "manual/brief.html",
-          "hash": "DOgSR2AbtRlIpl4WXOHIMg=="
+          "relative_path": "manual/manual.html",
+          "hash": "To2UOXTUv1eQGK+yD3YkyA=="
         }
       },
       "is_incremental": false,
@@ -441,7 +441,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/toc.html",
-          "hash": "4wB3Tmyp61CfJ+r55vSWpg=="
+          "hash": "4uQW8BociPIJcOIluHT2Cw=="
         }
       },
       "is_incremental": false,
@@ -453,7 +453,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "Ewmp+wVeGcVEjUe4oEWZBw=="
+          "hash": "LP686zkvE+rKYM1e5P4Unw=="
         }
       },
       "is_incremental": false,
@@ -473,13 +473,13 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 2,
-          "skipped_file_count": 1
+          "skipped_file_count": 2
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 32,
-          "skipped_file_count": 1
+          "skipped_file_count": 32
         },
         "TocDocumentProcessor": {
           "can_incremental": false,
