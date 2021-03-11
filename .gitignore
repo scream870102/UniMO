@@ -1,3 +1,8 @@
 *.log
 *.log.meta
 LICENSE.meta
+_site/
+Documentation/
+obj/
+docfxFix.cs
+docfxFix.cs.meta
