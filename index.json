@@ -1,0 +1,172 @@
+{
+  "api/Scream.UniMO.Collections.Container-2.html": {
+    "href": "api/Scream.UniMO.Collections.Container-2.html",
+    "title": "Class Container<T, U> | UniMO",
+    "keywords": "Class Container<T, U> Use this scriptableobject to store all prefab you need. Inheritance System.Object Container<T, U> PrefabContainer Namespace : Scream.UniMO.Collections Assembly : cs.temp.dll.dll Syntax public class Container<T, U> : ScriptableObject where T : IConvertible Type Parameters Name Description T type of key U type of target object Fields Objects Declaration public ObjectContainer<T, U>[] Objects Field Value Type Description ObjectContainer <T, U>[] Methods ToDictionary() Convert to Dictionary Declaration public virtual Dictionary<T, U> ToDictionary() Returns Type Description Dictionary <T, U> ToList() Convert to list and ignore key Declaration public virtual List<U> ToList() Returns Type Description List <U>"
+  },
+  "api/Scream.UniMO.Collections.html": {
+    "href": "api/Scream.UniMO.Collections.html",
+    "title": "Namespace Scream.UniMO.Collections | UniMO",
+    "keywords": "Namespace Scream.UniMO.Collections Classes Container<T, U> Use this scriptableobject to store all prefab you need. ObjectContainer<T, U> Container Type ObjectPool PrefabContainer Use this scriptableobject to store all prefab you need. Interfaces IObjectPoolAble class inherit this interface can be managed by class ObjectPool"
+  },
+  "api/Scream.UniMO.Collections.IObjectPoolAble.html": {
+    "href": "api/Scream.UniMO.Collections.IObjectPoolAble.html",
+    "title": "Interface IObjectPoolAble | UniMO",
+    "keywords": "Interface IObjectPoolAble class inherit this interface can be managed by class ObjectPool Namespace : Scream.UniMO.Collections Assembly : cs.temp.dll.dll Syntax public interface IObjectPoolAble Properties gameObject Declaration GameObject gameObject { get; } Property Value Type Description GameObject Pool Declaration ObjectPool Pool { get; set; } Property Value Type Description ObjectPool Methods Init<T>(T) Declaration void Init<T>(T data) Parameters Type Name Description T data Type Parameters Name Description T Recycle() Declaration void Recycle()"
+  },
+  "api/Scream.UniMO.Collections.ObjectContainer-2.html": {
+    "href": "api/Scream.UniMO.Collections.ObjectContainer-2.html",
+    "title": "Class ObjectContainer<T, U> | UniMO",
+    "keywords": "Class ObjectContainer<T, U> Container Type Inheritance System.Object ObjectContainer<T, U> Inherited Members System.Object.ToString() System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.ReferenceEquals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() Namespace : Scream.UniMO.Collections Assembly : cs.temp.dll.dll Syntax public class ObjectContainer<T, U> where T : IConvertible Type Parameters Name Description T type of key U type of object Fields Key Declaration public T Key Field Value Type Description T Object Declaration public U Object Field Value Type Description U"
+  },
+  "api/Scream.UniMO.Collections.ObjectPool.html": {
+    "href": "api/Scream.UniMO.Collections.ObjectPool.html",
+    "title": "Class ObjectPool | UniMO",
+    "keywords": "Class ObjectPool Inheritance System.Object ObjectPool Inherited Members System.Object.ToString() System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.ReferenceEquals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() Namespace : Scream.UniMO.Collections Assembly : cs.temp.dll.dll Syntax [Serializable] public class ObjectPool Constructors ObjectPool(GameObject, Transform, Int32, Boolean) use this to set NECESSARY data Declaration public ObjectPool(GameObject pooledObject, Transform poolParent, int pooledAmount = 1, bool IsGrow = true) Parameters Type Name Description GameObject pooledObject Transform poolParent System.Int32 pooledAmount System.Boolean IsGrow Remarks Not necessary to use constructor you can also set data through inspector Fields IsGrow if user ask an item and pool is empty now Can pool instaniate an new item Declaration public bool IsGrow Field Value Type Description System.Boolean pooledAmount how many item can pool hold Declaration public int pooledAmount Field Value Type Description System.Int32 pooledObject Declaration public GameObject pooledObject Field Value Type Description GameObject poolParent all poolObjects should belong to which transform Declaration public Transform poolParent Field Value Type Description Transform Properties IsAvailable Declaration public bool IsAvailable { get; } Property Value Type Description System.Boolean Methods GetPooledObject<T>(T) Return IObjectPoolItem Declaration public IObjectPoolAble GetPooledObject<T>(T data) Parameters Type Name Description T data you can add some data to object when it call init Returns Type Description IObjectPoolAble Type Parameters Name Description T Remarks Need to convert to type which user need e.g. Bullets inherit from Mono,IObjectPoolItem if we ask for a bullet we need to convert type to bullet Examples Bullet bullet = Bullets.GetPooledObject ( ) as Bullet; Init() Spawn all objects according to pooledAmount Declaration public List<IObjectPoolAble> Init() Returns Type Description List < IObjectPoolAble > Remarks MUST CALL this method if you set data with inspector not constructor RecycleObject(IObjectPoolAble) Recycle Object to Pooling again Declaration public void RecycleObject(IObjectPoolAble item) Parameters Type Name Description IObjectPoolAble item which item will be Recycle to ObjectPooling"
+  },
+  "api/Scream.UniMO.Collections.PrefabContainer.html": {
+    "href": "api/Scream.UniMO.Collections.PrefabContainer.html",
+    "title": "Class PrefabContainer | UniMO",
+    "keywords": "Class PrefabContainer Use this scriptableobject to store all prefab you need. Inheritance System.Object Container < System.String , Object > PrefabContainer Inherited Members Container<String, Object>.Objects Container<String, Object>.ToList() Container<String, Object>.ToDictionary() Namespace : Scream.UniMO.Collections Assembly : cs.temp.dll.dll Syntax public class PrefabContainer : Container<string, Object> Methods ToDictionary<T, U>() Convert key from string to basic type Declaration public Dictionary<T, U> ToDictionary<T, U>() where T : IConvertible where U : Object Returns Type Description Dictionary <T, U> Type Parameters Name Description T Target key type U Object type ToList<T>() Convert object to other type Declaration public List<T> ToList<T>() where T : Object Returns Type Description List <T> Type Parameters Name Description T target type of object"
+  },
+  "api/Scream.UniMO.DomainEvents.html": {
+    "href": "api/Scream.UniMO.DomainEvents.html",
+    "title": "Class DomainEvents | UniMO",
+    "keywords": "Class DomainEvents Inheritance System.Object DomainEvents Inherited Members System.Object.ToString() System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.ReferenceEquals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() Namespace : Scream.UniMO Assembly : cs.temp.dll.dll Syntax public static class DomainEvents Methods Clear() Declaration public static void Clear() Raise<T>(T) Declaration public static void Raise<T>(T args) where T : IDomainEvent Parameters Type Name Description T args Type Parameters Name Description T Register<T>(Action<T>) Declaration public static void Register<T>(Action<T> callback) where T : IDomainEvent Parameters Type Name Description Action <T> callback Type Parameters Name Description T UnRegister<T>(Action<T>) Declaration public static void UnRegister<T>(Action<T> callback) where T : IDomainEvent Parameters Type Name Description Action <T> callback Type Parameters Name Description T"
+  },
+  "api/Scream.UniMO.Editor.GetInstanceID.html": {
+    "href": "api/Scream.UniMO.Editor.GetInstanceID.html",
+    "title": "Class GetInstanceID | UniMO",
+    "keywords": "Class GetInstanceID Inheritance System.Object GetInstanceID Namespace : Scream.UniMO.Editor Assembly : cs.temp.dll.dll Syntax public class GetInstanceID : MonoBehaviour Methods GetID() Declaration public void GetID()"
+  },
+  "api/Scream.UniMO.Editor.GetInStanceIDEditor.html": {
+    "href": "api/Scream.UniMO.Editor.GetInStanceIDEditor.html",
+    "title": "Class GetInStanceIDEditor | UniMO",
+    "keywords": "Class GetInStanceIDEditor Inheritance System.Object GetInStanceIDEditor Namespace : Scream.UniMO.Editor Assembly : cs.temp.dll.dll Syntax public class GetInStanceIDEditor : UnityEditor.Editor Methods OnInspectorGUI() Declaration public override void OnInspectorGUI()"
+  },
+  "api/Scream.UniMO.Editor.html": {
+    "href": "api/Scream.UniMO.Editor.html",
+    "title": "Namespace Scream.UniMO.Editor | UniMO",
+    "keywords": "Namespace Scream.UniMO.Editor Classes GetInstanceID GetInStanceIDEditor ReadOnlyAttribute ReadOnlyDrawer"
+  },
+  "api/Scream.UniMO.Editor.ReadOnlyAttribute.html": {
+    "href": "api/Scream.UniMO.Editor.ReadOnlyAttribute.html",
+    "title": "Class ReadOnlyAttribute | UniMO",
+    "keywords": "Class ReadOnlyAttribute Inheritance System.Object ReadOnlyAttribute Namespace : Scream.UniMO.Editor Assembly : cs.temp.dll.dll Syntax public class ReadOnlyAttribute : PropertyAttribute"
+  },
+  "api/Scream.UniMO.Editor.ReadOnlyDrawer.html": {
+    "href": "api/Scream.UniMO.Editor.ReadOnlyDrawer.html",
+    "title": "Class ReadOnlyDrawer | UniMO",
+    "keywords": "Class ReadOnlyDrawer Inheritance System.Object ReadOnlyDrawer Namespace : Scream.UniMO.Editor Assembly : cs.temp.dll.dll Syntax public class ReadOnlyDrawer : PropertyDrawer Methods GetPropertyHeight(SerializedProperty, GUIContent) Declaration public override float GetPropertyHeight(SerializedProperty property, GUIContent label) Parameters Type Name Description SerializedProperty property GUIContent label Returns Type Description System.Single OnGUI(Rect, SerializedProperty, GUIContent) Declaration public override void OnGUI(Rect position, SerializedProperty property, GUIContent label) Parameters Type Name Description Rect position SerializedProperty property GUIContent label"
+  },
+  "api/Scream.UniMO.html": {
+    "href": "api/Scream.UniMO.html",
+    "title": "Namespace Scream.UniMO | UniMO",
+    "keywords": "Namespace Scream.UniMO Classes DomainEvents IDomainEvent Math ScaledTimer a countdown timer easy to use affected by TimeScale TSingletonMonoBehavior<T> derived this class then you will got a monobehavior implement singleton TSingletonMonoBehaviorDestroy<T> derived this class then you will got a monobehavior implement singleton UnscaledTimer a countdown timer easy to use not affected by TimeScale"
+  },
+  "api/Scream.UniMO.IDomainEvent.html": {
+    "href": "api/Scream.UniMO.IDomainEvent.html",
+    "title": "Class IDomainEvent | UniMO",
+    "keywords": "Class IDomainEvent Inheritance System.Object IDomainEvent Inherited Members System.Object.ToString() System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.ReferenceEquals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() Namespace : Scream.UniMO Assembly : cs.temp.dll.dll Syntax public abstract class IDomainEvent"
+  },
+  "api/Scream.UniMO.Input.Button.html": {
+    "href": "api/Scream.UniMO.Input.Button.html",
+    "title": "Class Button | UniMO",
+    "keywords": "Class Button Inheritance System.Object Button Inherited Members System.Object.ToString() System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.ReferenceEquals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() Namespace : Scream.UniMO.Input Assembly : cs.temp.dll.dll Syntax [Serializable] public class Button Fields Action Declaration public UnityEvent Action Field Value Type Description UnityEvent Text Declaration public Text Text Field Value Type Description Text"
+  },
+  "api/Scream.UniMO.Input.ConsoleButton.html": {
+    "href": "api/Scream.UniMO.Input.ConsoleButton.html",
+    "title": "Class ConsoleButton | UniMO",
+    "keywords": "Class ConsoleButton Inheritance System.Object ConsoleButton Inherited Members System.Object.ToString() System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.ReferenceEquals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() Namespace : Scream.UniMO.Input Assembly : cs.temp.dll.dll Syntax [Serializable] public class ConsoleButton Constructors ConsoleButton(Int32) Declaration public ConsoleButton(int initIndex = 0) Parameters Type Name Description System.Int32 initIndex Properties Buttons Declaration public List<Button> Buttons { get; } Property Value Type Description List < Button > CurrentIndex Declaration public int CurrentIndex { get; } Property Value Type Description System.Int32 Methods Init(Int32) Declaration public void Init(int initIndex = 0) Parameters Type Name Description System.Int32 initIndex Invoke() Declaration public void Invoke() Invoke(Int32) Declaration public void Invoke(int index) Parameters Type Name Description System.Int32 index MinusIndex() Declaration public void MinusIndex() PlusIndex() Declaration public void PlusIndex() Events ActiveOption Declaration public event Action<Text> ActiveOption Event Type Type Description Action < Text > CertainAction Declaration public event Action CertainAction Event Type Type Description Action DeactiveOption Declaration public event Action<Text> DeactiveOption Event Type Type Description Action < Text >"
+  },
+  "api/Scream.UniMO.Input.html": {
+    "href": "api/Scream.UniMO.Input.html",
+    "title": "Namespace Scream.UniMO.Input | UniMO",
+    "keywords": "Namespace Scream.UniMO.Input Classes Button ConsoleButton"
+  },
+  "api/Scream.UniMO.Math.html": {
+    "href": "api/Scream.UniMO.Math.html",
+    "title": "Class Math | UniMO",
+    "keywords": "Class Math Inheritance System.Object Math Inherited Members System.Object.ToString() System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.ReferenceEquals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() Namespace : Scream.UniMO Assembly : cs.temp.dll.dll Syntax public static class Math Methods Between(Single, Single, Single) check if a value between the two value or not Declaration public static bool Between(float value, float a, float b) Parameters Type Name Description System.Single value the value you want to check System.Single a System.Single b Returns Type Description System.Boolean Remarks will return true if the value equal to a or b ChosenDueToProbability(Single, Single) return true if option1 being choose Declaration public static bool ChosenDueToProbability(float probability1, float probability2) Parameters Type Name Description System.Single probability1 probability of option1 System.Single probability2 probability of option2 Returns Type Description System.Boolean ChosenDueToProbability<T>(T, T, Single, Single) return the option due to the percentage Declaration public static T ChosenDueToProbability<T>(in T option1, in T option2, float probability1, float probability2) Parameters Type Name Description T option1 first option T option2 second option System.Single probability1 the probability of option1 System.Single probability2 the probability of option2 Returns Type Description T Type Parameters Name Description T Remarks will transfer the total of two probability to 100% linearly GetDegree(Vector2) return the degree due to direction Declaration public static float GetDegree(Vector2 direction) Parameters Type Name Description Vector2 direction Returns Type Description System.Single GetDirectionFromDeg(Single) return the vector2 in normalize from degree Declaration public static Vector2 GetDirectionFromDeg(float degree) Parameters Type Name Description System.Single degree Returns Type Description Vector2 GetDirectionFromRad(Single) Declaration public static Vector2 GetDirectionFromRad(float radian) Parameters Type Name Description System.Single radian Returns Type Description Vector2 InverseProbability(Single) inverst the probability if give 0.3 will return 0.7 Declaration public static float InverseProbability(float origin) Parameters Type Name Description System.Single origin the probability you want to inverse Returns Type Description System.Single RandomBool() return a boolean randomly Declaration public static bool RandomBool() Returns Type Description System.Boolean RandomNum(Int32) return a random integer from 0 to number-1 Declaration public static int RandomNum(int number) Parameters Type Name Description System.Int32 number how many options Returns Type Description System.Int32 RandomNum(Single) return a random float from 0.0f to number Declaration public static float RandomNum(float number) Parameters Type Name Description System.Single number the biggest num for this random Returns Type Description System.Single RandomVec2(Single) return a random vector2 Declaration public static Vector2 RandomVec2(float num) Parameters Type Name Description System.Single num Returns Type Description Vector2 RandomVec2(Vector2) return a random vector2 Declaration public static Vector2 RandomVec2(Vector2 num) Parameters Type Name Description Vector2 num Returns Type Description Vector2 RandomVec3(Single) return a random vector3 Declaration public static Vector3 RandomVec3(float num) Parameters Type Name Description System.Single num Returns Type Description Vector3 RandomVec3(Vector3) return a random vector3 Declaration public static Vector3 RandomVec3(Vector3 num) Parameters Type Name Description Vector3 num Returns Type Description Vector3"
+  },
+  "api/Scream.UniMO.ScaledTimer.html": {
+    "href": "api/Scream.UniMO.ScaledTimer.html",
+    "title": "Class ScaledTimer | UniMO",
+    "keywords": "Class ScaledTimer a countdown timer easy to use affected by TimeScale Inheritance System.Object ScaledTimer Inherited Members System.Object.ToString() System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.ReferenceEquals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() Namespace : Scream.UniMO Assembly : cs.temp.dll.dll Syntax [Serializable] public class ScaledTimer Remarks call method Reset to reset timer and call property IsFinshed to check if countdown finished Constructors ScaledTimer(Single, Boolean) Declaration public ScaledTimer(float timeSection = 0F, bool CanUseFirst = true) Parameters Type Name Description System.Single timeSection System.Boolean CanUseFirst Properties IsFinished if this countdown finished or not Declaration public bool IsFinished { get; } Property Value Type Description System.Boolean IsPausing timer is in pause state Declaration public bool IsPausing { get; } Property Value Type Description System.Boolean Remain remaining time until the countdown end Declaration public float Remain { get; } Property Value Type Description System.Single Remain01 return the cd range from 0 to 1 0 means timer finished Declaration public float Remain01 { get; } Property Value Type Description System.Single Methods Pause() Pause this timer Declaration public void Pause() Reset() Reset countdown timer with default setting Declaration public void Reset() Reset(Single) reset countdown timer with new timeSection Declaration public void Reset(float timeSection) Parameters Type Name Description System.Single timeSection Resume() Resume this timer Declaration public void Resume()"
+  },
+  "api/Scream.UniMO.TSingletonMonoBehavior-1.html": {
+    "href": "api/Scream.UniMO.TSingletonMonoBehavior-1.html",
+    "title": "Class TSingletonMonoBehavior<T> | UniMO",
+    "keywords": "Class TSingletonMonoBehavior<T> derived this class then you will got a monobehavior implement singleton Inheritance System.Object TSingletonMonoBehavior<T> Namespace : Scream.UniMO Assembly : cs.temp.dll.dll Syntax public class TSingletonMonoBehavior<T> : MonoBehaviour where T : MonoBehaviour Type Parameters Name Description T Properties Instance Declaration public static T Instance { get; set; } Property Value Type Description T Methods Awake() Declaration protected virtual void Awake() OnDestroy() Declaration protected virtual void OnDestroy()"
+  },
+  "api/Scream.UniMO.TSingletonMonoBehaviorDestroy-1.html": {
+    "href": "api/Scream.UniMO.TSingletonMonoBehaviorDestroy-1.html",
+    "title": "Class TSingletonMonoBehaviorDestroy<T> | UniMO",
+    "keywords": "Class TSingletonMonoBehaviorDestroy<T> derived this class then you will got a monobehavior implement singleton Inheritance System.Object TSingletonMonoBehaviorDestroy<T> Namespace : Scream.UniMO Assembly : cs.temp.dll.dll Syntax public class TSingletonMonoBehaviorDestroy<T> : MonoBehaviour where T : MonoBehaviour Type Parameters Name Description T Properties Instance Declaration public static T Instance { get; set; } Property Value Type Description T Methods Awake() Declaration protected virtual void Awake() OnDestroy() Declaration protected virtual void OnDestroy()"
+  },
+  "api/Scream.UniMO.UnscaledTimer.html": {
+    "href": "api/Scream.UniMO.UnscaledTimer.html",
+    "title": "Class UnscaledTimer | UniMO",
+    "keywords": "Class UnscaledTimer a countdown timer easy to use not affected by TimeScale Inheritance System.Object UnscaledTimer Inherited Members System.Object.ToString() System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.ReferenceEquals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() Namespace : Scream.UniMO Assembly : cs.temp.dll.dll Syntax [Serializable] public class UnscaledTimer Remarks call method Reset to reset timer and call property IsFinshed to check if countdown finished Constructors UnscaledTimer(Single, Boolean) Declaration public UnscaledTimer(float timeSection = 0F, bool CanUseFirst = true) Parameters Type Name Description System.Single timeSection System.Boolean CanUseFirst Properties IsFinished if this countdown finished or not Declaration public bool IsFinished { get; } Property Value Type Description System.Boolean IsPausing timer is in pause state Declaration public bool IsPausing { get; } Property Value Type Description System.Boolean Remain remaining time until the countdown end Declaration public float Remain { get; } Property Value Type Description System.Single Remain01 return the cd range from 0 to 1 0 means timer finished Declaration public float Remain01 { get; } Property Value Type Description System.Single Methods Pause() Pause this timer Declaration public void Pause() Reset() Reset countdown timer with default setting Declaration public void Reset() Reset(Single) reset countdown timer with new timeSection Declaration public void Reset(float timeSection) Parameters Type Name Description System.Single timeSection Resume() Resume this timer Declaration public void Resume()"
+  },
+  "api/Scream.UniMO.Utils.AnimationEventHandler.html": {
+    "href": "api/Scream.UniMO.Utils.AnimationEventHandler.html",
+    "title": "Class AnimationEventHandler | UniMO",
+    "keywords": "Class AnimationEventHandler Inheritance System.Object AnimationEventHandler Namespace : Scream.UniMO.Utils Assembly : cs.temp.dll.dll Syntax public class AnimationEventHandler : MonoBehaviour Properties Animation Declaration public Animation Animation { get; } Property Value Type Description Animation Events OnAnimationFinClip this callback will return a animation clip Declaration public event Action<AnimationClip> OnAnimationFinClip Event Type Type Description System.Action < AnimationClip > OnAnimationFinString this callback will return a string Declaration public event Action<String> OnAnimationFinString Event Type Type Description System.Action < String > OnAnimationFinVoid Declaration public event Action OnAnimationFinVoid Event Type Type Description System.Action"
+  },
+  "api/Scream.UniMO.Utils.ColorUtils.html": {
+    "href": "api/Scream.UniMO.Utils.ColorUtils.html",
+    "title": "Class ColorUtils | UniMO",
+    "keywords": "Class ColorUtils Inheritance System.Object ColorUtils Inherited Members System.Object.ToString() System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.ReferenceEquals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() Namespace : Scream.UniMO.Utils Assembly : cs.temp.dll.dll Syntax public class ColorUtils Methods HSV2RGB(Vector3) Declaration public static UnityEngine.Color HSV2RGB(Vector3 hsv) Parameters Type Name Description Vector3 hsv Returns Type Description UnityEngine.Color RGB2HSV(UnityEngine.Color) Declaration public static Vector3 RGB2HSV(UnityEngine.Color rgb) Parameters Type Name Description UnityEngine.Color rgb Returns Type Description Vector3 SetAlpha(UnityEngine.Color, Single) Declaration public static UnityEngine.Color SetAlpha(UnityEngine.Color rgb, float alpha) Parameters Type Name Description UnityEngine.Color rgb System.Single alpha Returns Type Description UnityEngine.Color SetAlpha01(UnityEngine.Color, Single) Declaration public static UnityEngine.Color SetAlpha01(UnityEngine.Color rgb, float alpha) Parameters Type Name Description UnityEngine.Color rgb System.Single alpha Returns Type Description UnityEngine.Color SetAlphaHalf(UnityEngine.Color) Declaration public static UnityEngine.Color SetAlphaHalf(UnityEngine.Color rgb) Parameters Type Name Description UnityEngine.Color rgb Returns Type Description UnityEngine.Color"
+  },
+  "api/Scream.UniMO.Utils.html": {
+    "href": "api/Scream.UniMO.Utils.html",
+    "title": "Namespace Scream.UniMO.Utils | UniMO",
+    "keywords": "Namespace Scream.UniMO.Utils Classes AnimationEventHandler ColorUtils JsonFileUtility"
+  },
+  "api/Scream.UniMO.Utils.JsonFileUtility.html": {
+    "href": "api/Scream.UniMO.Utils.JsonFileUtility.html",
+    "title": "Class JsonFileUtility | UniMO",
+    "keywords": "Class JsonFileUtility Inheritance System.Object JsonFileUtility Inherited Members System.Object.ToString() System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.ReferenceEquals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() Namespace : Scream.UniMO.Utils Assembly : cs.temp.dll.dll Syntax public class JsonFileUtility Methods CreateJsonFile<T>(T, String, String) Declaration public static void CreateJsonFile<T>(T obj, string path, string fileName) Parameters Type Name Description T obj System.String path System.String fileName Type Parameters Name Description T Load<T>(String) Declaration public static T Load<T>(string path) Parameters Type Name Description System.String path Returns Type Description T Type Parameters Name Description T"
+  },
+  "api/Scream.UniMO.Utils2D.HitDirection.html": {
+    "href": "api/Scream.UniMO.Utils2D.HitDirection.html",
+    "title": "Enum HitDirection | UniMO",
+    "keywords": "Enum HitDirection Namespace : Scream.UniMO.Utils2D Assembly : cs.temp.dll.dll Syntax public enum HitDirection Fields Name Description DOWN LEFT NONE RIGHT UP"
+  },
+  "api/Scream.UniMO.Utils2D.HitResult.html": {
+    "href": "api/Scream.UniMO.Utils2D.HitResult.html",
+    "title": "Class HitResult | UniMO",
+    "keywords": "Class HitResult Inheritance System.Object HitResult Inherited Members System.Object.ToString() System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.ReferenceEquals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() Namespace : Scream.UniMO.Utils2D Assembly : cs.temp.dll.dll Syntax [Serializable] public class HitResult Constructors HitResult(RaycastHit2D, HitDirection, Vector2) Declaration public HitResult(RaycastHit2D hit2D, HitDirection direction, Vector2 detailPos) Parameters Type Name Description RaycastHit2D hit2D HitDirection direction Vector2 detailPos Fields detailPos Declaration public Vector2 detailPos Field Value Type Description Vector2 direction Declaration public HitDirection direction Field Value Type Description HitDirection hit2D Declaration public RaycastHit2D hit2D Field Value Type Description RaycastHit2D"
+  },
+  "api/Scream.UniMO.Utils2D.html": {
+    "href": "api/Scream.UniMO.Utils2D.html",
+    "title": "Namespace Scream.UniMO.Utils2D | UniMO",
+    "keywords": "Namespace Scream.UniMO.Utils2D Classes HitResult ParallaxBG This is a parallax background RayCastController Render2D Enums HitDirection"
+  },
+  "api/Scream.UniMO.Utils2D.ParallaxBG.html": {
+    "href": "api/Scream.UniMO.Utils2D.ParallaxBG.html",
+    "title": "Class ParallaxBG | UniMO",
+    "keywords": "Class ParallaxBG This is a parallax background Inheritance System.Object ParallaxBG Namespace : Scream.UniMO.Utils2D Assembly : cs.temp.dll.dll Syntax public class ParallaxBG : MonoBehaviour Remarks set bg object postion.x due to its z position"
+  },
+  "api/Scream.UniMO.Utils2D.RayCastController.html": {
+    "href": "api/Scream.UniMO.Utils2D.RayCastController.html",
+    "title": "Class RayCastController | UniMO",
+    "keywords": "Class RayCastController Inheritance System.Object RayCastController Inherited Members System.Object.ToString() System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.ReferenceEquals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() Namespace : Scream.UniMO.Utils2D Assembly : cs.temp.dll.dll Syntax [Serializable] public class RayCastController Constructors RayCastController(LayerMask, Vector2, Single, Single, BoxCollider2D) Declaration public RayCastController(LayerMask layers, Vector2 rayNums, float offset, float rayLength, BoxCollider2D collider2D) Parameters Type Name Description LayerMask layers Vector2 rayNums System.Single offset System.Single rayLength BoxCollider2D collider2D Properties Down Declaration public bool Down { get; } Property Value Type Description System.Boolean IsCollide Declaration public bool IsCollide { get; } Property Value Type Description System.Boolean Left Declaration public bool Left { get; } Property Value Type Description System.Boolean Result Declaration public List<HitResult> Result { get; } Property Value Type Description List < HitResult > Right Declaration public bool Right { get; } Property Value Type Description System.Boolean Up Declaration public bool Up { get; } Property Value Type Description System.Boolean Methods Init(BoxCollider2D) Declaration public void Init(BoxCollider2D collider2D) Parameters Type Name Description BoxCollider2D collider2D Tick() Declaration public void Tick()"
+  },
+  "api/Scream.UniMO.Utils2D.Render2D.html": {
+    "href": "api/Scream.UniMO.Utils2D.Render2D.html",
+    "title": "Class Render2D | UniMO",
+    "keywords": "Class Render2D Inheritance System.Object Render2D Inherited Members System.Object.ToString() System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.ReferenceEquals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() Namespace : Scream.UniMO.Utils2D Assembly : cs.temp.dll.dll Syntax public static class Render2D Methods ChangeDirection(Boolean, Transform, Boolean) flip target due to IsFacingRight Declaration public static void ChangeDirection(bool IsFacingRight, Transform target, bool IsInvert = false) Parameters Type Name Description System.Boolean IsFacingRight is target facing at right direction Transform target which transform to change System.Boolean IsInvert ChangeDirectionXWithSpriteRender(Boolean, SpriteRenderer, Boolean) Declaration public static void ChangeDirectionXWithSpriteRender(bool flipX, SpriteRenderer renderer, bool IsInvert = false) Parameters Type Name Description System.Boolean flipX SpriteRenderer renderer System.Boolean IsInvert ChangeDirectionY(Boolean, Transform, Boolean) flip target due to IsFacingRight Declaration public static void ChangeDirectionY(bool IsFacingRight, Transform target, bool IsInvert = false) Parameters Type Name Description System.Boolean IsFacingRight is target facing at right direction Transform target which transform to change System.Boolean IsInvert ChangeDirectionYWithSpriteRender(Boolean, SpriteRenderer, Boolean) Declaration public static void ChangeDirectionYWithSpriteRender(bool flipY, SpriteRenderer renderer, bool IsInvert = false) Parameters Type Name Description System.Boolean flipY SpriteRenderer renderer System.Boolean IsInvert"
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "This is homepage | UniMO",
+    "keywords": "This is homepage"
+  },
+  "manual/brief.html": {
+    "href": "manual/brief.html",
+    "title": "Brief | UniMO",
+    "keywords": "Brief In Develope"
+  }
+}

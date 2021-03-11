@@ -1,0 +1,1521 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: Scream.UniMO
+  name: Scream.UniMO
+  href: api/Scream.UniMO.html
+  commentId: N:Scream.UniMO
+  fullName: Scream.UniMO
+  nameWithType: Scream.UniMO
+- uid: Scream.UniMO.Collections
+  name: Scream.UniMO.Collections
+  href: api/Scream.UniMO.Collections.html
+  commentId: N:Scream.UniMO.Collections
+  fullName: Scream.UniMO.Collections
+  nameWithType: Scream.UniMO.Collections
+- uid: Scream.UniMO.Collections.Container`2
+  name: Container<T, U>
+  href: api/Scream.UniMO.Collections.Container-2.html
+  commentId: T:Scream.UniMO.Collections.Container`2
+  name.vb: Container(Of T, U)
+  fullName: Scream.UniMO.Collections.Container<T, U>
+  fullName.vb: Scream.UniMO.Collections.Container(Of T, U)
+  nameWithType: Container<T, U>
+  nameWithType.vb: Container(Of T, U)
+- uid: Scream.UniMO.Collections.Container`2.Objects
+  name: Objects
+  href: api/Scream.UniMO.Collections.Container-2.html#Scream_UniMO_Collections_Container_2_Objects
+  commentId: F:Scream.UniMO.Collections.Container`2.Objects
+  fullName: Scream.UniMO.Collections.Container<T, U>.Objects
+  fullName.vb: Scream.UniMO.Collections.Container(Of T, U).Objects
+  nameWithType: Container<T, U>.Objects
+  nameWithType.vb: Container(Of T, U).Objects
+- uid: Scream.UniMO.Collections.Container`2.ToDictionary
+  name: ToDictionary()
+  href: api/Scream.UniMO.Collections.Container-2.html#Scream_UniMO_Collections_Container_2_ToDictionary
+  commentId: M:Scream.UniMO.Collections.Container`2.ToDictionary
+  fullName: Scream.UniMO.Collections.Container<T, U>.ToDictionary()
+  fullName.vb: Scream.UniMO.Collections.Container(Of T, U).ToDictionary()
+  nameWithType: Container<T, U>.ToDictionary()
+  nameWithType.vb: Container(Of T, U).ToDictionary()
+- uid: Scream.UniMO.Collections.Container`2.ToDictionary*
+  name: ToDictionary
+  href: api/Scream.UniMO.Collections.Container-2.html#Scream_UniMO_Collections_Container_2_ToDictionary_
+  commentId: Overload:Scream.UniMO.Collections.Container`2.ToDictionary
+  isSpec: "True"
+  fullName: Scream.UniMO.Collections.Container<T, U>.ToDictionary
+  fullName.vb: Scream.UniMO.Collections.Container(Of T, U).ToDictionary
+  nameWithType: Container<T, U>.ToDictionary
+  nameWithType.vb: Container(Of T, U).ToDictionary
+- uid: Scream.UniMO.Collections.Container`2.ToList
+  name: ToList()
+  href: api/Scream.UniMO.Collections.Container-2.html#Scream_UniMO_Collections_Container_2_ToList
+  commentId: M:Scream.UniMO.Collections.Container`2.ToList
+  fullName: Scream.UniMO.Collections.Container<T, U>.ToList()
+  fullName.vb: Scream.UniMO.Collections.Container(Of T, U).ToList()
+  nameWithType: Container<T, U>.ToList()
+  nameWithType.vb: Container(Of T, U).ToList()
+- uid: Scream.UniMO.Collections.Container`2.ToList*
+  name: ToList
+  href: api/Scream.UniMO.Collections.Container-2.html#Scream_UniMO_Collections_Container_2_ToList_
+  commentId: Overload:Scream.UniMO.Collections.Container`2.ToList
+  isSpec: "True"
+  fullName: Scream.UniMO.Collections.Container<T, U>.ToList
+  fullName.vb: Scream.UniMO.Collections.Container(Of T, U).ToList
+  nameWithType: Container<T, U>.ToList
+  nameWithType.vb: Container(Of T, U).ToList
+- uid: Scream.UniMO.Collections.IObjectPoolAble
+  name: IObjectPoolAble
+  href: api/Scream.UniMO.Collections.IObjectPoolAble.html
+  commentId: T:Scream.UniMO.Collections.IObjectPoolAble
+  fullName: Scream.UniMO.Collections.IObjectPoolAble
+  nameWithType: IObjectPoolAble
+- uid: Scream.UniMO.Collections.IObjectPoolAble.gameObject
+  name: gameObject
+  href: api/Scream.UniMO.Collections.IObjectPoolAble.html#Scream_UniMO_Collections_IObjectPoolAble_gameObject
+  commentId: P:Scream.UniMO.Collections.IObjectPoolAble.gameObject
+  fullName: Scream.UniMO.Collections.IObjectPoolAble.gameObject
+  nameWithType: IObjectPoolAble.gameObject
+- uid: Scream.UniMO.Collections.IObjectPoolAble.gameObject*
+  name: gameObject
+  href: api/Scream.UniMO.Collections.IObjectPoolAble.html#Scream_UniMO_Collections_IObjectPoolAble_gameObject_
+  commentId: Overload:Scream.UniMO.Collections.IObjectPoolAble.gameObject
+  isSpec: "True"
+  fullName: Scream.UniMO.Collections.IObjectPoolAble.gameObject
+  nameWithType: IObjectPoolAble.gameObject
+- uid: Scream.UniMO.Collections.IObjectPoolAble.Init*
+  name: Init
+  href: api/Scream.UniMO.Collections.IObjectPoolAble.html#Scream_UniMO_Collections_IObjectPoolAble_Init_
+  commentId: Overload:Scream.UniMO.Collections.IObjectPoolAble.Init
+  isSpec: "True"
+  fullName: Scream.UniMO.Collections.IObjectPoolAble.Init
+  nameWithType: IObjectPoolAble.Init
+- uid: Scream.UniMO.Collections.IObjectPoolAble.Init``1(``0)
+  name: Init<T>(T)
+  href: api/Scream.UniMO.Collections.IObjectPoolAble.html#Scream_UniMO_Collections_IObjectPoolAble_Init__1___0_
+  commentId: M:Scream.UniMO.Collections.IObjectPoolAble.Init``1(``0)
+  name.vb: Init(Of T)(T)
+  fullName: Scream.UniMO.Collections.IObjectPoolAble.Init<T>(T)
+  fullName.vb: Scream.UniMO.Collections.IObjectPoolAble.Init(Of T)(T)
+  nameWithType: IObjectPoolAble.Init<T>(T)
+  nameWithType.vb: IObjectPoolAble.Init(Of T)(T)
+- uid: Scream.UniMO.Collections.IObjectPoolAble.Pool
+  name: Pool
+  href: api/Scream.UniMO.Collections.IObjectPoolAble.html#Scream_UniMO_Collections_IObjectPoolAble_Pool
+  commentId: P:Scream.UniMO.Collections.IObjectPoolAble.Pool
+  fullName: Scream.UniMO.Collections.IObjectPoolAble.Pool
+  nameWithType: IObjectPoolAble.Pool
+- uid: Scream.UniMO.Collections.IObjectPoolAble.Pool*
+  name: Pool
+  href: api/Scream.UniMO.Collections.IObjectPoolAble.html#Scream_UniMO_Collections_IObjectPoolAble_Pool_
+  commentId: Overload:Scream.UniMO.Collections.IObjectPoolAble.Pool
+  isSpec: "True"
+  fullName: Scream.UniMO.Collections.IObjectPoolAble.Pool
+  nameWithType: IObjectPoolAble.Pool
+- uid: Scream.UniMO.Collections.IObjectPoolAble.Recycle
+  name: Recycle()
+  href: api/Scream.UniMO.Collections.IObjectPoolAble.html#Scream_UniMO_Collections_IObjectPoolAble_Recycle
+  commentId: M:Scream.UniMO.Collections.IObjectPoolAble.Recycle
+  fullName: Scream.UniMO.Collections.IObjectPoolAble.Recycle()
+  nameWithType: IObjectPoolAble.Recycle()
+- uid: Scream.UniMO.Collections.IObjectPoolAble.Recycle*
+  name: Recycle
+  href: api/Scream.UniMO.Collections.IObjectPoolAble.html#Scream_UniMO_Collections_IObjectPoolAble_Recycle_
+  commentId: Overload:Scream.UniMO.Collections.IObjectPoolAble.Recycle
+  isSpec: "True"
+  fullName: Scream.UniMO.Collections.IObjectPoolAble.Recycle
+  nameWithType: IObjectPoolAble.Recycle
+- uid: Scream.UniMO.Collections.ObjectContainer`2
+  name: ObjectContainer<T, U>
+  href: api/Scream.UniMO.Collections.ObjectContainer-2.html
+  commentId: T:Scream.UniMO.Collections.ObjectContainer`2
+  name.vb: ObjectContainer(Of T, U)
+  fullName: Scream.UniMO.Collections.ObjectContainer<T, U>
+  fullName.vb: Scream.UniMO.Collections.ObjectContainer(Of T, U)
+  nameWithType: ObjectContainer<T, U>
+  nameWithType.vb: ObjectContainer(Of T, U)
+- uid: Scream.UniMO.Collections.ObjectContainer`2.Key
+  name: Key
+  href: api/Scream.UniMO.Collections.ObjectContainer-2.html#Scream_UniMO_Collections_ObjectContainer_2_Key
+  commentId: F:Scream.UniMO.Collections.ObjectContainer`2.Key
+  fullName: Scream.UniMO.Collections.ObjectContainer<T, U>.Key
+  fullName.vb: Scream.UniMO.Collections.ObjectContainer(Of T, U).Key
+  nameWithType: ObjectContainer<T, U>.Key
+  nameWithType.vb: ObjectContainer(Of T, U).Key
+- uid: Scream.UniMO.Collections.ObjectContainer`2.Object
+  name: Object
+  href: api/Scream.UniMO.Collections.ObjectContainer-2.html#Scream_UniMO_Collections_ObjectContainer_2_Object
+  commentId: F:Scream.UniMO.Collections.ObjectContainer`2.Object
+  fullName: Scream.UniMO.Collections.ObjectContainer<T, U>.Object
+  fullName.vb: Scream.UniMO.Collections.ObjectContainer(Of T, U).Object
+  nameWithType: ObjectContainer<T, U>.Object
+  nameWithType.vb: ObjectContainer(Of T, U).Object
+- uid: Scream.UniMO.Collections.ObjectPool
+  name: ObjectPool
+  href: api/Scream.UniMO.Collections.ObjectPool.html
+  commentId: T:Scream.UniMO.Collections.ObjectPool
+  fullName: Scream.UniMO.Collections.ObjectPool
+  nameWithType: ObjectPool
+- uid: Scream.UniMO.Collections.ObjectPool.#ctor(GameObject,Transform,System.Int32,System.Boolean)
+  name: ObjectPool(GameObject, Transform, Int32, Boolean)
+  href: api/Scream.UniMO.Collections.ObjectPool.html#Scream_UniMO_Collections_ObjectPool__ctor_GameObject_Transform_System_Int32_System_Boolean_
+  commentId: M:Scream.UniMO.Collections.ObjectPool.#ctor(GameObject,Transform,System.Int32,System.Boolean)
+  fullName: Scream.UniMO.Collections.ObjectPool.ObjectPool(GameObject, Transform, System.Int32, System.Boolean)
+  nameWithType: ObjectPool.ObjectPool(GameObject, Transform, Int32, Boolean)
+- uid: Scream.UniMO.Collections.ObjectPool.#ctor*
+  name: ObjectPool
+  href: api/Scream.UniMO.Collections.ObjectPool.html#Scream_UniMO_Collections_ObjectPool__ctor_
+  commentId: Overload:Scream.UniMO.Collections.ObjectPool.#ctor
+  isSpec: "True"
+  fullName: Scream.UniMO.Collections.ObjectPool.ObjectPool
+  nameWithType: ObjectPool.ObjectPool
+- uid: Scream.UniMO.Collections.ObjectPool.GetPooledObject*
+  name: GetPooledObject
+  href: api/Scream.UniMO.Collections.ObjectPool.html#Scream_UniMO_Collections_ObjectPool_GetPooledObject_
+  commentId: Overload:Scream.UniMO.Collections.ObjectPool.GetPooledObject
+  isSpec: "True"
+  fullName: Scream.UniMO.Collections.ObjectPool.GetPooledObject
+  nameWithType: ObjectPool.GetPooledObject
+- uid: Scream.UniMO.Collections.ObjectPool.GetPooledObject``1(``0)
+  name: GetPooledObject<T>(T)
+  href: api/Scream.UniMO.Collections.ObjectPool.html#Scream_UniMO_Collections_ObjectPool_GetPooledObject__1___0_
+  commentId: M:Scream.UniMO.Collections.ObjectPool.GetPooledObject``1(``0)
+  name.vb: GetPooledObject(Of T)(T)
+  fullName: Scream.UniMO.Collections.ObjectPool.GetPooledObject<T>(T)
+  fullName.vb: Scream.UniMO.Collections.ObjectPool.GetPooledObject(Of T)(T)
+  nameWithType: ObjectPool.GetPooledObject<T>(T)
+  nameWithType.vb: ObjectPool.GetPooledObject(Of T)(T)
+- uid: Scream.UniMO.Collections.ObjectPool.Init
+  name: Init()
+  href: api/Scream.UniMO.Collections.ObjectPool.html#Scream_UniMO_Collections_ObjectPool_Init
+  commentId: M:Scream.UniMO.Collections.ObjectPool.Init
+  fullName: Scream.UniMO.Collections.ObjectPool.Init()
+  nameWithType: ObjectPool.Init()
+- uid: Scream.UniMO.Collections.ObjectPool.Init*
+  name: Init
+  href: api/Scream.UniMO.Collections.ObjectPool.html#Scream_UniMO_Collections_ObjectPool_Init_
+  commentId: Overload:Scream.UniMO.Collections.ObjectPool.Init
+  isSpec: "True"
+  fullName: Scream.UniMO.Collections.ObjectPool.Init
+  nameWithType: ObjectPool.Init
+- uid: Scream.UniMO.Collections.ObjectPool.IsAvailable
+  name: IsAvailable
+  href: api/Scream.UniMO.Collections.ObjectPool.html#Scream_UniMO_Collections_ObjectPool_IsAvailable
+  commentId: P:Scream.UniMO.Collections.ObjectPool.IsAvailable
+  fullName: Scream.UniMO.Collections.ObjectPool.IsAvailable
+  nameWithType: ObjectPool.IsAvailable
+- uid: Scream.UniMO.Collections.ObjectPool.IsAvailable*
+  name: IsAvailable
+  href: api/Scream.UniMO.Collections.ObjectPool.html#Scream_UniMO_Collections_ObjectPool_IsAvailable_
+  commentId: Overload:Scream.UniMO.Collections.ObjectPool.IsAvailable
+  isSpec: "True"
+  fullName: Scream.UniMO.Collections.ObjectPool.IsAvailable
+  nameWithType: ObjectPool.IsAvailable
+- uid: Scream.UniMO.Collections.ObjectPool.IsGrow
+  name: IsGrow
+  href: api/Scream.UniMO.Collections.ObjectPool.html#Scream_UniMO_Collections_ObjectPool_IsGrow
+  commentId: F:Scream.UniMO.Collections.ObjectPool.IsGrow
+  fullName: Scream.UniMO.Collections.ObjectPool.IsGrow
+  nameWithType: ObjectPool.IsGrow
+- uid: Scream.UniMO.Collections.ObjectPool.pooledAmount
+  name: pooledAmount
+  href: api/Scream.UniMO.Collections.ObjectPool.html#Scream_UniMO_Collections_ObjectPool_pooledAmount
+  commentId: F:Scream.UniMO.Collections.ObjectPool.pooledAmount
+  fullName: Scream.UniMO.Collections.ObjectPool.pooledAmount
+  nameWithType: ObjectPool.pooledAmount
+- uid: Scream.UniMO.Collections.ObjectPool.pooledObject
+  name: pooledObject
+  href: api/Scream.UniMO.Collections.ObjectPool.html#Scream_UniMO_Collections_ObjectPool_pooledObject
+  commentId: F:Scream.UniMO.Collections.ObjectPool.pooledObject
+  fullName: Scream.UniMO.Collections.ObjectPool.pooledObject
+  nameWithType: ObjectPool.pooledObject
+- uid: Scream.UniMO.Collections.ObjectPool.poolParent
+  name: poolParent
+  href: api/Scream.UniMO.Collections.ObjectPool.html#Scream_UniMO_Collections_ObjectPool_poolParent
+  commentId: F:Scream.UniMO.Collections.ObjectPool.poolParent
+  fullName: Scream.UniMO.Collections.ObjectPool.poolParent
+  nameWithType: ObjectPool.poolParent
+- uid: Scream.UniMO.Collections.ObjectPool.RecycleObject(Scream.UniMO.Collections.IObjectPoolAble)
+  name: RecycleObject(IObjectPoolAble)
+  href: api/Scream.UniMO.Collections.ObjectPool.html#Scream_UniMO_Collections_ObjectPool_RecycleObject_Scream_UniMO_Collections_IObjectPoolAble_
+  commentId: M:Scream.UniMO.Collections.ObjectPool.RecycleObject(Scream.UniMO.Collections.IObjectPoolAble)
+  fullName: Scream.UniMO.Collections.ObjectPool.RecycleObject(Scream.UniMO.Collections.IObjectPoolAble)
+  nameWithType: ObjectPool.RecycleObject(IObjectPoolAble)
+- uid: Scream.UniMO.Collections.ObjectPool.RecycleObject*
+  name: RecycleObject
+  href: api/Scream.UniMO.Collections.ObjectPool.html#Scream_UniMO_Collections_ObjectPool_RecycleObject_
+  commentId: Overload:Scream.UniMO.Collections.ObjectPool.RecycleObject
+  isSpec: "True"
+  fullName: Scream.UniMO.Collections.ObjectPool.RecycleObject
+  nameWithType: ObjectPool.RecycleObject
+- uid: Scream.UniMO.Collections.PrefabContainer
+  name: PrefabContainer
+  href: api/Scream.UniMO.Collections.PrefabContainer.html
+  commentId: T:Scream.UniMO.Collections.PrefabContainer
+  fullName: Scream.UniMO.Collections.PrefabContainer
+  nameWithType: PrefabContainer
+- uid: Scream.UniMO.Collections.PrefabContainer.ToDictionary*
+  name: ToDictionary
+  href: api/Scream.UniMO.Collections.PrefabContainer.html#Scream_UniMO_Collections_PrefabContainer_ToDictionary_
+  commentId: Overload:Scream.UniMO.Collections.PrefabContainer.ToDictionary
+  isSpec: "True"
+  fullName: Scream.UniMO.Collections.PrefabContainer.ToDictionary
+  nameWithType: PrefabContainer.ToDictionary
+- uid: Scream.UniMO.Collections.PrefabContainer.ToDictionary``2
+  name: ToDictionary<T, U>()
+  href: api/Scream.UniMO.Collections.PrefabContainer.html#Scream_UniMO_Collections_PrefabContainer_ToDictionary__2
+  commentId: M:Scream.UniMO.Collections.PrefabContainer.ToDictionary``2
+  name.vb: ToDictionary(Of T, U)()
+  fullName: Scream.UniMO.Collections.PrefabContainer.ToDictionary<T, U>()
+  fullName.vb: Scream.UniMO.Collections.PrefabContainer.ToDictionary(Of T, U)()
+  nameWithType: PrefabContainer.ToDictionary<T, U>()
+  nameWithType.vb: PrefabContainer.ToDictionary(Of T, U)()
+- uid: Scream.UniMO.Collections.PrefabContainer.ToList*
+  name: ToList
+  href: api/Scream.UniMO.Collections.PrefabContainer.html#Scream_UniMO_Collections_PrefabContainer_ToList_
+  commentId: Overload:Scream.UniMO.Collections.PrefabContainer.ToList
+  isSpec: "True"
+  fullName: Scream.UniMO.Collections.PrefabContainer.ToList
+  nameWithType: PrefabContainer.ToList
+- uid: Scream.UniMO.Collections.PrefabContainer.ToList``1
+  name: ToList<T>()
+  href: api/Scream.UniMO.Collections.PrefabContainer.html#Scream_UniMO_Collections_PrefabContainer_ToList__1
+  commentId: M:Scream.UniMO.Collections.PrefabContainer.ToList``1
+  name.vb: ToList(Of T)()
+  fullName: Scream.UniMO.Collections.PrefabContainer.ToList<T>()
+  fullName.vb: Scream.UniMO.Collections.PrefabContainer.ToList(Of T)()
+  nameWithType: PrefabContainer.ToList<T>()
+  nameWithType.vb: PrefabContainer.ToList(Of T)()
+- uid: Scream.UniMO.DomainEvents
+  name: DomainEvents
+  href: api/Scream.UniMO.DomainEvents.html
+  commentId: T:Scream.UniMO.DomainEvents
+  fullName: Scream.UniMO.DomainEvents
+  nameWithType: DomainEvents
+- uid: Scream.UniMO.DomainEvents.Clear
+  name: Clear()
+  href: api/Scream.UniMO.DomainEvents.html#Scream_UniMO_DomainEvents_Clear
+  commentId: M:Scream.UniMO.DomainEvents.Clear
+  fullName: Scream.UniMO.DomainEvents.Clear()
+  nameWithType: DomainEvents.Clear()
+- uid: Scream.UniMO.DomainEvents.Clear*
+  name: Clear
+  href: api/Scream.UniMO.DomainEvents.html#Scream_UniMO_DomainEvents_Clear_
+  commentId: Overload:Scream.UniMO.DomainEvents.Clear
+  isSpec: "True"
+  fullName: Scream.UniMO.DomainEvents.Clear
+  nameWithType: DomainEvents.Clear
+- uid: Scream.UniMO.DomainEvents.Raise*
+  name: Raise
+  href: api/Scream.UniMO.DomainEvents.html#Scream_UniMO_DomainEvents_Raise_
+  commentId: Overload:Scream.UniMO.DomainEvents.Raise
+  isSpec: "True"
+  fullName: Scream.UniMO.DomainEvents.Raise
+  nameWithType: DomainEvents.Raise
+- uid: Scream.UniMO.DomainEvents.Raise``1(``0)
+  name: Raise<T>(T)
+  href: api/Scream.UniMO.DomainEvents.html#Scream_UniMO_DomainEvents_Raise__1___0_
+  commentId: M:Scream.UniMO.DomainEvents.Raise``1(``0)
+  name.vb: Raise(Of T)(T)
+  fullName: Scream.UniMO.DomainEvents.Raise<T>(T)
+  fullName.vb: Scream.UniMO.DomainEvents.Raise(Of T)(T)
+  nameWithType: DomainEvents.Raise<T>(T)
+  nameWithType.vb: DomainEvents.Raise(Of T)(T)
+- uid: Scream.UniMO.DomainEvents.Register*
+  name: Register
+  href: api/Scream.UniMO.DomainEvents.html#Scream_UniMO_DomainEvents_Register_
+  commentId: Overload:Scream.UniMO.DomainEvents.Register
+  isSpec: "True"
+  fullName: Scream.UniMO.DomainEvents.Register
+  nameWithType: DomainEvents.Register
+- uid: Scream.UniMO.DomainEvents.Register``1(Action{``0})
+  name: Register<T>(Action<T>)
+  href: api/Scream.UniMO.DomainEvents.html#Scream_UniMO_DomainEvents_Register__1_Action___0__
+  commentId: M:Scream.UniMO.DomainEvents.Register``1(Action{``0})
+  name.vb: Register(Of T)(Action(Of T))
+  fullName: Scream.UniMO.DomainEvents.Register<T>(Action<T>)
+  fullName.vb: Scream.UniMO.DomainEvents.Register(Of T)(Action(Of T))
+  nameWithType: DomainEvents.Register<T>(Action<T>)
+  nameWithType.vb: DomainEvents.Register(Of T)(Action(Of T))
+- uid: Scream.UniMO.DomainEvents.UnRegister*
+  name: UnRegister
+  href: api/Scream.UniMO.DomainEvents.html#Scream_UniMO_DomainEvents_UnRegister_
+  commentId: Overload:Scream.UniMO.DomainEvents.UnRegister
+  isSpec: "True"
+  fullName: Scream.UniMO.DomainEvents.UnRegister
+  nameWithType: DomainEvents.UnRegister
+- uid: Scream.UniMO.DomainEvents.UnRegister``1(Action{``0})
+  name: UnRegister<T>(Action<T>)
+  href: api/Scream.UniMO.DomainEvents.html#Scream_UniMO_DomainEvents_UnRegister__1_Action___0__
+  commentId: M:Scream.UniMO.DomainEvents.UnRegister``1(Action{``0})
+  name.vb: UnRegister(Of T)(Action(Of T))
+  fullName: Scream.UniMO.DomainEvents.UnRegister<T>(Action<T>)
+  fullName.vb: Scream.UniMO.DomainEvents.UnRegister(Of T)(Action(Of T))
+  nameWithType: DomainEvents.UnRegister<T>(Action<T>)
+  nameWithType.vb: DomainEvents.UnRegister(Of T)(Action(Of T))
+- uid: Scream.UniMO.Editor
+  name: Scream.UniMO.Editor
+  href: api/Scream.UniMO.Editor.html
+  commentId: N:Scream.UniMO.Editor
+  fullName: Scream.UniMO.Editor
+  nameWithType: Scream.UniMO.Editor
+- uid: Scream.UniMO.Editor.GetInstanceID
+  name: GetInstanceID
+  href: api/Scream.UniMO.Editor.GetInstanceID.html
+  commentId: T:Scream.UniMO.Editor.GetInstanceID
+  fullName: Scream.UniMO.Editor.GetInstanceID
+  nameWithType: GetInstanceID
+- uid: Scream.UniMO.Editor.GetInstanceID.GetID
+  name: GetID()
+  href: api/Scream.UniMO.Editor.GetInstanceID.html#Scream_UniMO_Editor_GetInstanceID_GetID
+  commentId: M:Scream.UniMO.Editor.GetInstanceID.GetID
+  fullName: Scream.UniMO.Editor.GetInstanceID.GetID()
+  nameWithType: GetInstanceID.GetID()
+- uid: Scream.UniMO.Editor.GetInstanceID.GetID*
+  name: GetID
+  href: api/Scream.UniMO.Editor.GetInstanceID.html#Scream_UniMO_Editor_GetInstanceID_GetID_
+  commentId: Overload:Scream.UniMO.Editor.GetInstanceID.GetID
+  isSpec: "True"
+  fullName: Scream.UniMO.Editor.GetInstanceID.GetID
+  nameWithType: GetInstanceID.GetID
+- uid: Scream.UniMO.Editor.GetInStanceIDEditor
+  name: GetInStanceIDEditor
+  href: api/Scream.UniMO.Editor.GetInStanceIDEditor.html
+  commentId: T:Scream.UniMO.Editor.GetInStanceIDEditor
+  fullName: Scream.UniMO.Editor.GetInStanceIDEditor
+  nameWithType: GetInStanceIDEditor
+- uid: Scream.UniMO.Editor.GetInStanceIDEditor.OnInspectorGUI
+  name: OnInspectorGUI()
+  href: api/Scream.UniMO.Editor.GetInStanceIDEditor.html#Scream_UniMO_Editor_GetInStanceIDEditor_OnInspectorGUI
+  commentId: M:Scream.UniMO.Editor.GetInStanceIDEditor.OnInspectorGUI
+  fullName: Scream.UniMO.Editor.GetInStanceIDEditor.OnInspectorGUI()
+  nameWithType: GetInStanceIDEditor.OnInspectorGUI()
+- uid: Scream.UniMO.Editor.GetInStanceIDEditor.OnInspectorGUI*
+  name: OnInspectorGUI
+  href: api/Scream.UniMO.Editor.GetInStanceIDEditor.html#Scream_UniMO_Editor_GetInStanceIDEditor_OnInspectorGUI_
+  commentId: Overload:Scream.UniMO.Editor.GetInStanceIDEditor.OnInspectorGUI
+  isSpec: "True"
+  fullName: Scream.UniMO.Editor.GetInStanceIDEditor.OnInspectorGUI
+  nameWithType: GetInStanceIDEditor.OnInspectorGUI
+- uid: Scream.UniMO.Editor.ReadOnlyAttribute
+  name: ReadOnlyAttribute
+  href: api/Scream.UniMO.Editor.ReadOnlyAttribute.html
+  commentId: T:Scream.UniMO.Editor.ReadOnlyAttribute
+  fullName: Scream.UniMO.Editor.ReadOnlyAttribute
+  nameWithType: ReadOnlyAttribute
+- uid: Scream.UniMO.Editor.ReadOnlyDrawer
+  name: ReadOnlyDrawer
+  href: api/Scream.UniMO.Editor.ReadOnlyDrawer.html
+  commentId: T:Scream.UniMO.Editor.ReadOnlyDrawer
+  fullName: Scream.UniMO.Editor.ReadOnlyDrawer
+  nameWithType: ReadOnlyDrawer
+- uid: Scream.UniMO.Editor.ReadOnlyDrawer.GetPropertyHeight(SerializedProperty,GUIContent)
+  name: GetPropertyHeight(SerializedProperty, GUIContent)
+  href: api/Scream.UniMO.Editor.ReadOnlyDrawer.html#Scream_UniMO_Editor_ReadOnlyDrawer_GetPropertyHeight_SerializedProperty_GUIContent_
+  commentId: M:Scream.UniMO.Editor.ReadOnlyDrawer.GetPropertyHeight(SerializedProperty,GUIContent)
+  fullName: Scream.UniMO.Editor.ReadOnlyDrawer.GetPropertyHeight(SerializedProperty, GUIContent)
+  nameWithType: ReadOnlyDrawer.GetPropertyHeight(SerializedProperty, GUIContent)
+- uid: Scream.UniMO.Editor.ReadOnlyDrawer.GetPropertyHeight*
+  name: GetPropertyHeight
+  href: api/Scream.UniMO.Editor.ReadOnlyDrawer.html#Scream_UniMO_Editor_ReadOnlyDrawer_GetPropertyHeight_
+  commentId: Overload:Scream.UniMO.Editor.ReadOnlyDrawer.GetPropertyHeight
+  isSpec: "True"
+  fullName: Scream.UniMO.Editor.ReadOnlyDrawer.GetPropertyHeight
+  nameWithType: ReadOnlyDrawer.GetPropertyHeight
+- uid: Scream.UniMO.Editor.ReadOnlyDrawer.OnGUI(Rect,SerializedProperty,GUIContent)
+  name: OnGUI(Rect, SerializedProperty, GUIContent)
+  href: api/Scream.UniMO.Editor.ReadOnlyDrawer.html#Scream_UniMO_Editor_ReadOnlyDrawer_OnGUI_Rect_SerializedProperty_GUIContent_
+  commentId: M:Scream.UniMO.Editor.ReadOnlyDrawer.OnGUI(Rect,SerializedProperty,GUIContent)
+  fullName: Scream.UniMO.Editor.ReadOnlyDrawer.OnGUI(Rect, SerializedProperty, GUIContent)
+  nameWithType: ReadOnlyDrawer.OnGUI(Rect, SerializedProperty, GUIContent)
+- uid: Scream.UniMO.Editor.ReadOnlyDrawer.OnGUI*
+  name: OnGUI
+  href: api/Scream.UniMO.Editor.ReadOnlyDrawer.html#Scream_UniMO_Editor_ReadOnlyDrawer_OnGUI_
+  commentId: Overload:Scream.UniMO.Editor.ReadOnlyDrawer.OnGUI
+  isSpec: "True"
+  fullName: Scream.UniMO.Editor.ReadOnlyDrawer.OnGUI
+  nameWithType: ReadOnlyDrawer.OnGUI
+- uid: Scream.UniMO.IDomainEvent
+  name: IDomainEvent
+  href: api/Scream.UniMO.IDomainEvent.html
+  commentId: T:Scream.UniMO.IDomainEvent
+  fullName: Scream.UniMO.IDomainEvent
+  nameWithType: IDomainEvent
+- uid: Scream.UniMO.Input
+  name: Scream.UniMO.Input
+  href: api/Scream.UniMO.Input.html
+  commentId: N:Scream.UniMO.Input
+  fullName: Scream.UniMO.Input
+  nameWithType: Scream.UniMO.Input
+- uid: Scream.UniMO.Input.Button
+  name: Button
+  href: api/Scream.UniMO.Input.Button.html
+  commentId: T:Scream.UniMO.Input.Button
+  fullName: Scream.UniMO.Input.Button
+  nameWithType: Button
+- uid: Scream.UniMO.Input.Button.Action
+  name: Action
+  href: api/Scream.UniMO.Input.Button.html#Scream_UniMO_Input_Button_Action
+  commentId: F:Scream.UniMO.Input.Button.Action
+  fullName: Scream.UniMO.Input.Button.Action
+  nameWithType: Button.Action
+- uid: Scream.UniMO.Input.Button.Text
+  name: Text
+  href: api/Scream.UniMO.Input.Button.html#Scream_UniMO_Input_Button_Text
+  commentId: F:Scream.UniMO.Input.Button.Text
+  fullName: Scream.UniMO.Input.Button.Text
+  nameWithType: Button.Text
+- uid: Scream.UniMO.Input.ConsoleButton
+  name: ConsoleButton
+  href: api/Scream.UniMO.Input.ConsoleButton.html
+  commentId: T:Scream.UniMO.Input.ConsoleButton
+  fullName: Scream.UniMO.Input.ConsoleButton
+  nameWithType: ConsoleButton
+- uid: Scream.UniMO.Input.ConsoleButton.#ctor(System.Int32)
+  name: ConsoleButton(Int32)
+  href: api/Scream.UniMO.Input.ConsoleButton.html#Scream_UniMO_Input_ConsoleButton__ctor_System_Int32_
+  commentId: M:Scream.UniMO.Input.ConsoleButton.#ctor(System.Int32)
+  fullName: Scream.UniMO.Input.ConsoleButton.ConsoleButton(System.Int32)
+  nameWithType: ConsoleButton.ConsoleButton(Int32)
+- uid: Scream.UniMO.Input.ConsoleButton.#ctor*
+  name: ConsoleButton
+  href: api/Scream.UniMO.Input.ConsoleButton.html#Scream_UniMO_Input_ConsoleButton__ctor_
+  commentId: Overload:Scream.UniMO.Input.ConsoleButton.#ctor
+  isSpec: "True"
+  fullName: Scream.UniMO.Input.ConsoleButton.ConsoleButton
+  nameWithType: ConsoleButton.ConsoleButton
+- uid: Scream.UniMO.Input.ConsoleButton.ActiveOption
+  name: ActiveOption
+  href: api/Scream.UniMO.Input.ConsoleButton.html#Scream_UniMO_Input_ConsoleButton_ActiveOption
+  commentId: E:Scream.UniMO.Input.ConsoleButton.ActiveOption
+  fullName: Scream.UniMO.Input.ConsoleButton.ActiveOption
+  nameWithType: ConsoleButton.ActiveOption
+- uid: Scream.UniMO.Input.ConsoleButton.Buttons
+  name: Buttons
+  href: api/Scream.UniMO.Input.ConsoleButton.html#Scream_UniMO_Input_ConsoleButton_Buttons
+  commentId: P:Scream.UniMO.Input.ConsoleButton.Buttons
+  fullName: Scream.UniMO.Input.ConsoleButton.Buttons
+  nameWithType: ConsoleButton.Buttons
+- uid: Scream.UniMO.Input.ConsoleButton.Buttons*
+  name: Buttons
+  href: api/Scream.UniMO.Input.ConsoleButton.html#Scream_UniMO_Input_ConsoleButton_Buttons_
+  commentId: Overload:Scream.UniMO.Input.ConsoleButton.Buttons
+  isSpec: "True"
+  fullName: Scream.UniMO.Input.ConsoleButton.Buttons
+  nameWithType: ConsoleButton.Buttons
+- uid: Scream.UniMO.Input.ConsoleButton.CertainAction
+  name: CertainAction
+  href: api/Scream.UniMO.Input.ConsoleButton.html#Scream_UniMO_Input_ConsoleButton_CertainAction
+  commentId: E:Scream.UniMO.Input.ConsoleButton.CertainAction
+  fullName: Scream.UniMO.Input.ConsoleButton.CertainAction
+  nameWithType: ConsoleButton.CertainAction
+- uid: Scream.UniMO.Input.ConsoleButton.CurrentIndex
+  name: CurrentIndex
+  href: api/Scream.UniMO.Input.ConsoleButton.html#Scream_UniMO_Input_ConsoleButton_CurrentIndex
+  commentId: P:Scream.UniMO.Input.ConsoleButton.CurrentIndex
+  fullName: Scream.UniMO.Input.ConsoleButton.CurrentIndex
+  nameWithType: ConsoleButton.CurrentIndex
+- uid: Scream.UniMO.Input.ConsoleButton.CurrentIndex*
+  name: CurrentIndex
+  href: api/Scream.UniMO.Input.ConsoleButton.html#Scream_UniMO_Input_ConsoleButton_CurrentIndex_
+  commentId: Overload:Scream.UniMO.Input.ConsoleButton.CurrentIndex
+  isSpec: "True"
+  fullName: Scream.UniMO.Input.ConsoleButton.CurrentIndex
+  nameWithType: ConsoleButton.CurrentIndex
+- uid: Scream.UniMO.Input.ConsoleButton.DeactiveOption
+  name: DeactiveOption
+  href: api/Scream.UniMO.Input.ConsoleButton.html#Scream_UniMO_Input_ConsoleButton_DeactiveOption
+  commentId: E:Scream.UniMO.Input.ConsoleButton.DeactiveOption
+  fullName: Scream.UniMO.Input.ConsoleButton.DeactiveOption
+  nameWithType: ConsoleButton.DeactiveOption
+- uid: Scream.UniMO.Input.ConsoleButton.Init(System.Int32)
+  name: Init(Int32)
+  href: api/Scream.UniMO.Input.ConsoleButton.html#Scream_UniMO_Input_ConsoleButton_Init_System_Int32_
+  commentId: M:Scream.UniMO.Input.ConsoleButton.Init(System.Int32)
+  fullName: Scream.UniMO.Input.ConsoleButton.Init(System.Int32)
+  nameWithType: ConsoleButton.Init(Int32)
+- uid: Scream.UniMO.Input.ConsoleButton.Init*
+  name: Init
+  href: api/Scream.UniMO.Input.ConsoleButton.html#Scream_UniMO_Input_ConsoleButton_Init_
+  commentId: Overload:Scream.UniMO.Input.ConsoleButton.Init
+  isSpec: "True"
+  fullName: Scream.UniMO.Input.ConsoleButton.Init
+  nameWithType: ConsoleButton.Init
+- uid: Scream.UniMO.Input.ConsoleButton.Invoke
+  name: Invoke()
+  href: api/Scream.UniMO.Input.ConsoleButton.html#Scream_UniMO_Input_ConsoleButton_Invoke
+  commentId: M:Scream.UniMO.Input.ConsoleButton.Invoke
+  fullName: Scream.UniMO.Input.ConsoleButton.Invoke()
+  nameWithType: ConsoleButton.Invoke()
+- uid: Scream.UniMO.Input.ConsoleButton.Invoke(System.Int32)
+  name: Invoke(Int32)
+  href: api/Scream.UniMO.Input.ConsoleButton.html#Scream_UniMO_Input_ConsoleButton_Invoke_System_Int32_
+  commentId: M:Scream.UniMO.Input.ConsoleButton.Invoke(System.Int32)
+  fullName: Scream.UniMO.Input.ConsoleButton.Invoke(System.Int32)
+  nameWithType: ConsoleButton.Invoke(Int32)
+- uid: Scream.UniMO.Input.ConsoleButton.Invoke*
+  name: Invoke
+  href: api/Scream.UniMO.Input.ConsoleButton.html#Scream_UniMO_Input_ConsoleButton_Invoke_
+  commentId: Overload:Scream.UniMO.Input.ConsoleButton.Invoke
+  isSpec: "True"
+  fullName: Scream.UniMO.Input.ConsoleButton.Invoke
+  nameWithType: ConsoleButton.Invoke
+- uid: Scream.UniMO.Input.ConsoleButton.MinusIndex
+  name: MinusIndex()
+  href: api/Scream.UniMO.Input.ConsoleButton.html#Scream_UniMO_Input_ConsoleButton_MinusIndex
+  commentId: M:Scream.UniMO.Input.ConsoleButton.MinusIndex
+  fullName: Scream.UniMO.Input.ConsoleButton.MinusIndex()
+  nameWithType: ConsoleButton.MinusIndex()
+- uid: Scream.UniMO.Input.ConsoleButton.MinusIndex*
+  name: MinusIndex
+  href: api/Scream.UniMO.Input.ConsoleButton.html#Scream_UniMO_Input_ConsoleButton_MinusIndex_
+  commentId: Overload:Scream.UniMO.Input.ConsoleButton.MinusIndex
+  isSpec: "True"
+  fullName: Scream.UniMO.Input.ConsoleButton.MinusIndex
+  nameWithType: ConsoleButton.MinusIndex
+- uid: Scream.UniMO.Input.ConsoleButton.PlusIndex
+  name: PlusIndex()
+  href: api/Scream.UniMO.Input.ConsoleButton.html#Scream_UniMO_Input_ConsoleButton_PlusIndex
+  commentId: M:Scream.UniMO.Input.ConsoleButton.PlusIndex
+  fullName: Scream.UniMO.Input.ConsoleButton.PlusIndex()
+  nameWithType: ConsoleButton.PlusIndex()
+- uid: Scream.UniMO.Input.ConsoleButton.PlusIndex*
+  name: PlusIndex
+  href: api/Scream.UniMO.Input.ConsoleButton.html#Scream_UniMO_Input_ConsoleButton_PlusIndex_
+  commentId: Overload:Scream.UniMO.Input.ConsoleButton.PlusIndex
+  isSpec: "True"
+  fullName: Scream.UniMO.Input.ConsoleButton.PlusIndex
+  nameWithType: ConsoleButton.PlusIndex
+- uid: Scream.UniMO.Math
+  name: Math
+  href: api/Scream.UniMO.Math.html
+  commentId: T:Scream.UniMO.Math
+  fullName: Scream.UniMO.Math
+  nameWithType: Math
+- uid: Scream.UniMO.Math.Between(System.Single,System.Single,System.Single)
+  name: Between(Single, Single, Single)
+  href: api/Scream.UniMO.Math.html#Scream_UniMO_Math_Between_System_Single_System_Single_System_Single_
+  commentId: M:Scream.UniMO.Math.Between(System.Single,System.Single,System.Single)
+  fullName: Scream.UniMO.Math.Between(System.Single, System.Single, System.Single)
+  nameWithType: Math.Between(Single, Single, Single)
+- uid: Scream.UniMO.Math.Between*
+  name: Between
+  href: api/Scream.UniMO.Math.html#Scream_UniMO_Math_Between_
+  commentId: Overload:Scream.UniMO.Math.Between
+  isSpec: "True"
+  fullName: Scream.UniMO.Math.Between
+  nameWithType: Math.Between
+- uid: Scream.UniMO.Math.ChosenDueToProbability(System.Single,System.Single)
+  name: ChosenDueToProbability(Single, Single)
+  href: api/Scream.UniMO.Math.html#Scream_UniMO_Math_ChosenDueToProbability_System_Single_System_Single_
+  commentId: M:Scream.UniMO.Math.ChosenDueToProbability(System.Single,System.Single)
+  fullName: Scream.UniMO.Math.ChosenDueToProbability(System.Single, System.Single)
+  nameWithType: Math.ChosenDueToProbability(Single, Single)
+- uid: Scream.UniMO.Math.ChosenDueToProbability*
+  name: ChosenDueToProbability
+  href: api/Scream.UniMO.Math.html#Scream_UniMO_Math_ChosenDueToProbability_
+  commentId: Overload:Scream.UniMO.Math.ChosenDueToProbability
+  isSpec: "True"
+  fullName: Scream.UniMO.Math.ChosenDueToProbability
+  nameWithType: Math.ChosenDueToProbability
+- uid: Scream.UniMO.Math.ChosenDueToProbability``1(``0@,``0@,System.Single,System.Single)
+  name: ChosenDueToProbability<T>(T, T, Single, Single)
+  href: api/Scream.UniMO.Math.html#Scream_UniMO_Math_ChosenDueToProbability__1___0____0__System_Single_System_Single_
+  commentId: M:Scream.UniMO.Math.ChosenDueToProbability``1(``0@,``0@,System.Single,System.Single)
+  name.vb: ChosenDueToProbability(Of T)(ByRef T, ByRef T, Single, Single)
+  fullName: Scream.UniMO.Math.ChosenDueToProbability<T>(T, T, System.Single, System.Single)
+  fullName.vb: Scream.UniMO.Math.ChosenDueToProbability(Of T)(ByRef T, ByRef T, System.Single, System.Single)
+  nameWithType: Math.ChosenDueToProbability<T>(T, T, Single, Single)
+  nameWithType.vb: Math.ChosenDueToProbability(Of T)(ByRef T, ByRef T, Single, Single)
+- uid: Scream.UniMO.Math.GetDegree(Vector2)
+  name: GetDegree(Vector2)
+  href: api/Scream.UniMO.Math.html#Scream_UniMO_Math_GetDegree_Vector2_
+  commentId: M:Scream.UniMO.Math.GetDegree(Vector2)
+  fullName: Scream.UniMO.Math.GetDegree(Vector2)
+  nameWithType: Math.GetDegree(Vector2)
+- uid: Scream.UniMO.Math.GetDegree*
+  name: GetDegree
+  href: api/Scream.UniMO.Math.html#Scream_UniMO_Math_GetDegree_
+  commentId: Overload:Scream.UniMO.Math.GetDegree
+  isSpec: "True"
+  fullName: Scream.UniMO.Math.GetDegree
+  nameWithType: Math.GetDegree
+- uid: Scream.UniMO.Math.GetDirectionFromDeg(System.Single)
+  name: GetDirectionFromDeg(Single)
+  href: api/Scream.UniMO.Math.html#Scream_UniMO_Math_GetDirectionFromDeg_System_Single_
+  commentId: M:Scream.UniMO.Math.GetDirectionFromDeg(System.Single)
+  fullName: Scream.UniMO.Math.GetDirectionFromDeg(System.Single)
+  nameWithType: Math.GetDirectionFromDeg(Single)
+- uid: Scream.UniMO.Math.GetDirectionFromDeg*
+  name: GetDirectionFromDeg
+  href: api/Scream.UniMO.Math.html#Scream_UniMO_Math_GetDirectionFromDeg_
+  commentId: Overload:Scream.UniMO.Math.GetDirectionFromDeg
+  isSpec: "True"
+  fullName: Scream.UniMO.Math.GetDirectionFromDeg
+  nameWithType: Math.GetDirectionFromDeg
+- uid: Scream.UniMO.Math.GetDirectionFromRad(System.Single)
+  name: GetDirectionFromRad(Single)
+  href: api/Scream.UniMO.Math.html#Scream_UniMO_Math_GetDirectionFromRad_System_Single_
+  commentId: M:Scream.UniMO.Math.GetDirectionFromRad(System.Single)
+  fullName: Scream.UniMO.Math.GetDirectionFromRad(System.Single)
+  nameWithType: Math.GetDirectionFromRad(Single)
+- uid: Scream.UniMO.Math.GetDirectionFromRad*
+  name: GetDirectionFromRad
+  href: api/Scream.UniMO.Math.html#Scream_UniMO_Math_GetDirectionFromRad_
+  commentId: Overload:Scream.UniMO.Math.GetDirectionFromRad
+  isSpec: "True"
+  fullName: Scream.UniMO.Math.GetDirectionFromRad
+  nameWithType: Math.GetDirectionFromRad
+- uid: Scream.UniMO.Math.InverseProbability(System.Single)
+  name: InverseProbability(Single)
+  href: api/Scream.UniMO.Math.html#Scream_UniMO_Math_InverseProbability_System_Single_
+  commentId: M:Scream.UniMO.Math.InverseProbability(System.Single)
+  fullName: Scream.UniMO.Math.InverseProbability(System.Single)
+  nameWithType: Math.InverseProbability(Single)
+- uid: Scream.UniMO.Math.InverseProbability*
+  name: InverseProbability
+  href: api/Scream.UniMO.Math.html#Scream_UniMO_Math_InverseProbability_
+  commentId: Overload:Scream.UniMO.Math.InverseProbability
+  isSpec: "True"
+  fullName: Scream.UniMO.Math.InverseProbability
+  nameWithType: Math.InverseProbability
+- uid: Scream.UniMO.Math.RandomBool
+  name: RandomBool()
+  href: api/Scream.UniMO.Math.html#Scream_UniMO_Math_RandomBool
+  commentId: M:Scream.UniMO.Math.RandomBool
+  fullName: Scream.UniMO.Math.RandomBool()
+  nameWithType: Math.RandomBool()
+- uid: Scream.UniMO.Math.RandomBool*
+  name: RandomBool
+  href: api/Scream.UniMO.Math.html#Scream_UniMO_Math_RandomBool_
+  commentId: Overload:Scream.UniMO.Math.RandomBool
+  isSpec: "True"
+  fullName: Scream.UniMO.Math.RandomBool
+  nameWithType: Math.RandomBool
+- uid: Scream.UniMO.Math.RandomNum(System.Int32)
+  name: RandomNum(Int32)
+  href: api/Scream.UniMO.Math.html#Scream_UniMO_Math_RandomNum_System_Int32_
+  commentId: M:Scream.UniMO.Math.RandomNum(System.Int32)
+  fullName: Scream.UniMO.Math.RandomNum(System.Int32)
+  nameWithType: Math.RandomNum(Int32)
+- uid: Scream.UniMO.Math.RandomNum(System.Single)
+  name: RandomNum(Single)
+  href: api/Scream.UniMO.Math.html#Scream_UniMO_Math_RandomNum_System_Single_
+  commentId: M:Scream.UniMO.Math.RandomNum(System.Single)
+  fullName: Scream.UniMO.Math.RandomNum(System.Single)
+  nameWithType: Math.RandomNum(Single)
+- uid: Scream.UniMO.Math.RandomNum*
+  name: RandomNum
+  href: api/Scream.UniMO.Math.html#Scream_UniMO_Math_RandomNum_
+  commentId: Overload:Scream.UniMO.Math.RandomNum
+  isSpec: "True"
+  fullName: Scream.UniMO.Math.RandomNum
+  nameWithType: Math.RandomNum
+- uid: Scream.UniMO.Math.RandomVec2(System.Single)
+  name: RandomVec2(Single)
+  href: api/Scream.UniMO.Math.html#Scream_UniMO_Math_RandomVec2_System_Single_
+  commentId: M:Scream.UniMO.Math.RandomVec2(System.Single)
+  fullName: Scream.UniMO.Math.RandomVec2(System.Single)
+  nameWithType: Math.RandomVec2(Single)
+- uid: Scream.UniMO.Math.RandomVec2(Vector2)
+  name: RandomVec2(Vector2)
+  href: api/Scream.UniMO.Math.html#Scream_UniMO_Math_RandomVec2_Vector2_
+  commentId: M:Scream.UniMO.Math.RandomVec2(Vector2)
+  fullName: Scream.UniMO.Math.RandomVec2(Vector2)
+  nameWithType: Math.RandomVec2(Vector2)
+- uid: Scream.UniMO.Math.RandomVec2*
+  name: RandomVec2
+  href: api/Scream.UniMO.Math.html#Scream_UniMO_Math_RandomVec2_
+  commentId: Overload:Scream.UniMO.Math.RandomVec2
+  isSpec: "True"
+  fullName: Scream.UniMO.Math.RandomVec2
+  nameWithType: Math.RandomVec2
+- uid: Scream.UniMO.Math.RandomVec3(System.Single)
+  name: RandomVec3(Single)
+  href: api/Scream.UniMO.Math.html#Scream_UniMO_Math_RandomVec3_System_Single_
+  commentId: M:Scream.UniMO.Math.RandomVec3(System.Single)
+  fullName: Scream.UniMO.Math.RandomVec3(System.Single)
+  nameWithType: Math.RandomVec3(Single)
+- uid: Scream.UniMO.Math.RandomVec3(Vector3)
+  name: RandomVec3(Vector3)
+  href: api/Scream.UniMO.Math.html#Scream_UniMO_Math_RandomVec3_Vector3_
+  commentId: M:Scream.UniMO.Math.RandomVec3(Vector3)
+  fullName: Scream.UniMO.Math.RandomVec3(Vector3)
+  nameWithType: Math.RandomVec3(Vector3)
+- uid: Scream.UniMO.Math.RandomVec3*
+  name: RandomVec3
+  href: api/Scream.UniMO.Math.html#Scream_UniMO_Math_RandomVec3_
+  commentId: Overload:Scream.UniMO.Math.RandomVec3
+  isSpec: "True"
+  fullName: Scream.UniMO.Math.RandomVec3
+  nameWithType: Math.RandomVec3
+- uid: Scream.UniMO.ScaledTimer
+  name: ScaledTimer
+  href: api/Scream.UniMO.ScaledTimer.html
+  commentId: T:Scream.UniMO.ScaledTimer
+  fullName: Scream.UniMO.ScaledTimer
+  nameWithType: ScaledTimer
+- uid: Scream.UniMO.ScaledTimer.#ctor(System.Single,System.Boolean)
+  name: ScaledTimer(Single, Boolean)
+  href: api/Scream.UniMO.ScaledTimer.html#Scream_UniMO_ScaledTimer__ctor_System_Single_System_Boolean_
+  commentId: M:Scream.UniMO.ScaledTimer.#ctor(System.Single,System.Boolean)
+  fullName: Scream.UniMO.ScaledTimer.ScaledTimer(System.Single, System.Boolean)
+  nameWithType: ScaledTimer.ScaledTimer(Single, Boolean)
+- uid: Scream.UniMO.ScaledTimer.#ctor*
+  name: ScaledTimer
+  href: api/Scream.UniMO.ScaledTimer.html#Scream_UniMO_ScaledTimer__ctor_
+  commentId: Overload:Scream.UniMO.ScaledTimer.#ctor
+  isSpec: "True"
+  fullName: Scream.UniMO.ScaledTimer.ScaledTimer
+  nameWithType: ScaledTimer.ScaledTimer
+- uid: Scream.UniMO.ScaledTimer.IsFinished
+  name: IsFinished
+  href: api/Scream.UniMO.ScaledTimer.html#Scream_UniMO_ScaledTimer_IsFinished
+  commentId: P:Scream.UniMO.ScaledTimer.IsFinished
+  fullName: Scream.UniMO.ScaledTimer.IsFinished
+  nameWithType: ScaledTimer.IsFinished
+- uid: Scream.UniMO.ScaledTimer.IsFinished*
+  name: IsFinished
+  href: api/Scream.UniMO.ScaledTimer.html#Scream_UniMO_ScaledTimer_IsFinished_
+  commentId: Overload:Scream.UniMO.ScaledTimer.IsFinished
+  isSpec: "True"
+  fullName: Scream.UniMO.ScaledTimer.IsFinished
+  nameWithType: ScaledTimer.IsFinished
+- uid: Scream.UniMO.ScaledTimer.IsPausing
+  name: IsPausing
+  href: api/Scream.UniMO.ScaledTimer.html#Scream_UniMO_ScaledTimer_IsPausing
+  commentId: P:Scream.UniMO.ScaledTimer.IsPausing
+  fullName: Scream.UniMO.ScaledTimer.IsPausing
+  nameWithType: ScaledTimer.IsPausing
+- uid: Scream.UniMO.ScaledTimer.IsPausing*
+  name: IsPausing
+  href: api/Scream.UniMO.ScaledTimer.html#Scream_UniMO_ScaledTimer_IsPausing_
+  commentId: Overload:Scream.UniMO.ScaledTimer.IsPausing
+  isSpec: "True"
+  fullName: Scream.UniMO.ScaledTimer.IsPausing
+  nameWithType: ScaledTimer.IsPausing
+- uid: Scream.UniMO.ScaledTimer.Pause
+  name: Pause()
+  href: api/Scream.UniMO.ScaledTimer.html#Scream_UniMO_ScaledTimer_Pause
+  commentId: M:Scream.UniMO.ScaledTimer.Pause
+  fullName: Scream.UniMO.ScaledTimer.Pause()
+  nameWithType: ScaledTimer.Pause()
+- uid: Scream.UniMO.ScaledTimer.Pause*
+  name: Pause
+  href: api/Scream.UniMO.ScaledTimer.html#Scream_UniMO_ScaledTimer_Pause_
+  commentId: Overload:Scream.UniMO.ScaledTimer.Pause
+  isSpec: "True"
+  fullName: Scream.UniMO.ScaledTimer.Pause
+  nameWithType: ScaledTimer.Pause
+- uid: Scream.UniMO.ScaledTimer.Remain
+  name: Remain
+  href: api/Scream.UniMO.ScaledTimer.html#Scream_UniMO_ScaledTimer_Remain
+  commentId: P:Scream.UniMO.ScaledTimer.Remain
+  fullName: Scream.UniMO.ScaledTimer.Remain
+  nameWithType: ScaledTimer.Remain
+- uid: Scream.UniMO.ScaledTimer.Remain*
+  name: Remain
+  href: api/Scream.UniMO.ScaledTimer.html#Scream_UniMO_ScaledTimer_Remain_
+  commentId: Overload:Scream.UniMO.ScaledTimer.Remain
+  isSpec: "True"
+  fullName: Scream.UniMO.ScaledTimer.Remain
+  nameWithType: ScaledTimer.Remain
+- uid: Scream.UniMO.ScaledTimer.Remain01
+  name: Remain01
+  href: api/Scream.UniMO.ScaledTimer.html#Scream_UniMO_ScaledTimer_Remain01
+  commentId: P:Scream.UniMO.ScaledTimer.Remain01
+  fullName: Scream.UniMO.ScaledTimer.Remain01
+  nameWithType: ScaledTimer.Remain01
+- uid: Scream.UniMO.ScaledTimer.Remain01*
+  name: Remain01
+  href: api/Scream.UniMO.ScaledTimer.html#Scream_UniMO_ScaledTimer_Remain01_
+  commentId: Overload:Scream.UniMO.ScaledTimer.Remain01
+  isSpec: "True"
+  fullName: Scream.UniMO.ScaledTimer.Remain01
+  nameWithType: ScaledTimer.Remain01
+- uid: Scream.UniMO.ScaledTimer.Reset
+  name: Reset()
+  href: api/Scream.UniMO.ScaledTimer.html#Scream_UniMO_ScaledTimer_Reset
+  commentId: M:Scream.UniMO.ScaledTimer.Reset
+  fullName: Scream.UniMO.ScaledTimer.Reset()
+  nameWithType: ScaledTimer.Reset()
+- uid: Scream.UniMO.ScaledTimer.Reset(System.Single)
+  name: Reset(Single)
+  href: api/Scream.UniMO.ScaledTimer.html#Scream_UniMO_ScaledTimer_Reset_System_Single_
+  commentId: M:Scream.UniMO.ScaledTimer.Reset(System.Single)
+  fullName: Scream.UniMO.ScaledTimer.Reset(System.Single)
+  nameWithType: ScaledTimer.Reset(Single)
+- uid: Scream.UniMO.ScaledTimer.Reset*
+  name: Reset
+  href: api/Scream.UniMO.ScaledTimer.html#Scream_UniMO_ScaledTimer_Reset_
+  commentId: Overload:Scream.UniMO.ScaledTimer.Reset
+  isSpec: "True"
+  fullName: Scream.UniMO.ScaledTimer.Reset
+  nameWithType: ScaledTimer.Reset
+- uid: Scream.UniMO.ScaledTimer.Resume
+  name: Resume()
+  href: api/Scream.UniMO.ScaledTimer.html#Scream_UniMO_ScaledTimer_Resume
+  commentId: M:Scream.UniMO.ScaledTimer.Resume
+  fullName: Scream.UniMO.ScaledTimer.Resume()
+  nameWithType: ScaledTimer.Resume()
+- uid: Scream.UniMO.ScaledTimer.Resume*
+  name: Resume
+  href: api/Scream.UniMO.ScaledTimer.html#Scream_UniMO_ScaledTimer_Resume_
+  commentId: Overload:Scream.UniMO.ScaledTimer.Resume
+  isSpec: "True"
+  fullName: Scream.UniMO.ScaledTimer.Resume
+  nameWithType: ScaledTimer.Resume
+- uid: Scream.UniMO.TSingletonMonoBehavior`1
+  name: TSingletonMonoBehavior<T>
+  href: api/Scream.UniMO.TSingletonMonoBehavior-1.html
+  commentId: T:Scream.UniMO.TSingletonMonoBehavior`1
+  name.vb: TSingletonMonoBehavior(Of T)
+  fullName: Scream.UniMO.TSingletonMonoBehavior<T>
+  fullName.vb: Scream.UniMO.TSingletonMonoBehavior(Of T)
+  nameWithType: TSingletonMonoBehavior<T>
+  nameWithType.vb: TSingletonMonoBehavior(Of T)
+- uid: Scream.UniMO.TSingletonMonoBehavior`1.Awake
+  name: Awake()
+  href: api/Scream.UniMO.TSingletonMonoBehavior-1.html#Scream_UniMO_TSingletonMonoBehavior_1_Awake
+  commentId: M:Scream.UniMO.TSingletonMonoBehavior`1.Awake
+  fullName: Scream.UniMO.TSingletonMonoBehavior<T>.Awake()
+  fullName.vb: Scream.UniMO.TSingletonMonoBehavior(Of T).Awake()
+  nameWithType: TSingletonMonoBehavior<T>.Awake()
+  nameWithType.vb: TSingletonMonoBehavior(Of T).Awake()
+- uid: Scream.UniMO.TSingletonMonoBehavior`1.Awake*
+  name: Awake
+  href: api/Scream.UniMO.TSingletonMonoBehavior-1.html#Scream_UniMO_TSingletonMonoBehavior_1_Awake_
+  commentId: Overload:Scream.UniMO.TSingletonMonoBehavior`1.Awake
+  isSpec: "True"
+  fullName: Scream.UniMO.TSingletonMonoBehavior<T>.Awake
+  fullName.vb: Scream.UniMO.TSingletonMonoBehavior(Of T).Awake
+  nameWithType: TSingletonMonoBehavior<T>.Awake
+  nameWithType.vb: TSingletonMonoBehavior(Of T).Awake
+- uid: Scream.UniMO.TSingletonMonoBehavior`1.Instance
+  name: Instance
+  href: api/Scream.UniMO.TSingletonMonoBehavior-1.html#Scream_UniMO_TSingletonMonoBehavior_1_Instance
+  commentId: P:Scream.UniMO.TSingletonMonoBehavior`1.Instance
+  fullName: Scream.UniMO.TSingletonMonoBehavior<T>.Instance
+  fullName.vb: Scream.UniMO.TSingletonMonoBehavior(Of T).Instance
+  nameWithType: TSingletonMonoBehavior<T>.Instance
+  nameWithType.vb: TSingletonMonoBehavior(Of T).Instance
+- uid: Scream.UniMO.TSingletonMonoBehavior`1.Instance*
+  name: Instance
+  href: api/Scream.UniMO.TSingletonMonoBehavior-1.html#Scream_UniMO_TSingletonMonoBehavior_1_Instance_
+  commentId: Overload:Scream.UniMO.TSingletonMonoBehavior`1.Instance
+  isSpec: "True"
+  fullName: Scream.UniMO.TSingletonMonoBehavior<T>.Instance
+  fullName.vb: Scream.UniMO.TSingletonMonoBehavior(Of T).Instance
+  nameWithType: TSingletonMonoBehavior<T>.Instance
+  nameWithType.vb: TSingletonMonoBehavior(Of T).Instance
+- uid: Scream.UniMO.TSingletonMonoBehavior`1.OnDestroy
+  name: OnDestroy()
+  href: api/Scream.UniMO.TSingletonMonoBehavior-1.html#Scream_UniMO_TSingletonMonoBehavior_1_OnDestroy
+  commentId: M:Scream.UniMO.TSingletonMonoBehavior`1.OnDestroy
+  fullName: Scream.UniMO.TSingletonMonoBehavior<T>.OnDestroy()
+  fullName.vb: Scream.UniMO.TSingletonMonoBehavior(Of T).OnDestroy()
+  nameWithType: TSingletonMonoBehavior<T>.OnDestroy()
+  nameWithType.vb: TSingletonMonoBehavior(Of T).OnDestroy()
+- uid: Scream.UniMO.TSingletonMonoBehavior`1.OnDestroy*
+  name: OnDestroy
+  href: api/Scream.UniMO.TSingletonMonoBehavior-1.html#Scream_UniMO_TSingletonMonoBehavior_1_OnDestroy_
+  commentId: Overload:Scream.UniMO.TSingletonMonoBehavior`1.OnDestroy
+  isSpec: "True"
+  fullName: Scream.UniMO.TSingletonMonoBehavior<T>.OnDestroy
+  fullName.vb: Scream.UniMO.TSingletonMonoBehavior(Of T).OnDestroy
+  nameWithType: TSingletonMonoBehavior<T>.OnDestroy
+  nameWithType.vb: TSingletonMonoBehavior(Of T).OnDestroy
+- uid: Scream.UniMO.TSingletonMonoBehaviorDestroy`1
+  name: TSingletonMonoBehaviorDestroy<T>
+  href: api/Scream.UniMO.TSingletonMonoBehaviorDestroy-1.html
+  commentId: T:Scream.UniMO.TSingletonMonoBehaviorDestroy`1
+  name.vb: TSingletonMonoBehaviorDestroy(Of T)
+  fullName: Scream.UniMO.TSingletonMonoBehaviorDestroy<T>
+  fullName.vb: Scream.UniMO.TSingletonMonoBehaviorDestroy(Of T)
+  nameWithType: TSingletonMonoBehaviorDestroy<T>
+  nameWithType.vb: TSingletonMonoBehaviorDestroy(Of T)
+- uid: Scream.UniMO.TSingletonMonoBehaviorDestroy`1.Awake
+  name: Awake()
+  href: api/Scream.UniMO.TSingletonMonoBehaviorDestroy-1.html#Scream_UniMO_TSingletonMonoBehaviorDestroy_1_Awake
+  commentId: M:Scream.UniMO.TSingletonMonoBehaviorDestroy`1.Awake
+  fullName: Scream.UniMO.TSingletonMonoBehaviorDestroy<T>.Awake()
+  fullName.vb: Scream.UniMO.TSingletonMonoBehaviorDestroy(Of T).Awake()
+  nameWithType: TSingletonMonoBehaviorDestroy<T>.Awake()
+  nameWithType.vb: TSingletonMonoBehaviorDestroy(Of T).Awake()
+- uid: Scream.UniMO.TSingletonMonoBehaviorDestroy`1.Awake*
+  name: Awake
+  href: api/Scream.UniMO.TSingletonMonoBehaviorDestroy-1.html#Scream_UniMO_TSingletonMonoBehaviorDestroy_1_Awake_
+  commentId: Overload:Scream.UniMO.TSingletonMonoBehaviorDestroy`1.Awake
+  isSpec: "True"
+  fullName: Scream.UniMO.TSingletonMonoBehaviorDestroy<T>.Awake
+  fullName.vb: Scream.UniMO.TSingletonMonoBehaviorDestroy(Of T).Awake
+  nameWithType: TSingletonMonoBehaviorDestroy<T>.Awake
+  nameWithType.vb: TSingletonMonoBehaviorDestroy(Of T).Awake
+- uid: Scream.UniMO.TSingletonMonoBehaviorDestroy`1.Instance
+  name: Instance
+  href: api/Scream.UniMO.TSingletonMonoBehaviorDestroy-1.html#Scream_UniMO_TSingletonMonoBehaviorDestroy_1_Instance
+  commentId: P:Scream.UniMO.TSingletonMonoBehaviorDestroy`1.Instance
+  fullName: Scream.UniMO.TSingletonMonoBehaviorDestroy<T>.Instance
+  fullName.vb: Scream.UniMO.TSingletonMonoBehaviorDestroy(Of T).Instance
+  nameWithType: TSingletonMonoBehaviorDestroy<T>.Instance
+  nameWithType.vb: TSingletonMonoBehaviorDestroy(Of T).Instance
+- uid: Scream.UniMO.TSingletonMonoBehaviorDestroy`1.Instance*
+  name: Instance
+  href: api/Scream.UniMO.TSingletonMonoBehaviorDestroy-1.html#Scream_UniMO_TSingletonMonoBehaviorDestroy_1_Instance_
+  commentId: Overload:Scream.UniMO.TSingletonMonoBehaviorDestroy`1.Instance
+  isSpec: "True"
+  fullName: Scream.UniMO.TSingletonMonoBehaviorDestroy<T>.Instance
+  fullName.vb: Scream.UniMO.TSingletonMonoBehaviorDestroy(Of T).Instance
+  nameWithType: TSingletonMonoBehaviorDestroy<T>.Instance
+  nameWithType.vb: TSingletonMonoBehaviorDestroy(Of T).Instance
+- uid: Scream.UniMO.TSingletonMonoBehaviorDestroy`1.OnDestroy
+  name: OnDestroy()
+  href: api/Scream.UniMO.TSingletonMonoBehaviorDestroy-1.html#Scream_UniMO_TSingletonMonoBehaviorDestroy_1_OnDestroy
+  commentId: M:Scream.UniMO.TSingletonMonoBehaviorDestroy`1.OnDestroy
+  fullName: Scream.UniMO.TSingletonMonoBehaviorDestroy<T>.OnDestroy()
+  fullName.vb: Scream.UniMO.TSingletonMonoBehaviorDestroy(Of T).OnDestroy()
+  nameWithType: TSingletonMonoBehaviorDestroy<T>.OnDestroy()
+  nameWithType.vb: TSingletonMonoBehaviorDestroy(Of T).OnDestroy()
+- uid: Scream.UniMO.TSingletonMonoBehaviorDestroy`1.OnDestroy*
+  name: OnDestroy
+  href: api/Scream.UniMO.TSingletonMonoBehaviorDestroy-1.html#Scream_UniMO_TSingletonMonoBehaviorDestroy_1_OnDestroy_
+  commentId: Overload:Scream.UniMO.TSingletonMonoBehaviorDestroy`1.OnDestroy
+  isSpec: "True"
+  fullName: Scream.UniMO.TSingletonMonoBehaviorDestroy<T>.OnDestroy
+  fullName.vb: Scream.UniMO.TSingletonMonoBehaviorDestroy(Of T).OnDestroy
+  nameWithType: TSingletonMonoBehaviorDestroy<T>.OnDestroy
+  nameWithType.vb: TSingletonMonoBehaviorDestroy(Of T).OnDestroy
+- uid: Scream.UniMO.UnscaledTimer
+  name: UnscaledTimer
+  href: api/Scream.UniMO.UnscaledTimer.html
+  commentId: T:Scream.UniMO.UnscaledTimer
+  fullName: Scream.UniMO.UnscaledTimer
+  nameWithType: UnscaledTimer
+- uid: Scream.UniMO.UnscaledTimer.#ctor(System.Single,System.Boolean)
+  name: UnscaledTimer(Single, Boolean)
+  href: api/Scream.UniMO.UnscaledTimer.html#Scream_UniMO_UnscaledTimer__ctor_System_Single_System_Boolean_
+  commentId: M:Scream.UniMO.UnscaledTimer.#ctor(System.Single,System.Boolean)
+  fullName: Scream.UniMO.UnscaledTimer.UnscaledTimer(System.Single, System.Boolean)
+  nameWithType: UnscaledTimer.UnscaledTimer(Single, Boolean)
+- uid: Scream.UniMO.UnscaledTimer.#ctor*
+  name: UnscaledTimer
+  href: api/Scream.UniMO.UnscaledTimer.html#Scream_UniMO_UnscaledTimer__ctor_
+  commentId: Overload:Scream.UniMO.UnscaledTimer.#ctor
+  isSpec: "True"
+  fullName: Scream.UniMO.UnscaledTimer.UnscaledTimer
+  nameWithType: UnscaledTimer.UnscaledTimer
+- uid: Scream.UniMO.UnscaledTimer.IsFinished
+  name: IsFinished
+  href: api/Scream.UniMO.UnscaledTimer.html#Scream_UniMO_UnscaledTimer_IsFinished
+  commentId: P:Scream.UniMO.UnscaledTimer.IsFinished
+  fullName: Scream.UniMO.UnscaledTimer.IsFinished
+  nameWithType: UnscaledTimer.IsFinished
+- uid: Scream.UniMO.UnscaledTimer.IsFinished*
+  name: IsFinished
+  href: api/Scream.UniMO.UnscaledTimer.html#Scream_UniMO_UnscaledTimer_IsFinished_
+  commentId: Overload:Scream.UniMO.UnscaledTimer.IsFinished
+  isSpec: "True"
+  fullName: Scream.UniMO.UnscaledTimer.IsFinished
+  nameWithType: UnscaledTimer.IsFinished
+- uid: Scream.UniMO.UnscaledTimer.IsPausing
+  name: IsPausing
+  href: api/Scream.UniMO.UnscaledTimer.html#Scream_UniMO_UnscaledTimer_IsPausing
+  commentId: P:Scream.UniMO.UnscaledTimer.IsPausing
+  fullName: Scream.UniMO.UnscaledTimer.IsPausing
+  nameWithType: UnscaledTimer.IsPausing
+- uid: Scream.UniMO.UnscaledTimer.IsPausing*
+  name: IsPausing
+  href: api/Scream.UniMO.UnscaledTimer.html#Scream_UniMO_UnscaledTimer_IsPausing_
+  commentId: Overload:Scream.UniMO.UnscaledTimer.IsPausing
+  isSpec: "True"
+  fullName: Scream.UniMO.UnscaledTimer.IsPausing
+  nameWithType: UnscaledTimer.IsPausing
+- uid: Scream.UniMO.UnscaledTimer.Pause
+  name: Pause()
+  href: api/Scream.UniMO.UnscaledTimer.html#Scream_UniMO_UnscaledTimer_Pause
+  commentId: M:Scream.UniMO.UnscaledTimer.Pause
+  fullName: Scream.UniMO.UnscaledTimer.Pause()
+  nameWithType: UnscaledTimer.Pause()
+- uid: Scream.UniMO.UnscaledTimer.Pause*
+  name: Pause
+  href: api/Scream.UniMO.UnscaledTimer.html#Scream_UniMO_UnscaledTimer_Pause_
+  commentId: Overload:Scream.UniMO.UnscaledTimer.Pause
+  isSpec: "True"
+  fullName: Scream.UniMO.UnscaledTimer.Pause
+  nameWithType: UnscaledTimer.Pause
+- uid: Scream.UniMO.UnscaledTimer.Remain
+  name: Remain
+  href: api/Scream.UniMO.UnscaledTimer.html#Scream_UniMO_UnscaledTimer_Remain
+  commentId: P:Scream.UniMO.UnscaledTimer.Remain
+  fullName: Scream.UniMO.UnscaledTimer.Remain
+  nameWithType: UnscaledTimer.Remain
+- uid: Scream.UniMO.UnscaledTimer.Remain*
+  name: Remain
+  href: api/Scream.UniMO.UnscaledTimer.html#Scream_UniMO_UnscaledTimer_Remain_
+  commentId: Overload:Scream.UniMO.UnscaledTimer.Remain
+  isSpec: "True"
+  fullName: Scream.UniMO.UnscaledTimer.Remain
+  nameWithType: UnscaledTimer.Remain
+- uid: Scream.UniMO.UnscaledTimer.Remain01
+  name: Remain01
+  href: api/Scream.UniMO.UnscaledTimer.html#Scream_UniMO_UnscaledTimer_Remain01
+  commentId: P:Scream.UniMO.UnscaledTimer.Remain01
+  fullName: Scream.UniMO.UnscaledTimer.Remain01
+  nameWithType: UnscaledTimer.Remain01
+- uid: Scream.UniMO.UnscaledTimer.Remain01*
+  name: Remain01
+  href: api/Scream.UniMO.UnscaledTimer.html#Scream_UniMO_UnscaledTimer_Remain01_
+  commentId: Overload:Scream.UniMO.UnscaledTimer.Remain01
+  isSpec: "True"
+  fullName: Scream.UniMO.UnscaledTimer.Remain01
+  nameWithType: UnscaledTimer.Remain01
+- uid: Scream.UniMO.UnscaledTimer.Reset
+  name: Reset()
+  href: api/Scream.UniMO.UnscaledTimer.html#Scream_UniMO_UnscaledTimer_Reset
+  commentId: M:Scream.UniMO.UnscaledTimer.Reset
+  fullName: Scream.UniMO.UnscaledTimer.Reset()
+  nameWithType: UnscaledTimer.Reset()
+- uid: Scream.UniMO.UnscaledTimer.Reset(System.Single)
+  name: Reset(Single)
+  href: api/Scream.UniMO.UnscaledTimer.html#Scream_UniMO_UnscaledTimer_Reset_System_Single_
+  commentId: M:Scream.UniMO.UnscaledTimer.Reset(System.Single)
+  fullName: Scream.UniMO.UnscaledTimer.Reset(System.Single)
+  nameWithType: UnscaledTimer.Reset(Single)
+- uid: Scream.UniMO.UnscaledTimer.Reset*
+  name: Reset
+  href: api/Scream.UniMO.UnscaledTimer.html#Scream_UniMO_UnscaledTimer_Reset_
+  commentId: Overload:Scream.UniMO.UnscaledTimer.Reset
+  isSpec: "True"
+  fullName: Scream.UniMO.UnscaledTimer.Reset
+  nameWithType: UnscaledTimer.Reset
+- uid: Scream.UniMO.UnscaledTimer.Resume
+  name: Resume()
+  href: api/Scream.UniMO.UnscaledTimer.html#Scream_UniMO_UnscaledTimer_Resume
+  commentId: M:Scream.UniMO.UnscaledTimer.Resume
+  fullName: Scream.UniMO.UnscaledTimer.Resume()
+  nameWithType: UnscaledTimer.Resume()
+- uid: Scream.UniMO.UnscaledTimer.Resume*
+  name: Resume
+  href: api/Scream.UniMO.UnscaledTimer.html#Scream_UniMO_UnscaledTimer_Resume_
+  commentId: Overload:Scream.UniMO.UnscaledTimer.Resume
+  isSpec: "True"
+  fullName: Scream.UniMO.UnscaledTimer.Resume
+  nameWithType: UnscaledTimer.Resume
+- uid: Scream.UniMO.Utils
+  name: Scream.UniMO.Utils
+  href: api/Scream.UniMO.Utils.html
+  commentId: N:Scream.UniMO.Utils
+  fullName: Scream.UniMO.Utils
+  nameWithType: Scream.UniMO.Utils
+- uid: Scream.UniMO.Utils.AnimationEventHandler
+  name: AnimationEventHandler
+  href: api/Scream.UniMO.Utils.AnimationEventHandler.html
+  commentId: T:Scream.UniMO.Utils.AnimationEventHandler
+  fullName: Scream.UniMO.Utils.AnimationEventHandler
+  nameWithType: AnimationEventHandler
+- uid: Scream.UniMO.Utils.AnimationEventHandler.Animation
+  name: Animation
+  href: api/Scream.UniMO.Utils.AnimationEventHandler.html#Scream_UniMO_Utils_AnimationEventHandler_Animation
+  commentId: P:Scream.UniMO.Utils.AnimationEventHandler.Animation
+  fullName: Scream.UniMO.Utils.AnimationEventHandler.Animation
+  nameWithType: AnimationEventHandler.Animation
+- uid: Scream.UniMO.Utils.AnimationEventHandler.Animation*
+  name: Animation
+  href: api/Scream.UniMO.Utils.AnimationEventHandler.html#Scream_UniMO_Utils_AnimationEventHandler_Animation_
+  commentId: Overload:Scream.UniMO.Utils.AnimationEventHandler.Animation
+  isSpec: "True"
+  fullName: Scream.UniMO.Utils.AnimationEventHandler.Animation
+  nameWithType: AnimationEventHandler.Animation
+- uid: Scream.UniMO.Utils.AnimationEventHandler.OnAnimationFinClip
+  name: OnAnimationFinClip
+  href: api/Scream.UniMO.Utils.AnimationEventHandler.html#Scream_UniMO_Utils_AnimationEventHandler_OnAnimationFinClip
+  commentId: E:Scream.UniMO.Utils.AnimationEventHandler.OnAnimationFinClip
+  fullName: Scream.UniMO.Utils.AnimationEventHandler.OnAnimationFinClip
+  nameWithType: AnimationEventHandler.OnAnimationFinClip
+- uid: Scream.UniMO.Utils.AnimationEventHandler.OnAnimationFinString
+  name: OnAnimationFinString
+  href: api/Scream.UniMO.Utils.AnimationEventHandler.html#Scream_UniMO_Utils_AnimationEventHandler_OnAnimationFinString
+  commentId: E:Scream.UniMO.Utils.AnimationEventHandler.OnAnimationFinString
+  fullName: Scream.UniMO.Utils.AnimationEventHandler.OnAnimationFinString
+  nameWithType: AnimationEventHandler.OnAnimationFinString
+- uid: Scream.UniMO.Utils.AnimationEventHandler.OnAnimationFinVoid
+  name: OnAnimationFinVoid
+  href: api/Scream.UniMO.Utils.AnimationEventHandler.html#Scream_UniMO_Utils_AnimationEventHandler_OnAnimationFinVoid
+  commentId: E:Scream.UniMO.Utils.AnimationEventHandler.OnAnimationFinVoid
+  fullName: Scream.UniMO.Utils.AnimationEventHandler.OnAnimationFinVoid
+  nameWithType: AnimationEventHandler.OnAnimationFinVoid
+- uid: Scream.UniMO.Utils.ColorUtils
+  name: ColorUtils
+  href: api/Scream.UniMO.Utils.ColorUtils.html
+  commentId: T:Scream.UniMO.Utils.ColorUtils
+  fullName: Scream.UniMO.Utils.ColorUtils
+  nameWithType: ColorUtils
+- uid: Scream.UniMO.Utils.ColorUtils.HSV2RGB(Vector3)
+  name: HSV2RGB(Vector3)
+  href: api/Scream.UniMO.Utils.ColorUtils.html#Scream_UniMO_Utils_ColorUtils_HSV2RGB_Vector3_
+  commentId: M:Scream.UniMO.Utils.ColorUtils.HSV2RGB(Vector3)
+  fullName: Scream.UniMO.Utils.ColorUtils.HSV2RGB(Vector3)
+  nameWithType: ColorUtils.HSV2RGB(Vector3)
+- uid: Scream.UniMO.Utils.ColorUtils.HSV2RGB*
+  name: HSV2RGB
+  href: api/Scream.UniMO.Utils.ColorUtils.html#Scream_UniMO_Utils_ColorUtils_HSV2RGB_
+  commentId: Overload:Scream.UniMO.Utils.ColorUtils.HSV2RGB
+  isSpec: "True"
+  fullName: Scream.UniMO.Utils.ColorUtils.HSV2RGB
+  nameWithType: ColorUtils.HSV2RGB
+- uid: Scream.UniMO.Utils.ColorUtils.RGB2HSV(UnityEngine.Color)
+  name: RGB2HSV(UnityEngine.Color)
+  href: api/Scream.UniMO.Utils.ColorUtils.html#Scream_UniMO_Utils_ColorUtils_RGB2HSV_UnityEngine_Color_
+  commentId: M:Scream.UniMO.Utils.ColorUtils.RGB2HSV(UnityEngine.Color)
+  fullName: Scream.UniMO.Utils.ColorUtils.RGB2HSV(UnityEngine.Color)
+  nameWithType: ColorUtils.RGB2HSV(UnityEngine.Color)
+- uid: Scream.UniMO.Utils.ColorUtils.RGB2HSV*
+  name: RGB2HSV
+  href: api/Scream.UniMO.Utils.ColorUtils.html#Scream_UniMO_Utils_ColorUtils_RGB2HSV_
+  commentId: Overload:Scream.UniMO.Utils.ColorUtils.RGB2HSV
+  isSpec: "True"
+  fullName: Scream.UniMO.Utils.ColorUtils.RGB2HSV
+  nameWithType: ColorUtils.RGB2HSV
+- uid: Scream.UniMO.Utils.ColorUtils.SetAlpha(UnityEngine.Color,System.Single)
+  name: SetAlpha(UnityEngine.Color, Single)
+  href: api/Scream.UniMO.Utils.ColorUtils.html#Scream_UniMO_Utils_ColorUtils_SetAlpha_UnityEngine_Color_System_Single_
+  commentId: M:Scream.UniMO.Utils.ColorUtils.SetAlpha(UnityEngine.Color,System.Single)
+  fullName: Scream.UniMO.Utils.ColorUtils.SetAlpha(UnityEngine.Color, System.Single)
+  nameWithType: ColorUtils.SetAlpha(UnityEngine.Color, Single)
+- uid: Scream.UniMO.Utils.ColorUtils.SetAlpha*
+  name: SetAlpha
+  href: api/Scream.UniMO.Utils.ColorUtils.html#Scream_UniMO_Utils_ColorUtils_SetAlpha_
+  commentId: Overload:Scream.UniMO.Utils.ColorUtils.SetAlpha
+  isSpec: "True"
+  fullName: Scream.UniMO.Utils.ColorUtils.SetAlpha
+  nameWithType: ColorUtils.SetAlpha
+- uid: Scream.UniMO.Utils.ColorUtils.SetAlpha01(UnityEngine.Color,System.Single)
+  name: SetAlpha01(UnityEngine.Color, Single)
+  href: api/Scream.UniMO.Utils.ColorUtils.html#Scream_UniMO_Utils_ColorUtils_SetAlpha01_UnityEngine_Color_System_Single_
+  commentId: M:Scream.UniMO.Utils.ColorUtils.SetAlpha01(UnityEngine.Color,System.Single)
+  fullName: Scream.UniMO.Utils.ColorUtils.SetAlpha01(UnityEngine.Color, System.Single)
+  nameWithType: ColorUtils.SetAlpha01(UnityEngine.Color, Single)
+- uid: Scream.UniMO.Utils.ColorUtils.SetAlpha01*
+  name: SetAlpha01
+  href: api/Scream.UniMO.Utils.ColorUtils.html#Scream_UniMO_Utils_ColorUtils_SetAlpha01_
+  commentId: Overload:Scream.UniMO.Utils.ColorUtils.SetAlpha01
+  isSpec: "True"
+  fullName: Scream.UniMO.Utils.ColorUtils.SetAlpha01
+  nameWithType: ColorUtils.SetAlpha01
+- uid: Scream.UniMO.Utils.ColorUtils.SetAlphaHalf(UnityEngine.Color)
+  name: SetAlphaHalf(UnityEngine.Color)
+  href: api/Scream.UniMO.Utils.ColorUtils.html#Scream_UniMO_Utils_ColorUtils_SetAlphaHalf_UnityEngine_Color_
+  commentId: M:Scream.UniMO.Utils.ColorUtils.SetAlphaHalf(UnityEngine.Color)
+  fullName: Scream.UniMO.Utils.ColorUtils.SetAlphaHalf(UnityEngine.Color)
+  nameWithType: ColorUtils.SetAlphaHalf(UnityEngine.Color)
+- uid: Scream.UniMO.Utils.ColorUtils.SetAlphaHalf*
+  name: SetAlphaHalf
+  href: api/Scream.UniMO.Utils.ColorUtils.html#Scream_UniMO_Utils_ColorUtils_SetAlphaHalf_
+  commentId: Overload:Scream.UniMO.Utils.ColorUtils.SetAlphaHalf
+  isSpec: "True"
+  fullName: Scream.UniMO.Utils.ColorUtils.SetAlphaHalf
+  nameWithType: ColorUtils.SetAlphaHalf
+- uid: Scream.UniMO.Utils.JsonFileUtility
+  name: JsonFileUtility
+  href: api/Scream.UniMO.Utils.JsonFileUtility.html
+  commentId: T:Scream.UniMO.Utils.JsonFileUtility
+  fullName: Scream.UniMO.Utils.JsonFileUtility
+  nameWithType: JsonFileUtility
+- uid: Scream.UniMO.Utils.JsonFileUtility.CreateJsonFile*
+  name: CreateJsonFile
+  href: api/Scream.UniMO.Utils.JsonFileUtility.html#Scream_UniMO_Utils_JsonFileUtility_CreateJsonFile_
+  commentId: Overload:Scream.UniMO.Utils.JsonFileUtility.CreateJsonFile
+  isSpec: "True"
+  fullName: Scream.UniMO.Utils.JsonFileUtility.CreateJsonFile
+  nameWithType: JsonFileUtility.CreateJsonFile
+- uid: Scream.UniMO.Utils.JsonFileUtility.CreateJsonFile``1(``0,System.String,System.String)
+  name: CreateJsonFile<T>(T, String, String)
+  href: api/Scream.UniMO.Utils.JsonFileUtility.html#Scream_UniMO_Utils_JsonFileUtility_CreateJsonFile__1___0_System_String_System_String_
+  commentId: M:Scream.UniMO.Utils.JsonFileUtility.CreateJsonFile``1(``0,System.String,System.String)
+  name.vb: CreateJsonFile(Of T)(T, String, String)
+  fullName: Scream.UniMO.Utils.JsonFileUtility.CreateJsonFile<T>(T, System.String, System.String)
+  fullName.vb: Scream.UniMO.Utils.JsonFileUtility.CreateJsonFile(Of T)(T, System.String, System.String)
+  nameWithType: JsonFileUtility.CreateJsonFile<T>(T, String, String)
+  nameWithType.vb: JsonFileUtility.CreateJsonFile(Of T)(T, String, String)
+- uid: Scream.UniMO.Utils.JsonFileUtility.Load*
+  name: Load
+  href: api/Scream.UniMO.Utils.JsonFileUtility.html#Scream_UniMO_Utils_JsonFileUtility_Load_
+  commentId: Overload:Scream.UniMO.Utils.JsonFileUtility.Load
+  isSpec: "True"
+  fullName: Scream.UniMO.Utils.JsonFileUtility.Load
+  nameWithType: JsonFileUtility.Load
+- uid: Scream.UniMO.Utils.JsonFileUtility.Load``1(System.String)
+  name: Load<T>(String)
+  href: api/Scream.UniMO.Utils.JsonFileUtility.html#Scream_UniMO_Utils_JsonFileUtility_Load__1_System_String_
+  commentId: M:Scream.UniMO.Utils.JsonFileUtility.Load``1(System.String)
+  name.vb: Load(Of T)(String)
+  fullName: Scream.UniMO.Utils.JsonFileUtility.Load<T>(System.String)
+  fullName.vb: Scream.UniMO.Utils.JsonFileUtility.Load(Of T)(System.String)
+  nameWithType: JsonFileUtility.Load<T>(String)
+  nameWithType.vb: JsonFileUtility.Load(Of T)(String)
+- uid: Scream.UniMO.Utils2D
+  name: Scream.UniMO.Utils2D
+  href: api/Scream.UniMO.Utils2D.html
+  commentId: N:Scream.UniMO.Utils2D
+  fullName: Scream.UniMO.Utils2D
+  nameWithType: Scream.UniMO.Utils2D
+- uid: Scream.UniMO.Utils2D.HitDirection
+  name: HitDirection
+  href: api/Scream.UniMO.Utils2D.HitDirection.html
+  commentId: T:Scream.UniMO.Utils2D.HitDirection
+  fullName: Scream.UniMO.Utils2D.HitDirection
+  nameWithType: HitDirection
+- uid: Scream.UniMO.Utils2D.HitDirection.DOWN
+  name: DOWN
+  href: api/Scream.UniMO.Utils2D.HitDirection.html#Scream_UniMO_Utils2D_HitDirection_DOWN
+  commentId: F:Scream.UniMO.Utils2D.HitDirection.DOWN
+  fullName: Scream.UniMO.Utils2D.HitDirection.DOWN
+  nameWithType: HitDirection.DOWN
+- uid: Scream.UniMO.Utils2D.HitDirection.LEFT
+  name: LEFT
+  href: api/Scream.UniMO.Utils2D.HitDirection.html#Scream_UniMO_Utils2D_HitDirection_LEFT
+  commentId: F:Scream.UniMO.Utils2D.HitDirection.LEFT
+  fullName: Scream.UniMO.Utils2D.HitDirection.LEFT
+  nameWithType: HitDirection.LEFT
+- uid: Scream.UniMO.Utils2D.HitDirection.NONE
+  name: NONE
+  href: api/Scream.UniMO.Utils2D.HitDirection.html#Scream_UniMO_Utils2D_HitDirection_NONE
+  commentId: F:Scream.UniMO.Utils2D.HitDirection.NONE
+  fullName: Scream.UniMO.Utils2D.HitDirection.NONE
+  nameWithType: HitDirection.NONE
+- uid: Scream.UniMO.Utils2D.HitDirection.RIGHT
+  name: RIGHT
+  href: api/Scream.UniMO.Utils2D.HitDirection.html#Scream_UniMO_Utils2D_HitDirection_RIGHT
+  commentId: F:Scream.UniMO.Utils2D.HitDirection.RIGHT
+  fullName: Scream.UniMO.Utils2D.HitDirection.RIGHT
+  nameWithType: HitDirection.RIGHT
+- uid: Scream.UniMO.Utils2D.HitDirection.UP
+  name: UP
+  href: api/Scream.UniMO.Utils2D.HitDirection.html#Scream_UniMO_Utils2D_HitDirection_UP
+  commentId: F:Scream.UniMO.Utils2D.HitDirection.UP
+  fullName: Scream.UniMO.Utils2D.HitDirection.UP
+  nameWithType: HitDirection.UP
+- uid: Scream.UniMO.Utils2D.HitResult
+  name: HitResult
+  href: api/Scream.UniMO.Utils2D.HitResult.html
+  commentId: T:Scream.UniMO.Utils2D.HitResult
+  fullName: Scream.UniMO.Utils2D.HitResult
+  nameWithType: HitResult
+- uid: Scream.UniMO.Utils2D.HitResult.#ctor(RaycastHit2D,Scream.UniMO.Utils2D.HitDirection,Vector2)
+  name: HitResult(RaycastHit2D, HitDirection, Vector2)
+  href: api/Scream.UniMO.Utils2D.HitResult.html#Scream_UniMO_Utils2D_HitResult__ctor_RaycastHit2D_Scream_UniMO_Utils2D_HitDirection_Vector2_
+  commentId: M:Scream.UniMO.Utils2D.HitResult.#ctor(RaycastHit2D,Scream.UniMO.Utils2D.HitDirection,Vector2)
+  fullName: Scream.UniMO.Utils2D.HitResult.HitResult(RaycastHit2D, Scream.UniMO.Utils2D.HitDirection, Vector2)
+  nameWithType: HitResult.HitResult(RaycastHit2D, HitDirection, Vector2)
+- uid: Scream.UniMO.Utils2D.HitResult.#ctor*
+  name: HitResult
+  href: api/Scream.UniMO.Utils2D.HitResult.html#Scream_UniMO_Utils2D_HitResult__ctor_
+  commentId: Overload:Scream.UniMO.Utils2D.HitResult.#ctor
+  isSpec: "True"
+  fullName: Scream.UniMO.Utils2D.HitResult.HitResult
+  nameWithType: HitResult.HitResult
+- uid: Scream.UniMO.Utils2D.HitResult.detailPos
+  name: detailPos
+  href: api/Scream.UniMO.Utils2D.HitResult.html#Scream_UniMO_Utils2D_HitResult_detailPos
+  commentId: F:Scream.UniMO.Utils2D.HitResult.detailPos
+  fullName: Scream.UniMO.Utils2D.HitResult.detailPos
+  nameWithType: HitResult.detailPos
+- uid: Scream.UniMO.Utils2D.HitResult.direction
+  name: direction
+  href: api/Scream.UniMO.Utils2D.HitResult.html#Scream_UniMO_Utils2D_HitResult_direction
+  commentId: F:Scream.UniMO.Utils2D.HitResult.direction
+  fullName: Scream.UniMO.Utils2D.HitResult.direction
+  nameWithType: HitResult.direction
+- uid: Scream.UniMO.Utils2D.HitResult.hit2D
+  name: hit2D
+  href: api/Scream.UniMO.Utils2D.HitResult.html#Scream_UniMO_Utils2D_HitResult_hit2D
+  commentId: F:Scream.UniMO.Utils2D.HitResult.hit2D
+  fullName: Scream.UniMO.Utils2D.HitResult.hit2D
+  nameWithType: HitResult.hit2D
+- uid: Scream.UniMO.Utils2D.ParallaxBG
+  name: ParallaxBG
+  href: api/Scream.UniMO.Utils2D.ParallaxBG.html
+  commentId: T:Scream.UniMO.Utils2D.ParallaxBG
+  fullName: Scream.UniMO.Utils2D.ParallaxBG
+  nameWithType: ParallaxBG
+- uid: Scream.UniMO.Utils2D.RayCastController
+  name: RayCastController
+  href: api/Scream.UniMO.Utils2D.RayCastController.html
+  commentId: T:Scream.UniMO.Utils2D.RayCastController
+  fullName: Scream.UniMO.Utils2D.RayCastController
+  nameWithType: RayCastController
+- uid: Scream.UniMO.Utils2D.RayCastController.#ctor(LayerMask,Vector2,System.Single,System.Single,BoxCollider2D)
+  name: RayCastController(LayerMask, Vector2, Single, Single, BoxCollider2D)
+  href: api/Scream.UniMO.Utils2D.RayCastController.html#Scream_UniMO_Utils2D_RayCastController__ctor_LayerMask_Vector2_System_Single_System_Single_BoxCollider2D_
+  commentId: M:Scream.UniMO.Utils2D.RayCastController.#ctor(LayerMask,Vector2,System.Single,System.Single,BoxCollider2D)
+  fullName: Scream.UniMO.Utils2D.RayCastController.RayCastController(LayerMask, Vector2, System.Single, System.Single, BoxCollider2D)
+  nameWithType: RayCastController.RayCastController(LayerMask, Vector2, Single, Single, BoxCollider2D)
+- uid: Scream.UniMO.Utils2D.RayCastController.#ctor*
+  name: RayCastController
+  href: api/Scream.UniMO.Utils2D.RayCastController.html#Scream_UniMO_Utils2D_RayCastController__ctor_
+  commentId: Overload:Scream.UniMO.Utils2D.RayCastController.#ctor
+  isSpec: "True"
+  fullName: Scream.UniMO.Utils2D.RayCastController.RayCastController
+  nameWithType: RayCastController.RayCastController
+- uid: Scream.UniMO.Utils2D.RayCastController.Down
+  name: Down
+  href: api/Scream.UniMO.Utils2D.RayCastController.html#Scream_UniMO_Utils2D_RayCastController_Down
+  commentId: P:Scream.UniMO.Utils2D.RayCastController.Down
+  fullName: Scream.UniMO.Utils2D.RayCastController.Down
+  nameWithType: RayCastController.Down
+- uid: Scream.UniMO.Utils2D.RayCastController.Down*
+  name: Down
+  href: api/Scream.UniMO.Utils2D.RayCastController.html#Scream_UniMO_Utils2D_RayCastController_Down_
+  commentId: Overload:Scream.UniMO.Utils2D.RayCastController.Down
+  isSpec: "True"
+  fullName: Scream.UniMO.Utils2D.RayCastController.Down
+  nameWithType: RayCastController.Down
+- uid: Scream.UniMO.Utils2D.RayCastController.Init(BoxCollider2D)
+  name: Init(BoxCollider2D)
+  href: api/Scream.UniMO.Utils2D.RayCastController.html#Scream_UniMO_Utils2D_RayCastController_Init_BoxCollider2D_
+  commentId: M:Scream.UniMO.Utils2D.RayCastController.Init(BoxCollider2D)
+  fullName: Scream.UniMO.Utils2D.RayCastController.Init(BoxCollider2D)
+  nameWithType: RayCastController.Init(BoxCollider2D)
+- uid: Scream.UniMO.Utils2D.RayCastController.Init*
+  name: Init
+  href: api/Scream.UniMO.Utils2D.RayCastController.html#Scream_UniMO_Utils2D_RayCastController_Init_
+  commentId: Overload:Scream.UniMO.Utils2D.RayCastController.Init
+  isSpec: "True"
+  fullName: Scream.UniMO.Utils2D.RayCastController.Init
+  nameWithType: RayCastController.Init
+- uid: Scream.UniMO.Utils2D.RayCastController.IsCollide
+  name: IsCollide
+  href: api/Scream.UniMO.Utils2D.RayCastController.html#Scream_UniMO_Utils2D_RayCastController_IsCollide
+  commentId: P:Scream.UniMO.Utils2D.RayCastController.IsCollide
+  fullName: Scream.UniMO.Utils2D.RayCastController.IsCollide
+  nameWithType: RayCastController.IsCollide
+- uid: Scream.UniMO.Utils2D.RayCastController.IsCollide*
+  name: IsCollide
+  href: api/Scream.UniMO.Utils2D.RayCastController.html#Scream_UniMO_Utils2D_RayCastController_IsCollide_
+  commentId: Overload:Scream.UniMO.Utils2D.RayCastController.IsCollide
+  isSpec: "True"
+  fullName: Scream.UniMO.Utils2D.RayCastController.IsCollide
+  nameWithType: RayCastController.IsCollide
+- uid: Scream.UniMO.Utils2D.RayCastController.Left
+  name: Left
+  href: api/Scream.UniMO.Utils2D.RayCastController.html#Scream_UniMO_Utils2D_RayCastController_Left
+  commentId: P:Scream.UniMO.Utils2D.RayCastController.Left
+  fullName: Scream.UniMO.Utils2D.RayCastController.Left
+  nameWithType: RayCastController.Left
+- uid: Scream.UniMO.Utils2D.RayCastController.Left*
+  name: Left
+  href: api/Scream.UniMO.Utils2D.RayCastController.html#Scream_UniMO_Utils2D_RayCastController_Left_
+  commentId: Overload:Scream.UniMO.Utils2D.RayCastController.Left
+  isSpec: "True"
+  fullName: Scream.UniMO.Utils2D.RayCastController.Left
+  nameWithType: RayCastController.Left
+- uid: Scream.UniMO.Utils2D.RayCastController.Result
+  name: Result
+  href: api/Scream.UniMO.Utils2D.RayCastController.html#Scream_UniMO_Utils2D_RayCastController_Result
+  commentId: P:Scream.UniMO.Utils2D.RayCastController.Result
+  fullName: Scream.UniMO.Utils2D.RayCastController.Result
+  nameWithType: RayCastController.Result
+- uid: Scream.UniMO.Utils2D.RayCastController.Result*
+  name: Result
+  href: api/Scream.UniMO.Utils2D.RayCastController.html#Scream_UniMO_Utils2D_RayCastController_Result_
+  commentId: Overload:Scream.UniMO.Utils2D.RayCastController.Result
+  isSpec: "True"
+  fullName: Scream.UniMO.Utils2D.RayCastController.Result
+  nameWithType: RayCastController.Result
+- uid: Scream.UniMO.Utils2D.RayCastController.Right
+  name: Right
+  href: api/Scream.UniMO.Utils2D.RayCastController.html#Scream_UniMO_Utils2D_RayCastController_Right
+  commentId: P:Scream.UniMO.Utils2D.RayCastController.Right
+  fullName: Scream.UniMO.Utils2D.RayCastController.Right
+  nameWithType: RayCastController.Right
+- uid: Scream.UniMO.Utils2D.RayCastController.Right*
+  name: Right
+  href: api/Scream.UniMO.Utils2D.RayCastController.html#Scream_UniMO_Utils2D_RayCastController_Right_
+  commentId: Overload:Scream.UniMO.Utils2D.RayCastController.Right
+  isSpec: "True"
+  fullName: Scream.UniMO.Utils2D.RayCastController.Right
+  nameWithType: RayCastController.Right
+- uid: Scream.UniMO.Utils2D.RayCastController.Tick
+  name: Tick()
+  href: api/Scream.UniMO.Utils2D.RayCastController.html#Scream_UniMO_Utils2D_RayCastController_Tick
+  commentId: M:Scream.UniMO.Utils2D.RayCastController.Tick
+  fullName: Scream.UniMO.Utils2D.RayCastController.Tick()
+  nameWithType: RayCastController.Tick()
+- uid: Scream.UniMO.Utils2D.RayCastController.Tick*
+  name: Tick
+  href: api/Scream.UniMO.Utils2D.RayCastController.html#Scream_UniMO_Utils2D_RayCastController_Tick_
+  commentId: Overload:Scream.UniMO.Utils2D.RayCastController.Tick
+  isSpec: "True"
+  fullName: Scream.UniMO.Utils2D.RayCastController.Tick
+  nameWithType: RayCastController.Tick
+- uid: Scream.UniMO.Utils2D.RayCastController.Up
+  name: Up
+  href: api/Scream.UniMO.Utils2D.RayCastController.html#Scream_UniMO_Utils2D_RayCastController_Up
+  commentId: P:Scream.UniMO.Utils2D.RayCastController.Up
+  fullName: Scream.UniMO.Utils2D.RayCastController.Up
+  nameWithType: RayCastController.Up
+- uid: Scream.UniMO.Utils2D.RayCastController.Up*
+  name: Up
+  href: api/Scream.UniMO.Utils2D.RayCastController.html#Scream_UniMO_Utils2D_RayCastController_Up_
+  commentId: Overload:Scream.UniMO.Utils2D.RayCastController.Up
+  isSpec: "True"
+  fullName: Scream.UniMO.Utils2D.RayCastController.Up
+  nameWithType: RayCastController.Up
+- uid: Scream.UniMO.Utils2D.Render2D
+  name: Render2D
+  href: api/Scream.UniMO.Utils2D.Render2D.html
+  commentId: T:Scream.UniMO.Utils2D.Render2D
+  fullName: Scream.UniMO.Utils2D.Render2D
+  nameWithType: Render2D
+- uid: Scream.UniMO.Utils2D.Render2D.ChangeDirection(System.Boolean,Transform,System.Boolean)
+  name: ChangeDirection(Boolean, Transform, Boolean)
+  href: api/Scream.UniMO.Utils2D.Render2D.html#Scream_UniMO_Utils2D_Render2D_ChangeDirection_System_Boolean_Transform_System_Boolean_
+  commentId: M:Scream.UniMO.Utils2D.Render2D.ChangeDirection(System.Boolean,Transform,System.Boolean)
+  fullName: Scream.UniMO.Utils2D.Render2D.ChangeDirection(System.Boolean, Transform, System.Boolean)
+  nameWithType: Render2D.ChangeDirection(Boolean, Transform, Boolean)
+- uid: Scream.UniMO.Utils2D.Render2D.ChangeDirection*
+  name: ChangeDirection
+  href: api/Scream.UniMO.Utils2D.Render2D.html#Scream_UniMO_Utils2D_Render2D_ChangeDirection_
+  commentId: Overload:Scream.UniMO.Utils2D.Render2D.ChangeDirection
+  isSpec: "True"
+  fullName: Scream.UniMO.Utils2D.Render2D.ChangeDirection
+  nameWithType: Render2D.ChangeDirection
+- uid: Scream.UniMO.Utils2D.Render2D.ChangeDirectionXWithSpriteRender(System.Boolean,SpriteRenderer,System.Boolean)
+  name: ChangeDirectionXWithSpriteRender(Boolean, SpriteRenderer, Boolean)
+  href: api/Scream.UniMO.Utils2D.Render2D.html#Scream_UniMO_Utils2D_Render2D_ChangeDirectionXWithSpriteRender_System_Boolean_SpriteRenderer_System_Boolean_
+  commentId: M:Scream.UniMO.Utils2D.Render2D.ChangeDirectionXWithSpriteRender(System.Boolean,SpriteRenderer,System.Boolean)
+  fullName: Scream.UniMO.Utils2D.Render2D.ChangeDirectionXWithSpriteRender(System.Boolean, SpriteRenderer, System.Boolean)
+  nameWithType: Render2D.ChangeDirectionXWithSpriteRender(Boolean, SpriteRenderer, Boolean)
+- uid: Scream.UniMO.Utils2D.Render2D.ChangeDirectionXWithSpriteRender*
+  name: ChangeDirectionXWithSpriteRender
+  href: api/Scream.UniMO.Utils2D.Render2D.html#Scream_UniMO_Utils2D_Render2D_ChangeDirectionXWithSpriteRender_
+  commentId: Overload:Scream.UniMO.Utils2D.Render2D.ChangeDirectionXWithSpriteRender
+  isSpec: "True"
+  fullName: Scream.UniMO.Utils2D.Render2D.ChangeDirectionXWithSpriteRender
+  nameWithType: Render2D.ChangeDirectionXWithSpriteRender
+- uid: Scream.UniMO.Utils2D.Render2D.ChangeDirectionY(System.Boolean,Transform,System.Boolean)
+  name: ChangeDirectionY(Boolean, Transform, Boolean)
+  href: api/Scream.UniMO.Utils2D.Render2D.html#Scream_UniMO_Utils2D_Render2D_ChangeDirectionY_System_Boolean_Transform_System_Boolean_
+  commentId: M:Scream.UniMO.Utils2D.Render2D.ChangeDirectionY(System.Boolean,Transform,System.Boolean)
+  fullName: Scream.UniMO.Utils2D.Render2D.ChangeDirectionY(System.Boolean, Transform, System.Boolean)
+  nameWithType: Render2D.ChangeDirectionY(Boolean, Transform, Boolean)
+- uid: Scream.UniMO.Utils2D.Render2D.ChangeDirectionY*
+  name: ChangeDirectionY
+  href: api/Scream.UniMO.Utils2D.Render2D.html#Scream_UniMO_Utils2D_Render2D_ChangeDirectionY_
+  commentId: Overload:Scream.UniMO.Utils2D.Render2D.ChangeDirectionY
+  isSpec: "True"
+  fullName: Scream.UniMO.Utils2D.Render2D.ChangeDirectionY
+  nameWithType: Render2D.ChangeDirectionY
+- uid: Scream.UniMO.Utils2D.Render2D.ChangeDirectionYWithSpriteRender(System.Boolean,SpriteRenderer,System.Boolean)
+  name: ChangeDirectionYWithSpriteRender(Boolean, SpriteRenderer, Boolean)
+  href: api/Scream.UniMO.Utils2D.Render2D.html#Scream_UniMO_Utils2D_Render2D_ChangeDirectionYWithSpriteRender_System_Boolean_SpriteRenderer_System_Boolean_
+  commentId: M:Scream.UniMO.Utils2D.Render2D.ChangeDirectionYWithSpriteRender(System.Boolean,SpriteRenderer,System.Boolean)
+  fullName: Scream.UniMO.Utils2D.Render2D.ChangeDirectionYWithSpriteRender(System.Boolean, SpriteRenderer, System.Boolean)
+  nameWithType: Render2D.ChangeDirectionYWithSpriteRender(Boolean, SpriteRenderer, Boolean)
+- uid: Scream.UniMO.Utils2D.Render2D.ChangeDirectionYWithSpriteRender*
+  name: ChangeDirectionYWithSpriteRender
+  href: api/Scream.UniMO.Utils2D.Render2D.html#Scream_UniMO_Utils2D_Render2D_ChangeDirectionYWithSpriteRender_
+  commentId: Overload:Scream.UniMO.Utils2D.Render2D.ChangeDirectionYWithSpriteRender
+  isSpec: "True"
+  fullName: Scream.UniMO.Utils2D.Render2D.ChangeDirectionYWithSpriteRender
+  nameWithType: Render2D.ChangeDirectionYWithSpriteRender

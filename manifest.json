@@ -1,0 +1,510 @@
+{
+  "sitemap": {
+    "baseUrl": "https://scream870102.github.io/UniMO/"
+  },
+  "homepages": [],
+  "source_base_path": "C:/Scream/Project/UniMO/Packages/UniMO/Documentation",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Scream.UniMO.Collections.Container-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Scream.UniMO.Collections.Container-2.html",
+          "hash": "3VMFtjxgHrYWJcV6OAQaQw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Scream.UniMO.Collections.IObjectPoolAble.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Scream.UniMO.Collections.IObjectPoolAble.html",
+          "hash": "bMMyUD8WAlgabgJIhqosgA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Scream.UniMO.Collections.ObjectContainer-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Scream.UniMO.Collections.ObjectContainer-2.html",
+          "hash": "fy3B/5lZsBEYvNeTH6xZGQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Scream.UniMO.Collections.ObjectPool.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Scream.UniMO.Collections.ObjectPool.html",
+          "hash": "CLsrr/3pG2o0615mbQpUoQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Scream.UniMO.Collections.PrefabContainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Scream.UniMO.Collections.PrefabContainer.html",
+          "hash": "9CIpGAfW5N0PImqqQisnzw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Scream.UniMO.Collections.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Scream.UniMO.Collections.html",
+          "hash": "zur0D0bMvQHRY7rUkMFNlQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Scream.UniMO.DomainEvents.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Scream.UniMO.DomainEvents.html",
+          "hash": "M7q2md2xkAtTNWViqtZB/A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Scream.UniMO.Editor.GetInStanceIDEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Scream.UniMO.Editor.GetInStanceIDEditor.html",
+          "hash": "WCiFu1+zlaKjMJ6fQRIDVQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Scream.UniMO.Editor.GetInstanceID.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Scream.UniMO.Editor.GetInstanceID.html",
+          "hash": "4WWPW9mD01GQYuXqYp8F6w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Scream.UniMO.Editor.ReadOnlyAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Scream.UniMO.Editor.ReadOnlyAttribute.html",
+          "hash": "BuLdwAdH1eUZuMMdqGhOIA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Scream.UniMO.Editor.ReadOnlyDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Scream.UniMO.Editor.ReadOnlyDrawer.html",
+          "hash": "ijbgM4iFcXssGppfpIZSDw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Scream.UniMO.Editor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Scream.UniMO.Editor.html",
+          "hash": "RMIKGuNwGCvaO1WVXZ99HQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Scream.UniMO.IDomainEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Scream.UniMO.IDomainEvent.html",
+          "hash": "Dm48a8aXMsKhELB6JAQ7CA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Scream.UniMO.Input.Button.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Scream.UniMO.Input.Button.html",
+          "hash": "aDot7ik9RWWog3wRVRelzg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Scream.UniMO.Input.ConsoleButton.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Scream.UniMO.Input.ConsoleButton.html",
+          "hash": "rEHJJek3Ax66mwb0YQ+AgQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Scream.UniMO.Input.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Scream.UniMO.Input.html",
+          "hash": "sggUACAA4+X2THuCW+Y1bQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Scream.UniMO.Math.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Scream.UniMO.Math.html",
+          "hash": "RJbxfgk+m9DqdCAUQe3hXw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Scream.UniMO.ScaledTimer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Scream.UniMO.ScaledTimer.html",
+          "hash": "J8ES4dyXvTtIYPtc8EuOJQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Scream.UniMO.TSingletonMonoBehavior-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Scream.UniMO.TSingletonMonoBehavior-1.html",
+          "hash": "nGUgvTykwR0kChWYvsdm1g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Scream.UniMO.TSingletonMonoBehaviorDestroy-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Scream.UniMO.TSingletonMonoBehaviorDestroy-1.html",
+          "hash": "CV8Z4QJbSRy6Jjwk3ZoOnw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Scream.UniMO.UnscaledTimer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Scream.UniMO.UnscaledTimer.html",
+          "hash": "LcizH7pFnEfDNDfhkQv7YA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Scream.UniMO.Utils.AnimationEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Scream.UniMO.Utils.AnimationEventHandler.html",
+          "hash": "bFUCo1E1t9HmutPN1e3rvA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Scream.UniMO.Utils.ColorUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Scream.UniMO.Utils.ColorUtils.html",
+          "hash": "Yt/qIFGL07MqDYLCRsh0Hw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Scream.UniMO.Utils.JsonFileUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Scream.UniMO.Utils.JsonFileUtility.html",
+          "hash": "gIAIMqe0KLuezYpHc5DwKg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Scream.UniMO.Utils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Scream.UniMO.Utils.html",
+          "hash": "laofD+luzds53TItVHGkRg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Scream.UniMO.Utils2D.HitDirection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Scream.UniMO.Utils2D.HitDirection.html",
+          "hash": "u+cF9fEUZmB+iN18fAEowA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Scream.UniMO.Utils2D.HitResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Scream.UniMO.Utils2D.HitResult.html",
+          "hash": "S0MuMofrloVgjbAUrnMO9A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Scream.UniMO.Utils2D.ParallaxBG.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Scream.UniMO.Utils2D.ParallaxBG.html",
+          "hash": "dAogPtUrbjEp8RobDQHRCA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Scream.UniMO.Utils2D.RayCastController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Scream.UniMO.Utils2D.RayCastController.html",
+          "hash": "ORYiV4wlEYpooFfxb7W/4A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Scream.UniMO.Utils2D.Render2D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Scream.UniMO.Utils2D.Render2D.html",
+          "hash": "L9TdngavW6HTXar+O6LxSA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Scream.UniMO.Utils2D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Scream.UniMO.Utils2D.html",
+          "hash": "gc4CymAKPe3eP8xCjw35ag=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Scream.UniMO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Scream.UniMO.html",
+          "hash": "isRsar7t+28NMWDnbOy77w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "7skmfgVnsEes2KZ+zYV4oA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "bvMYGUWqEMAjeYA0inypmA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/brief.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/brief.html",
+          "hash": "DOgSR2AbtRlIpl4WXOHIMg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "manual/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "manual/toc.html",
+          "hash": "4wB3Tmyp61CfJ+r55vSWpg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "Ewmp+wVeGcVEjUe4oEWZBw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 2,
+          "skipped_file_count": 1
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 32,
+          "skipped_file_count": 1
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
