@@ -16,6 +16,7 @@ namespace Scream.UniMO.Collections
         /// Convert object to other type
         /// </summary>
         /// <typeparam name="T">target type of object</typeparam>
+        /// <returns>Objects list</returns>
         public List<T> ToList<T>()
         where T : Object
         {
@@ -31,6 +32,7 @@ namespace Scream.UniMO.Collections
         /// </summary>
         /// <typeparam name="T">Target key type</typeparam>
         /// <typeparam name="U">Object type</typeparam>
+        /// <returns>Convert key to specif type and return as dictionary</returns>
         public Dictionary<T, U> ToDictionary<T, U>()
         where T : IConvertible
         where U : Object

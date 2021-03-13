@@ -5,8 +5,10 @@ using Scream.UniMO.Editor;
 
 namespace Scream.UniMO
 {
-    /// <summary>a countdown timer easy to use not affected by TimeScale</summary>
-    /// <remarks>call method Reset to reset timer and call property IsFinshed to check if countdown finished</remarks>
+    /// <summary>
+    /// a countdown timer easy to use not affected by TimeScale
+    /// <para>call method Reset to reset timer and call property IsFinshed to check if countdown finished</para>
+    /// </summary>
     [System.Serializable]
     public class UnscaledTimer
     {
@@ -52,6 +54,11 @@ namespace Scream.UniMO
             }
         }
 
+        /// <summary>
+        /// Constructor
+        /// </summary>
+        /// <param name="timeSection">time section for this timer</param>
+        /// <param name="CanUseFirst">isFinshed equals to true at first or not</param>
         public UnscaledTimer(float timeSection = 0f, bool CanUseFirst = true)
         {
             this.timeSection = timeSection;
@@ -83,7 +90,10 @@ namespace Scream.UniMO
             IsPausing = false;
         }
 
-        /// <summary>reset countdown timer with new timeSection</summary>
+        /// <summary>
+        /// reset countdown timer with new timeSection
+        /// </summary>
+        /// <param name="timeSection">new time section for this timer</param>
         public void Reset(float timeSection)
         {
             this.timeSection = timeSection;
@@ -92,8 +102,10 @@ namespace Scream.UniMO
         }
     }
 
-    /// <summary>a countdown timer easy to use affected by TimeScale</summary>
-    /// <remarks>call method Reset to reset timer and call property IsFinshed to check if countdown finished</remarks>
+    /// <summary>
+    /// a countdown timer easy to use affected by TimeScale
+    /// <para>call method Reset to reset timer and call property IsFinshed to check if countdown finished</para>
+    /// </summary>
     [System.Serializable]
     public class ScaledTimer
     {
@@ -139,6 +151,11 @@ namespace Scream.UniMO
             }
         }
 
+        /// <summary>
+        /// Constructor
+        /// </summary>
+        /// <param name="timeSection">time section for this timer</param>
+        /// <param name="CanUseFirst">isFinshed equals to true at first or not</param>
         public ScaledTimer(float timeSection = 0f, bool CanUseFirst = true)
         {
             this.timeSection = timeSection;
@@ -170,7 +187,10 @@ namespace Scream.UniMO
             IsPausing = false;
         }
 
-        /// <summary>reset countdown timer with new timeSection</summary>
+        /// <summary>
+        /// reset countdown timer with new timeSection
+        /// </summary>
+        /// <param name="timeSection">new time section for this timer</param>
         public void Reset(float timeSection)
         {
             this.timeSection = timeSection;

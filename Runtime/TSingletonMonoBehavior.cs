@@ -2,14 +2,21 @@ using UnityEngine;
 
 namespace Scream.UniMO
 {
-    /// <summary>derived this class then you will got a monobehavior implement singleton</summary>
+    /// <summary>
+    /// derived this class then you will got a monobehavior implement singleton
+    /// </summary>
+    /// <typeparam name="T">Target type to convert to singleton</typeparam>
     public class TSingletonMonoBehavior<T> : MonoBehaviour where T : MonoBehaviour
     {
         static T instance = null;
 
+        /// <summary>
+        /// instance for this type
+        /// </summary>
+        /// <value>object of this class</value>
         public static T Instance
         {
-            get { return instance ?? (instance = FindObjectOfType(typeof(T)) as T); }
+            get { return instance ??= (FindObjectOfType(typeof(T)) as T); }
             set { instance = value; }
         }
 
@@ -23,14 +30,22 @@ namespace Scream.UniMO
         protected virtual void OnDestroy() => instance = null;
     }
 
-    /// <summary>derived this class then you will got a monobehavior implement singleton</summary>
+    /// <summary>
+    /// derived this class then you will got a monobehavior implement singleton
+    /// <para>however you can reassign instance value and it will destory old one if it exists</para>
+    /// </summary>
+    /// <typeparam name="T">Target type to convert to singleton</typeparam>
     public class TSingletonMonoBehaviorDestroy<T> : MonoBehaviour where T : MonoBehaviour
     {
         static T instance = null;
 
+        /// <summary>
+        /// instance for this type
+        /// </summary>
+        /// <value>object of this class</value>
         public static T Instance
         {
-            get { return instance ?? (instance = FindObjectOfType(typeof(T)) as T); }
+            get { return instance ??= (FindObjectOfType(typeof(T)) as T); }
             set { instance = value; }
         }
 

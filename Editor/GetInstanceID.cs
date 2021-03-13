@@ -4,9 +4,16 @@ using UnityEngine;
 
 namespace Scream.UniMO.Editor
 {
+    /// <summary>
+    /// Use this class to get object instance id 
+    /// <para>You can also get id in editor mode</para>
+    /// </summary>
     public class GetInstanceID : MonoBehaviour
     {
         [SerializeField] Object _object;
+        /// <summary>
+        /// Call this method to get instance id 
+        /// </summary>
         public void GetID() => Debug.Log(_object.GetInstanceID());
     }
 

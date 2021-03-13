@@ -1,3 +1,8 @@
+## 1.4.0
+- Delete ConsoleButton
+- Update Direction in Scream.UniMO.Utils2D
+- Update some Naming Conventions
+
 ## 1.3.1
 - Update PrefabContainer AssetMenu update
 

@@ -2,16 +2,32 @@
 
 namespace Scream.UniMO.Collections
 {
-    /// <summary>class inherit this interface can be managed by class ObjectPool</summary>
+    /// <summary>
+    /// Inherit this interface make objects can be managed by class ObjectPool
+    /// </summary>
     public interface IObjectPoolAble
     {
-        //which pool should item belongs to 
+        /// <summary>
+        /// which pool is object belongs to 
+        /// </summary>
+        /// <value></value>
         ObjectPool Pool { get; set; }
-        //store ref for item's gameObject
-        GameObject gameObject { get; }
-        //recycle item to pool
+
+        /// <summary>
+        /// Call this method to recycle object back to pool
+        /// </summary>
         void Recycle();
-        //action will do when item being push to pool
+
+        /// <summary>
+        /// Call this method to init data of object
+        /// </summary>
+        /// <param name="data">data</param>
+        /// <typeparam name="T">type of data</typeparam>
         void Init<T>(T data);
+
+        /// <summary>
+        /// The gameobject of pool object
+        /// </summary>
+        public GameObject GameObject { get; set; }
     }
 }

@@ -3,84 +3,111 @@ using UnityEngine;
 
 namespace Scream.UniMO.Collections
 {
+    /// <summary>
+    /// ObjectPool is the class to handle object recycle and spawn
+    /// </summary>
     [System.Serializable]
     public class ObjectPool
     {
+        /// <summary>
+        /// Object to spawn
+        /// </summary>
         [Header("ObjectPool")]
-        /// <summary>which object to spawn</summary>
-        public GameObject pooledObject;
-        /// <summary>all poolObjects should belong to which transform</summary>
-        public Transform poolParent;
-        /// <summary>how many item can pool hold</summary>
-        public int pooledAmount;
-        /// <summary>if user ask an item and pool is empty now Can pool instaniate an new item</summary>
+        public GameObject PooledObject;
+
+
+        /// <summary>
+        /// Parent for all pool objects can be null
+        /// </summary>
+        public Transform PoolParent;
+
+        /// <summary>
+        /// How many item can pool hold
+        /// </summary>
+        public int PooledAmount;
+
+        /// <summary>
+        /// define if pool will spawn new object when pool is empty
+        /// </summary>
         public bool IsGrow;
+
+        /// <summary>
+        /// Call this property to check pool holds anything now
+        /// </summary>
         public bool IsAvailable => poolObjects.Count > 0;
+
         // To Store all item
         Queue<IObjectPoolAble> poolObjects;
 
-        /// <summary>use this to set NECESSARY data</summary>
-        /// <remarks>Not necessary to use constructor  you can also set data through inspector</remarks>
-        public ObjectPool(GameObject pooledObject, Transform poolParent, int pooledAmount = 1, bool IsGrow = true)
+        /// <summary>
+        /// use this to set NECESSARY data via script
+        /// <para>You can also set data through inspector but should call init by self</para>
+        /// </summary>
+        /// <param name="pooledObject">object to spawn</param>
+        /// <param name="poolParent">parent for poolobjct</param>
+        /// <param name="pooledAmount">how many object can pool hold</param>
+        /// <param name="isGrow">can pool spawn new object when pool is empty</param>
+        public ObjectPool(GameObject pooledObject, Transform poolParent, int pooledAmount = 1, bool isGrow = true)
         {
-            this.pooledObject = pooledObject;
-            this.poolParent = poolParent;
-            this.pooledAmount = pooledAmount;
-            this.IsGrow = IsGrow;
+            PooledObject = pooledObject;
+            PoolParent = poolParent;
+            PooledAmount = pooledAmount;
+            IsGrow = isGrow;
             Init();
         }
 
-        /// <summary>Spawn all objects according to pooledAmount</summary>
-        /// <remarks>MUST CALL this method if you set data with inspector not constructor</remarks>
-        public List<IObjectPoolAble> Init()
+        /// <summary>
+        /// Spawn all objects according to pooledAmount
+        /// <para>MUST CALL this method if you set data with inspector not constructor</para>
+        /// </summary>
+        public void Init()
         {
             poolObjects = new Queue<IObjectPoolAble>();
-            for (int i = 0; i < pooledAmount; i++)
-            {
+            for (int i = 0; i < PooledAmount; i++)
                 poolObjects.Enqueue(SpawnObject());
-            }
-            return new List<IObjectPoolAble>(poolObjects);
         }
 
-        /// <summary>Return IObjectPoolItem</summary>
-        /// <remarks>Need to convert to type which user need
-        /// e.g. Bullets inherit from Mono,IObjectPoolItem
-        /// if we ask for a bullet we need to convert type to bullet</remarks>
-        /// <param name="data">you can add some data to object when it call init</param>
-        /// <example><code>Bullet bullet = Bullets.GetPooledObject ( ) as Bullet;</code></example>
+        /// <summary>
+        /// Return pool object from pool
+        /// </summary>
+        /// <param name="data">data for init pool object</param>
+        /// <typeparam name="T">init data type</typeparam>
+        /// <returns>the pool object it will be null when pool is empty</returns>
         public IObjectPoolAble GetPooledObject<T>(T data)
         {
             if (poolObjects.Count != 0)
             {
                 IObjectPoolAble item = poolObjects.Dequeue();
                 item.Init<T>(data);
-                item.gameObject.SetActive(true);
+                item.GameObject.SetActive(true);
                 return item;
             }
             if (IsGrow)
             {
                 IObjectPoolAble item = SpawnObject();
                 item.Init<T>(data);
-                item.gameObject.SetActive(true);
+                item.GameObject.SetActive(true);
                 return item;
             }
             return null;
         }
 
-        /// <summary>Recycle Object to Pooling again</summary>
+        /// <summary>
+        /// Recycle Object to Pooling again
+        /// </summary>
         /// <param name="item">which item will be Recycle to ObjectPooling</param>
         public void RecycleObject(IObjectPoolAble item)
         {
             poolObjects.Enqueue(item);
-            item.gameObject.SetActive(false);
+            item.GameObject.SetActive(false);
         }
 
         // Spawn Object and set its pool change its parent to poolParent then disable it
         IObjectPoolAble SpawnObject()
         {
-            IObjectPoolAble item = GameObject.Instantiate(pooledObject, poolParent).GetComponent<IObjectPoolAble>();
+            IObjectPoolAble item = GameObject.Instantiate(PooledObject, PoolParent).GetComponent<IObjectPoolAble>();
             item.Pool = this;
-            item.gameObject.SetActive(false);
+            item.GameObject.SetActive(false);
             return item;
         }
     }

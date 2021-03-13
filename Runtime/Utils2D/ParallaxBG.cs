@@ -2,10 +2,13 @@
 
 namespace Scream.UniMO.Utils2D
 {
-    /// <summary>This is a parallax background</summary>
-    /// <remarks>set bg object postion.x due to its z position</remarks>
-    /// <remarks>you can have lots of bg object at the same time</remarks>
-    /// <remarks>ref:https://www.youtube.com/watch?v=5E5_Fquw7BM</remarks>
+
+    /// <summary>
+    /// This is a parallax background
+    /// <para>set bg object postion.x due to its z position</para>
+    /// <para>you can have lots of bg object at the same time</para>
+    /// <para>ref:https://www.youtube.com/watch?v=5E5_Fquw7BM</para>
+    /// </summary>
     public class ParallaxBG : MonoBehaviour
     {
         [SerializeField] Transform[] bgS = null;
