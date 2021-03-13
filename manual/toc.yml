@@ -1,2 +1,4 @@
 - name: UniMO Manual
   href: unimo_manual.md
+- name: Changelog
+  href: changelog.md
