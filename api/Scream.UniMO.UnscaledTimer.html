@@ -83,7 +83,8 @@
   
   <h1 id="Scream_UniMO_UnscaledTimer" data-uid="Scream.UniMO.UnscaledTimer" class="text-break">Class UnscaledTimer
   </h1>
-  <div class="markdown level0 summary"><p>a countdown timer easy to use not affected by TimeScale</p>
+  <div class="markdown level0 summary"><p>a countdown timer easy to use not affected by TimeScale
+<p>call method Reset to reset timer and call property IsFinshed to check if countdown finished</p></p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -122,16 +123,14 @@
     <pre><code class="lang-csharp hljs">[Serializable]
 public class UnscaledTimer</code></pre>
   </div>
-  <h5 id="Scream_UniMO_UnscaledTimer_remarks"><strong>Remarks</strong></h5>
-  <div class="markdown level0 remarks"><p>call method Reset to reset timer and call property IsFinshed to check if countdown finished</p>
-</div>
   <h3 id="constructors">Constructors
   </h3>
   
   
   <a id="Scream_UniMO_UnscaledTimer__ctor_" data-uid="Scream.UniMO.UnscaledTimer.#ctor*"></a>
   <h4 id="Scream_UniMO_UnscaledTimer__ctor_System_Single_System_Boolean_" data-uid="Scream.UniMO.UnscaledTimer.#ctor(System.Single,System.Boolean)">UnscaledTimer(Single, Boolean)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Constructor</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -150,12 +149,14 @@ public class UnscaledTimer</code></pre>
       <tr>
         <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">timeSection</span></td>
-        <td></td>
+        <td><p>time section for this timer</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">CanUseFirst</span></td>
-        <td></td>
+        <td><p>isFinshed equals to true at first or not</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -313,7 +314,8 @@ public class UnscaledTimer</code></pre>
       <tr>
         <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">timeSection</span></td>
-        <td></td>
+        <td><p>new time section for this timer</p>
+</td>
       </tr>
     </tbody>
   </table>

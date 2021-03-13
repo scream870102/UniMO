@@ -83,7 +83,7 @@
   
   <h1 id="Scream_UniMO_Collections_IObjectPoolAble" data-uid="Scream.UniMO.Collections.IObjectPoolAble" class="text-break">Interface IObjectPoolAble
   </h1>
-  <div class="markdown level0 summary"><p>class inherit this interface can be managed by class ObjectPool</p>
+  <div class="markdown level0 summary"><p>Inherit this interface make objects can be managed by class ObjectPool</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Scream.UniMO.Collections.html">Scream.UniMO.Collections</a></h6>
@@ -96,13 +96,14 @@
   </h3>
   
   
-  <a id="Scream_UniMO_Collections_IObjectPoolAble_gameObject_" data-uid="Scream.UniMO.Collections.IObjectPoolAble.gameObject*"></a>
-  <h4 id="Scream_UniMO_Collections_IObjectPoolAble_gameObject" data-uid="Scream.UniMO.Collections.IObjectPoolAble.gameObject">gameObject</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="Scream_UniMO_Collections_IObjectPoolAble_GameObject_" data-uid="Scream.UniMO.Collections.IObjectPoolAble.GameObject*"></a>
+  <h4 id="Scream_UniMO_Collections_IObjectPoolAble_GameObject" data-uid="Scream.UniMO.Collections.IObjectPoolAble.GameObject">GameObject</h4>
+  <div class="markdown level1 summary"><p>The gameobject of pool object</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">GameObject gameObject { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">GameObject GameObject { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -123,7 +124,8 @@
   
   <a id="Scream_UniMO_Collections_IObjectPoolAble_Pool_" data-uid="Scream.UniMO.Collections.IObjectPoolAble.Pool*"></a>
   <h4 id="Scream_UniMO_Collections_IObjectPoolAble_Pool" data-uid="Scream.UniMO.Collections.IObjectPoolAble.Pool">Pool</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>which pool is object belongs to </p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -150,7 +152,8 @@
   
   <a id="Scream_UniMO_Collections_IObjectPoolAble_Init_" data-uid="Scream.UniMO.Collections.IObjectPoolAble.Init*"></a>
   <h4 id="Scream_UniMO_Collections_IObjectPoolAble_Init__1___0_" data-uid="Scream.UniMO.Collections.IObjectPoolAble.Init``1(``0)">Init&lt;T&gt;(T)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Call this method to init data of object</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -169,7 +172,8 @@
       <tr>
         <td><span class="xref">T</span></td>
         <td><span class="parametername">data</span></td>
-        <td></td>
+        <td><p>data</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -184,7 +188,8 @@
     <tbody>
       <tr>
         <td><span class="parametername">T</span></td>
-        <td></td>
+        <td><p>type of data</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -192,7 +197,8 @@
   
   <a id="Scream_UniMO_Collections_IObjectPoolAble_Recycle_" data-uid="Scream.UniMO.Collections.IObjectPoolAble.Recycle*"></a>
   <h4 id="Scream_UniMO_Collections_IObjectPoolAble_Recycle" data-uid="Scream.UniMO.Collections.IObjectPoolAble.Recycle">Recycle()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Call this method to recycle object back to pool</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
