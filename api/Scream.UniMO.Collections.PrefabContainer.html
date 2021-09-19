@@ -89,42 +89,26 @@
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><a class="xref" href="Scream.UniMO.Collections.Container-2.html">Container</a>&lt;<span class="xref">System.String</span>, <span class="xref">Object</span>&gt;</div>
-    <div class="level2"><span class="xref">PrefabContainer</span></div>
-  </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <a class="xref" href="Scream.UniMO.Collections.Container-2.html#Scream_UniMO_Collections_Container_2_Objects">Container&lt;String, Object&gt;.Objects</a>
-    </div>
-    <div>
-      <a class="xref" href="Scream.UniMO.Collections.Container-2.html#Scream_UniMO_Collections_Container_2_ToList">Container&lt;String, Object&gt;.ToList()</a>
-    </div>
-    <div>
-      <a class="xref" href="Scream.UniMO.Collections.Container-2.html#Scream_UniMO_Collections_Container_2_ToDictionary">Container&lt;String, Object&gt;.ToDictionary()</a>
-    </div>
+    <div class="level1"><span class="xref">PrefabContainer</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Scream.UniMO.Collections.html">Scream.UniMO.Collections</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="Scream_UniMO_Collections_PrefabContainer_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class PrefabContainer : Container&lt;string, Object&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public class PrefabContainer : ScriptableObject</code></pre>
   </div>
-  <h3 id="methods">Methods
+  <h3 id="fields">Fields
   </h3>
   
   
-  <a id="Scream_UniMO_Collections_PrefabContainer_ToDictionary_" data-uid="Scream.UniMO.Collections.PrefabContainer.ToDictionary*"></a>
-  <h4 id="Scream_UniMO_Collections_PrefabContainer_ToDictionary__2" data-uid="Scream.UniMO.Collections.PrefabContainer.ToDictionary``2">ToDictionary&lt;T, U&gt;()</h4>
-  <div class="markdown level1 summary"><p>Convert key from string to basic type</p>
-</div>
+  <h4 id="Scream_UniMO_Collections_PrefabContainer_PrefabDictionary" data-uid="Scream.UniMO.Collections.PrefabContainer.PrefabDictionary">PrefabDictionary</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Dictionary&lt;T, U&gt; ToDictionary&lt;T, U&gt;()
-    where T : IConvertible where U : Object</code></pre>
+    <pre><code class="lang-csharp hljs">public Container&lt;string, Object&gt;[] PrefabDictionary</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -134,74 +118,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Dictionary</span>&lt;T, U&gt;</td>
-        <td><p>Convert key to specif type and return as dictionary</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>Target key type</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">U</span></td>
-        <td><p>Object type</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Scream_UniMO_Collections_PrefabContainer_ToList_" data-uid="Scream.UniMO.Collections.PrefabContainer.ToList*"></a>
-  <h4 id="Scream_UniMO_Collections_PrefabContainer_ToList__1" data-uid="Scream.UniMO.Collections.PrefabContainer.ToList``1">ToList&lt;T&gt;()</h4>
-  <div class="markdown level1 summary"><p>Convert object to other type</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public List&lt;T&gt; ToList&lt;T&gt;()
-    where T : Object</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">List</span>&lt;T&gt;</td>
-        <td><p>Objects list</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>target type of object</p>
-</td>
+        <td><a class="xref" href="Scream.UniMO.Collections.Container-2.html">Container</a>&lt;<span class="xref">System.String</span>, <span class="xref">Object</span>&gt;[]</td>
+        <td></td>
       </tr>
     </tbody>
   </table>

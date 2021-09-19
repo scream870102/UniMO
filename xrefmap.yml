@@ -22,22 +22,77 @@ references:
   fullName.vb: Scream.UniMO.Collections.Container(Of T, U)
   nameWithType: Container<T, U>
   nameWithType.vb: Container(Of T, U)
-- uid: Scream.UniMO.Collections.Container`2.Objects
-  name: Objects
-  href: api/Scream.UniMO.Collections.Container-2.html#Scream_UniMO_Collections_Container_2_Objects
-  commentId: F:Scream.UniMO.Collections.Container`2.Objects
-  fullName: Scream.UniMO.Collections.Container<T, U>.Objects
-  fullName.vb: Scream.UniMO.Collections.Container(Of T, U).Objects
-  nameWithType: Container<T, U>.Objects
-  nameWithType.vb: Container(Of T, U).Objects
-- uid: Scream.UniMO.Collections.Container`2.ToDictionary
-  name: ToDictionary()
-  href: api/Scream.UniMO.Collections.Container-2.html#Scream_UniMO_Collections_Container_2_ToDictionary
-  commentId: M:Scream.UniMO.Collections.Container`2.ToDictionary
-  fullName: Scream.UniMO.Collections.Container<T, U>.ToDictionary()
-  fullName.vb: Scream.UniMO.Collections.Container(Of T, U).ToDictionary()
-  nameWithType: Container<T, U>.ToDictionary()
-  nameWithType.vb: Container(Of T, U).ToDictionary()
+- uid: Scream.UniMO.Collections.Container`2.ContainsKey(`0,IEnumerable{Scream.UniMO.Collections.Container{`0,`1}})
+  name: ContainsKey(T, IEnumerable<Container<T, U>>)
+  href: api/Scream.UniMO.Collections.Container-2.html#Scream_UniMO_Collections_Container_2_ContainsKey__0_IEnumerable_Scream_UniMO_Collections_Container__0__1___
+  commentId: M:Scream.UniMO.Collections.Container`2.ContainsKey(`0,IEnumerable{Scream.UniMO.Collections.Container{`0,`1}})
+  name.vb: ContainsKey(T, IEnumerable(Of Container(Of T, U)))
+  fullName: Scream.UniMO.Collections.Container<T, U>.ContainsKey(T, IEnumerable<Scream.UniMO.Collections.Container<T, U>>)
+  fullName.vb: Scream.UniMO.Collections.Container(Of T, U).ContainsKey(T, IEnumerable(Of Scream.UniMO.Collections.Container(Of T, U)))
+  nameWithType: Container<T, U>.ContainsKey(T, IEnumerable<Container<T, U>>)
+  nameWithType.vb: Container(Of T, U).ContainsKey(T, IEnumerable(Of Container(Of T, U)))
+- uid: Scream.UniMO.Collections.Container`2.ContainsKey*
+  name: ContainsKey
+  href: api/Scream.UniMO.Collections.Container-2.html#Scream_UniMO_Collections_Container_2_ContainsKey_
+  commentId: Overload:Scream.UniMO.Collections.Container`2.ContainsKey
+  isSpec: "True"
+  fullName: Scream.UniMO.Collections.Container<T, U>.ContainsKey
+  fullName.vb: Scream.UniMO.Collections.Container(Of T, U).ContainsKey
+  nameWithType: Container<T, U>.ContainsKey
+  nameWithType.vb: Container(Of T, U).ContainsKey
+- uid: Scream.UniMO.Collections.Container`2.ContainsValue(`1,IEnumerable{Scream.UniMO.Collections.Container{`0,`1}})
+  name: ContainsValue(U, IEnumerable<Container<T, U>>)
+  href: api/Scream.UniMO.Collections.Container-2.html#Scream_UniMO_Collections_Container_2_ContainsValue__1_IEnumerable_Scream_UniMO_Collections_Container__0__1___
+  commentId: M:Scream.UniMO.Collections.Container`2.ContainsValue(`1,IEnumerable{Scream.UniMO.Collections.Container{`0,`1}})
+  name.vb: ContainsValue(U, IEnumerable(Of Container(Of T, U)))
+  fullName: Scream.UniMO.Collections.Container<T, U>.ContainsValue(U, IEnumerable<Scream.UniMO.Collections.Container<T, U>>)
+  fullName.vb: Scream.UniMO.Collections.Container(Of T, U).ContainsValue(U, IEnumerable(Of Scream.UniMO.Collections.Container(Of T, U)))
+  nameWithType: Container<T, U>.ContainsValue(U, IEnumerable<Container<T, U>>)
+  nameWithType.vb: Container(Of T, U).ContainsValue(U, IEnumerable(Of Container(Of T, U)))
+- uid: Scream.UniMO.Collections.Container`2.ContainsValue*
+  name: ContainsValue
+  href: api/Scream.UniMO.Collections.Container-2.html#Scream_UniMO_Collections_Container_2_ContainsValue_
+  commentId: Overload:Scream.UniMO.Collections.Container`2.ContainsValue
+  isSpec: "True"
+  fullName: Scream.UniMO.Collections.Container<T, U>.ContainsValue
+  fullName.vb: Scream.UniMO.Collections.Container(Of T, U).ContainsValue
+  nameWithType: Container<T, U>.ContainsValue
+  nameWithType.vb: Container(Of T, U).ContainsValue
+- uid: Scream.UniMO.Collections.Container`2.Key
+  name: Key
+  href: api/Scream.UniMO.Collections.Container-2.html#Scream_UniMO_Collections_Container_2_Key
+  commentId: F:Scream.UniMO.Collections.Container`2.Key
+  fullName: Scream.UniMO.Collections.Container<T, U>.Key
+  fullName.vb: Scream.UniMO.Collections.Container(Of T, U).Key
+  nameWithType: Container<T, U>.Key
+  nameWithType.vb: Container(Of T, U).Key
+- uid: Scream.UniMO.Collections.Container`2.Keys(IEnumerable{Scream.UniMO.Collections.Container{`0,`1}})
+  name: Keys(IEnumerable<Container<T, U>>)
+  href: api/Scream.UniMO.Collections.Container-2.html#Scream_UniMO_Collections_Container_2_Keys_IEnumerable_Scream_UniMO_Collections_Container__0__1___
+  commentId: M:Scream.UniMO.Collections.Container`2.Keys(IEnumerable{Scream.UniMO.Collections.Container{`0,`1}})
+  name.vb: Keys(IEnumerable(Of Container(Of T, U)))
+  fullName: Scream.UniMO.Collections.Container<T, U>.Keys(IEnumerable<Scream.UniMO.Collections.Container<T, U>>)
+  fullName.vb: Scream.UniMO.Collections.Container(Of T, U).Keys(IEnumerable(Of Scream.UniMO.Collections.Container(Of T, U)))
+  nameWithType: Container<T, U>.Keys(IEnumerable<Container<T, U>>)
+  nameWithType.vb: Container(Of T, U).Keys(IEnumerable(Of Container(Of T, U)))
+- uid: Scream.UniMO.Collections.Container`2.Keys*
+  name: Keys
+  href: api/Scream.UniMO.Collections.Container-2.html#Scream_UniMO_Collections_Container_2_Keys_
+  commentId: Overload:Scream.UniMO.Collections.Container`2.Keys
+  isSpec: "True"
+  fullName: Scream.UniMO.Collections.Container<T, U>.Keys
+  fullName.vb: Scream.UniMO.Collections.Container(Of T, U).Keys
+  nameWithType: Container<T, U>.Keys
+  nameWithType.vb: Container(Of T, U).Keys
+- uid: Scream.UniMO.Collections.Container`2.ToDictionary(IEnumerable{Scream.UniMO.Collections.Container{`0,`1}})
+  name: ToDictionary(IEnumerable<Container<T, U>>)
+  href: api/Scream.UniMO.Collections.Container-2.html#Scream_UniMO_Collections_Container_2_ToDictionary_IEnumerable_Scream_UniMO_Collections_Container__0__1___
+  commentId: M:Scream.UniMO.Collections.Container`2.ToDictionary(IEnumerable{Scream.UniMO.Collections.Container{`0,`1}})
+  name.vb: ToDictionary(IEnumerable(Of Container(Of T, U)))
+  fullName: Scream.UniMO.Collections.Container<T, U>.ToDictionary(IEnumerable<Scream.UniMO.Collections.Container<T, U>>)
+  fullName.vb: Scream.UniMO.Collections.Container(Of T, U).ToDictionary(IEnumerable(Of Scream.UniMO.Collections.Container(Of T, U)))
+  nameWithType: Container<T, U>.ToDictionary(IEnumerable<Container<T, U>>)
+  nameWithType.vb: Container(Of T, U).ToDictionary(IEnumerable(Of Container(Of T, U)))
 - uid: Scream.UniMO.Collections.Container`2.ToDictionary*
   name: ToDictionary
   href: api/Scream.UniMO.Collections.Container-2.html#Scream_UniMO_Collections_Container_2_ToDictionary_
@@ -47,14 +102,15 @@ references:
   fullName.vb: Scream.UniMO.Collections.Container(Of T, U).ToDictionary
   nameWithType: Container<T, U>.ToDictionary
   nameWithType.vb: Container(Of T, U).ToDictionary
-- uid: Scream.UniMO.Collections.Container`2.ToList
-  name: ToList()
-  href: api/Scream.UniMO.Collections.Container-2.html#Scream_UniMO_Collections_Container_2_ToList
-  commentId: M:Scream.UniMO.Collections.Container`2.ToList
-  fullName: Scream.UniMO.Collections.Container<T, U>.ToList()
-  fullName.vb: Scream.UniMO.Collections.Container(Of T, U).ToList()
-  nameWithType: Container<T, U>.ToList()
-  nameWithType.vb: Container(Of T, U).ToList()
+- uid: Scream.UniMO.Collections.Container`2.ToList(IEnumerable{Scream.UniMO.Collections.Container{`0,`1}})
+  name: ToList(IEnumerable<Container<T, U>>)
+  href: api/Scream.UniMO.Collections.Container-2.html#Scream_UniMO_Collections_Container_2_ToList_IEnumerable_Scream_UniMO_Collections_Container__0__1___
+  commentId: M:Scream.UniMO.Collections.Container`2.ToList(IEnumerable{Scream.UniMO.Collections.Container{`0,`1}})
+  name.vb: ToList(IEnumerable(Of Container(Of T, U)))
+  fullName: Scream.UniMO.Collections.Container<T, U>.ToList(IEnumerable<Scream.UniMO.Collections.Container<T, U>>)
+  fullName.vb: Scream.UniMO.Collections.Container(Of T, U).ToList(IEnumerable(Of Scream.UniMO.Collections.Container(Of T, U)))
+  nameWithType: Container<T, U>.ToList(IEnumerable<Container<T, U>>)
+  nameWithType.vb: Container(Of T, U).ToList(IEnumerable(Of Container(Of T, U)))
 - uid: Scream.UniMO.Collections.Container`2.ToList*
   name: ToList
   href: api/Scream.UniMO.Collections.Container-2.html#Scream_UniMO_Collections_Container_2_ToList_
@@ -64,6 +120,134 @@ references:
   fullName.vb: Scream.UniMO.Collections.Container(Of T, U).ToList
   nameWithType: Container<T, U>.ToList
   nameWithType.vb: Container(Of T, U).ToList
+- uid: Scream.UniMO.Collections.Container`2.Value
+  name: Value
+  href: api/Scream.UniMO.Collections.Container-2.html#Scream_UniMO_Collections_Container_2_Value
+  commentId: F:Scream.UniMO.Collections.Container`2.Value
+  fullName: Scream.UniMO.Collections.Container<T, U>.Value
+  fullName.vb: Scream.UniMO.Collections.Container(Of T, U).Value
+  nameWithType: Container<T, U>.Value
+  nameWithType.vb: Container(Of T, U).Value
+- uid: Scream.UniMO.Collections.Container`2.Values(IEnumerable{Scream.UniMO.Collections.Container{`0,`1}})
+  name: Values(IEnumerable<Container<T, U>>)
+  href: api/Scream.UniMO.Collections.Container-2.html#Scream_UniMO_Collections_Container_2_Values_IEnumerable_Scream_UniMO_Collections_Container__0__1___
+  commentId: M:Scream.UniMO.Collections.Container`2.Values(IEnumerable{Scream.UniMO.Collections.Container{`0,`1}})
+  name.vb: Values(IEnumerable(Of Container(Of T, U)))
+  fullName: Scream.UniMO.Collections.Container<T, U>.Values(IEnumerable<Scream.UniMO.Collections.Container<T, U>>)
+  fullName.vb: Scream.UniMO.Collections.Container(Of T, U).Values(IEnumerable(Of Scream.UniMO.Collections.Container(Of T, U)))
+  nameWithType: Container<T, U>.Values(IEnumerable<Container<T, U>>)
+  nameWithType.vb: Container(Of T, U).Values(IEnumerable(Of Container(Of T, U)))
+- uid: Scream.UniMO.Collections.Container`2.Values*
+  name: Values
+  href: api/Scream.UniMO.Collections.Container-2.html#Scream_UniMO_Collections_Container_2_Values_
+  commentId: Overload:Scream.UniMO.Collections.Container`2.Values
+  isSpec: "True"
+  fullName: Scream.UniMO.Collections.Container<T, U>.Values
+  fullName.vb: Scream.UniMO.Collections.Container(Of T, U).Values
+  nameWithType: Container<T, U>.Values
+  nameWithType.vb: Container(Of T, U).Values
+- uid: Scream.UniMO.Collections.ContainerExtension
+  name: ContainerExtension
+  href: api/Scream.UniMO.Collections.ContainerExtension.html
+  commentId: T:Scream.UniMO.Collections.ContainerExtension
+  fullName: Scream.UniMO.Collections.ContainerExtension
+  nameWithType: ContainerExtension
+- uid: Scream.UniMO.Collections.ContainerExtension.ContainsKey*
+  name: ContainsKey
+  href: api/Scream.UniMO.Collections.ContainerExtension.html#Scream_UniMO_Collections_ContainerExtension_ContainsKey_
+  commentId: Overload:Scream.UniMO.Collections.ContainerExtension.ContainsKey
+  isSpec: "True"
+  fullName: Scream.UniMO.Collections.ContainerExtension.ContainsKey
+  nameWithType: ContainerExtension.ContainsKey
+- uid: Scream.UniMO.Collections.ContainerExtension.ContainsKey``2(IEnumerable{Scream.UniMO.Collections.Container{``0,``1}},``0)
+  name: ContainsKey<T, U>(IEnumerable<Container<T, U>>, T)
+  href: api/Scream.UniMO.Collections.ContainerExtension.html#Scream_UniMO_Collections_ContainerExtension_ContainsKey__2_IEnumerable_Scream_UniMO_Collections_Container___0___1_____0_
+  commentId: M:Scream.UniMO.Collections.ContainerExtension.ContainsKey``2(IEnumerable{Scream.UniMO.Collections.Container{``0,``1}},``0)
+  name.vb: ContainsKey(Of T, U)(IEnumerable(Of Container(Of T, U)), T)
+  fullName: Scream.UniMO.Collections.ContainerExtension.ContainsKey<T, U>(IEnumerable<Scream.UniMO.Collections.Container<T, U>>, T)
+  fullName.vb: Scream.UniMO.Collections.ContainerExtension.ContainsKey(Of T, U)(IEnumerable(Of Scream.UniMO.Collections.Container(Of T, U)), T)
+  nameWithType: ContainerExtension.ContainsKey<T, U>(IEnumerable<Container<T, U>>, T)
+  nameWithType.vb: ContainerExtension.ContainsKey(Of T, U)(IEnumerable(Of Container(Of T, U)), T)
+- uid: Scream.UniMO.Collections.ContainerExtension.ContainsValue*
+  name: ContainsValue
+  href: api/Scream.UniMO.Collections.ContainerExtension.html#Scream_UniMO_Collections_ContainerExtension_ContainsValue_
+  commentId: Overload:Scream.UniMO.Collections.ContainerExtension.ContainsValue
+  isSpec: "True"
+  fullName: Scream.UniMO.Collections.ContainerExtension.ContainsValue
+  nameWithType: ContainerExtension.ContainsValue
+- uid: Scream.UniMO.Collections.ContainerExtension.ContainsValue``2(IEnumerable{Scream.UniMO.Collections.Container{``0,``1}},``1)
+  name: ContainsValue<T, U>(IEnumerable<Container<T, U>>, U)
+  href: api/Scream.UniMO.Collections.ContainerExtension.html#Scream_UniMO_Collections_ContainerExtension_ContainsValue__2_IEnumerable_Scream_UniMO_Collections_Container___0___1_____1_
+  commentId: M:Scream.UniMO.Collections.ContainerExtension.ContainsValue``2(IEnumerable{Scream.UniMO.Collections.Container{``0,``1}},``1)
+  name.vb: ContainsValue(Of T, U)(IEnumerable(Of Container(Of T, U)), U)
+  fullName: Scream.UniMO.Collections.ContainerExtension.ContainsValue<T, U>(IEnumerable<Scream.UniMO.Collections.Container<T, U>>, U)
+  fullName.vb: Scream.UniMO.Collections.ContainerExtension.ContainsValue(Of T, U)(IEnumerable(Of Scream.UniMO.Collections.Container(Of T, U)), U)
+  nameWithType: ContainerExtension.ContainsValue<T, U>(IEnumerable<Container<T, U>>, U)
+  nameWithType.vb: ContainerExtension.ContainsValue(Of T, U)(IEnumerable(Of Container(Of T, U)), U)
+- uid: Scream.UniMO.Collections.ContainerExtension.Keys*
+  name: Keys
+  href: api/Scream.UniMO.Collections.ContainerExtension.html#Scream_UniMO_Collections_ContainerExtension_Keys_
+  commentId: Overload:Scream.UniMO.Collections.ContainerExtension.Keys
+  isSpec: "True"
+  fullName: Scream.UniMO.Collections.ContainerExtension.Keys
+  nameWithType: ContainerExtension.Keys
+- uid: Scream.UniMO.Collections.ContainerExtension.Keys``2(IEnumerable{Scream.UniMO.Collections.Container{``0,``1}})
+  name: Keys<T, U>(IEnumerable<Container<T, U>>)
+  href: api/Scream.UniMO.Collections.ContainerExtension.html#Scream_UniMO_Collections_ContainerExtension_Keys__2_IEnumerable_Scream_UniMO_Collections_Container___0___1___
+  commentId: M:Scream.UniMO.Collections.ContainerExtension.Keys``2(IEnumerable{Scream.UniMO.Collections.Container{``0,``1}})
+  name.vb: Keys(Of T, U)(IEnumerable(Of Container(Of T, U)))
+  fullName: Scream.UniMO.Collections.ContainerExtension.Keys<T, U>(IEnumerable<Scream.UniMO.Collections.Container<T, U>>)
+  fullName.vb: Scream.UniMO.Collections.ContainerExtension.Keys(Of T, U)(IEnumerable(Of Scream.UniMO.Collections.Container(Of T, U)))
+  nameWithType: ContainerExtension.Keys<T, U>(IEnumerable<Container<T, U>>)
+  nameWithType.vb: ContainerExtension.Keys(Of T, U)(IEnumerable(Of Container(Of T, U)))
+- uid: Scream.UniMO.Collections.ContainerExtension.ToDictionary*
+  name: ToDictionary
+  href: api/Scream.UniMO.Collections.ContainerExtension.html#Scream_UniMO_Collections_ContainerExtension_ToDictionary_
+  commentId: Overload:Scream.UniMO.Collections.ContainerExtension.ToDictionary
+  isSpec: "True"
+  fullName: Scream.UniMO.Collections.ContainerExtension.ToDictionary
+  nameWithType: ContainerExtension.ToDictionary
+- uid: Scream.UniMO.Collections.ContainerExtension.ToDictionary``2(IEnumerable{Scream.UniMO.Collections.Container{``0,``1}})
+  name: ToDictionary<T, U>(IEnumerable<Container<T, U>>)
+  href: api/Scream.UniMO.Collections.ContainerExtension.html#Scream_UniMO_Collections_ContainerExtension_ToDictionary__2_IEnumerable_Scream_UniMO_Collections_Container___0___1___
+  commentId: M:Scream.UniMO.Collections.ContainerExtension.ToDictionary``2(IEnumerable{Scream.UniMO.Collections.Container{``0,``1}})
+  name.vb: ToDictionary(Of T, U)(IEnumerable(Of Container(Of T, U)))
+  fullName: Scream.UniMO.Collections.ContainerExtension.ToDictionary<T, U>(IEnumerable<Scream.UniMO.Collections.Container<T, U>>)
+  fullName.vb: Scream.UniMO.Collections.ContainerExtension.ToDictionary(Of T, U)(IEnumerable(Of Scream.UniMO.Collections.Container(Of T, U)))
+  nameWithType: ContainerExtension.ToDictionary<T, U>(IEnumerable<Container<T, U>>)
+  nameWithType.vb: ContainerExtension.ToDictionary(Of T, U)(IEnumerable(Of Container(Of T, U)))
+- uid: Scream.UniMO.Collections.ContainerExtension.ToList*
+  name: ToList
+  href: api/Scream.UniMO.Collections.ContainerExtension.html#Scream_UniMO_Collections_ContainerExtension_ToList_
+  commentId: Overload:Scream.UniMO.Collections.ContainerExtension.ToList
+  isSpec: "True"
+  fullName: Scream.UniMO.Collections.ContainerExtension.ToList
+  nameWithType: ContainerExtension.ToList
+- uid: Scream.UniMO.Collections.ContainerExtension.ToList``2(IEnumerable{Scream.UniMO.Collections.Container{``0,``1}})
+  name: ToList<T, U>(IEnumerable<Container<T, U>>)
+  href: api/Scream.UniMO.Collections.ContainerExtension.html#Scream_UniMO_Collections_ContainerExtension_ToList__2_IEnumerable_Scream_UniMO_Collections_Container___0___1___
+  commentId: M:Scream.UniMO.Collections.ContainerExtension.ToList``2(IEnumerable{Scream.UniMO.Collections.Container{``0,``1}})
+  name.vb: ToList(Of T, U)(IEnumerable(Of Container(Of T, U)))
+  fullName: Scream.UniMO.Collections.ContainerExtension.ToList<T, U>(IEnumerable<Scream.UniMO.Collections.Container<T, U>>)
+  fullName.vb: Scream.UniMO.Collections.ContainerExtension.ToList(Of T, U)(IEnumerable(Of Scream.UniMO.Collections.Container(Of T, U)))
+  nameWithType: ContainerExtension.ToList<T, U>(IEnumerable<Container<T, U>>)
+  nameWithType.vb: ContainerExtension.ToList(Of T, U)(IEnumerable(Of Container(Of T, U)))
+- uid: Scream.UniMO.Collections.ContainerExtension.Values*
+  name: Values
+  href: api/Scream.UniMO.Collections.ContainerExtension.html#Scream_UniMO_Collections_ContainerExtension_Values_
+  commentId: Overload:Scream.UniMO.Collections.ContainerExtension.Values
+  isSpec: "True"
+  fullName: Scream.UniMO.Collections.ContainerExtension.Values
+  nameWithType: ContainerExtension.Values
+- uid: Scream.UniMO.Collections.ContainerExtension.Values``2(IEnumerable{Scream.UniMO.Collections.Container{``0,``1}})
+  name: Values<T, U>(IEnumerable<Container<T, U>>)
+  href: api/Scream.UniMO.Collections.ContainerExtension.html#Scream_UniMO_Collections_ContainerExtension_Values__2_IEnumerable_Scream_UniMO_Collections_Container___0___1___
+  commentId: M:Scream.UniMO.Collections.ContainerExtension.Values``2(IEnumerable{Scream.UniMO.Collections.Container{``0,``1}})
+  name.vb: Values(Of T, U)(IEnumerable(Of Container(Of T, U)))
+  fullName: Scream.UniMO.Collections.ContainerExtension.Values<T, U>(IEnumerable<Scream.UniMO.Collections.Container<T, U>>)
+  fullName.vb: Scream.UniMO.Collections.ContainerExtension.Values(Of T, U)(IEnumerable(Of Scream.UniMO.Collections.Container(Of T, U)))
+  nameWithType: ContainerExtension.Values<T, U>(IEnumerable<Container<T, U>>)
+  nameWithType.vb: ContainerExtension.Values(Of T, U)(IEnumerable(Of Container(Of T, U)))
 - uid: Scream.UniMO.Collections.IObjectPoolAble
   name: IObjectPoolAble
   href: api/Scream.UniMO.Collections.IObjectPoolAble.html
@@ -125,31 +309,6 @@ references:
   isSpec: "True"
   fullName: Scream.UniMO.Collections.IObjectPoolAble.Recycle
   nameWithType: IObjectPoolAble.Recycle
-- uid: Scream.UniMO.Collections.ObjectContainer`2
-  name: ObjectContainer<T, U>
-  href: api/Scream.UniMO.Collections.ObjectContainer-2.html
-  commentId: T:Scream.UniMO.Collections.ObjectContainer`2
-  name.vb: ObjectContainer(Of T, U)
-  fullName: Scream.UniMO.Collections.ObjectContainer<T, U>
-  fullName.vb: Scream.UniMO.Collections.ObjectContainer(Of T, U)
-  nameWithType: ObjectContainer<T, U>
-  nameWithType.vb: ObjectContainer(Of T, U)
-- uid: Scream.UniMO.Collections.ObjectContainer`2.Key
-  name: Key
-  href: api/Scream.UniMO.Collections.ObjectContainer-2.html#Scream_UniMO_Collections_ObjectContainer_2_Key
-  commentId: F:Scream.UniMO.Collections.ObjectContainer`2.Key
-  fullName: Scream.UniMO.Collections.ObjectContainer<T, U>.Key
-  fullName.vb: Scream.UniMO.Collections.ObjectContainer(Of T, U).Key
-  nameWithType: ObjectContainer<T, U>.Key
-  nameWithType.vb: ObjectContainer(Of T, U).Key
-- uid: Scream.UniMO.Collections.ObjectContainer`2.Object
-  name: Object
-  href: api/Scream.UniMO.Collections.ObjectContainer-2.html#Scream_UniMO_Collections_ObjectContainer_2_Object
-  commentId: F:Scream.UniMO.Collections.ObjectContainer`2.Object
-  fullName: Scream.UniMO.Collections.ObjectContainer<T, U>.Object
-  fullName.vb: Scream.UniMO.Collections.ObjectContainer(Of T, U).Object
-  nameWithType: ObjectContainer<T, U>.Object
-  nameWithType.vb: ObjectContainer(Of T, U).Object
 - uid: Scream.UniMO.Collections.ObjectPool
   name: ObjectPool
   href: api/Scream.UniMO.Collections.ObjectPool.html
@@ -254,38 +413,12 @@ references:
   commentId: T:Scream.UniMO.Collections.PrefabContainer
   fullName: Scream.UniMO.Collections.PrefabContainer
   nameWithType: PrefabContainer
-- uid: Scream.UniMO.Collections.PrefabContainer.ToDictionary*
-  name: ToDictionary
-  href: api/Scream.UniMO.Collections.PrefabContainer.html#Scream_UniMO_Collections_PrefabContainer_ToDictionary_
-  commentId: Overload:Scream.UniMO.Collections.PrefabContainer.ToDictionary
-  isSpec: "True"
-  fullName: Scream.UniMO.Collections.PrefabContainer.ToDictionary
-  nameWithType: PrefabContainer.ToDictionary
-- uid: Scream.UniMO.Collections.PrefabContainer.ToDictionary``2
-  name: ToDictionary<T, U>()
-  href: api/Scream.UniMO.Collections.PrefabContainer.html#Scream_UniMO_Collections_PrefabContainer_ToDictionary__2
-  commentId: M:Scream.UniMO.Collections.PrefabContainer.ToDictionary``2
-  name.vb: ToDictionary(Of T, U)()
-  fullName: Scream.UniMO.Collections.PrefabContainer.ToDictionary<T, U>()
-  fullName.vb: Scream.UniMO.Collections.PrefabContainer.ToDictionary(Of T, U)()
-  nameWithType: PrefabContainer.ToDictionary<T, U>()
-  nameWithType.vb: PrefabContainer.ToDictionary(Of T, U)()
-- uid: Scream.UniMO.Collections.PrefabContainer.ToList*
-  name: ToList
-  href: api/Scream.UniMO.Collections.PrefabContainer.html#Scream_UniMO_Collections_PrefabContainer_ToList_
-  commentId: Overload:Scream.UniMO.Collections.PrefabContainer.ToList
-  isSpec: "True"
-  fullName: Scream.UniMO.Collections.PrefabContainer.ToList
-  nameWithType: PrefabContainer.ToList
-- uid: Scream.UniMO.Collections.PrefabContainer.ToList``1
-  name: ToList<T>()
-  href: api/Scream.UniMO.Collections.PrefabContainer.html#Scream_UniMO_Collections_PrefabContainer_ToList__1
-  commentId: M:Scream.UniMO.Collections.PrefabContainer.ToList``1
-  name.vb: ToList(Of T)()
-  fullName: Scream.UniMO.Collections.PrefabContainer.ToList<T>()
-  fullName.vb: Scream.UniMO.Collections.PrefabContainer.ToList(Of T)()
-  nameWithType: PrefabContainer.ToList<T>()
-  nameWithType.vb: PrefabContainer.ToList(Of T)()
+- uid: Scream.UniMO.Collections.PrefabContainer.PrefabDictionary
+  name: PrefabDictionary
+  href: api/Scream.UniMO.Collections.PrefabContainer.html#Scream_UniMO_Collections_PrefabContainer_PrefabDictionary
+  commentId: F:Scream.UniMO.Collections.PrefabContainer.PrefabDictionary
+  fullName: Scream.UniMO.Collections.PrefabContainer.PrefabDictionary
+  nameWithType: PrefabContainer.PrefabDictionary
 - uid: Scream.UniMO.DomainEvents
   name: DomainEvents
   href: api/Scream.UniMO.DomainEvents.html

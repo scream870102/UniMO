@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class Container&lt;T, U&gt;
+    <title>Class ContainerExtension
    | UniMO </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class Container&lt;T, U&gt;
+    <meta name="title" content="Class ContainerExtension
    | UniMO ">
     <meta name="generator" content="docfx 2.56.7.0">
     
@@ -78,19 +78,18 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Scream.UniMO.Collections.Container`2">
+            <article class="content wrap" id="_content" data-uid="Scream.UniMO.Collections.ContainerExtension">
   
   
-  <h1 id="Scream_UniMO_Collections_Container_2" data-uid="Scream.UniMO.Collections.Container`2" class="text-break">Class Container&lt;T, U&gt;
+  <h1 id="Scream_UniMO_Collections_ContainerExtension" data-uid="Scream.UniMO.Collections.ContainerExtension" class="text-break">Class ContainerExtension
   </h1>
-  <div class="markdown level0 summary"><p>Use this scriptableobject to store all object you need.
-<p>Inherit this class to fit your own object</p></p>
+  <div class="markdown level0 summary"><p>ContainerExtension contains extension method for container class</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">Container&lt;T, U&gt;</span></div>
+    <div class="level1"><span class="xref">ContainerExtension</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -118,11 +117,64 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Scream.UniMO.Collections.html">Scream.UniMO.Collections</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="Scream_UniMO_Collections_Container_2_syntax">Syntax</h5>
+  <h5 id="Scream_UniMO_Collections_ContainerExtension_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Container&lt;T, U&gt;
+    <pre><code class="lang-csharp hljs">public static class ContainerExtension</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Scream_UniMO_Collections_ContainerExtension_ContainsKey_" data-uid="Scream.UniMO.Collections.ContainerExtension.ContainsKey*"></a>
+  <h4 id="Scream_UniMO_Collections_ContainerExtension_ContainsKey__2_IEnumerable_Scream_UniMO_Collections_Container___0___1_____0_" data-uid="Scream.UniMO.Collections.ContainerExtension.ContainsKey``2(IEnumerable{Scream.UniMO.Collections.Container{``0,``1}},``0)">ContainsKey&lt;T, U&gt;(IEnumerable&lt;Container&lt;T, U&gt;&gt;, T)</h4>
+  <div class="markdown level1 summary"><p>Check if this collection contains specific key </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool ContainsKey&lt;T, U&gt;(this IEnumerable&lt;Container&lt;T, U&gt;&gt; collection, T key)
     where T : struct</code></pre>
   </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="Scream.UniMO.Collections.Container-2.html">Container</a>&lt;T, U&gt;&gt;</td>
+        <td><span class="parametername">collection</span></td>
+        <td><p>resource collection</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>key to find</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>result</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -139,124 +191,22 @@
       </tr>
       <tr>
         <td><span class="parametername">U</span></td>
-        <td><p>type of target object</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="fields">Fields
-  </h3>
-  
-  
-  <h4 id="Scream_UniMO_Collections_Container_2_Key" data-uid="Scream.UniMO.Collections.Container`2.Key">Key</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public T Key</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Scream_UniMO_Collections_Container_2_Value" data-uid="Scream.UniMO.Collections.Container`2.Value">Value</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public U Value</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">U</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="methods">Methods
-  </h3>
-  
-  
-  <a id="Scream_UniMO_Collections_Container_2_ContainsKey_" data-uid="Scream.UniMO.Collections.Container`2.ContainsKey*"></a>
-  <h4 id="Scream_UniMO_Collections_Container_2_ContainsKey__0_IEnumerable_Scream_UniMO_Collections_Container__0__1___" data-uid="Scream.UniMO.Collections.Container`2.ContainsKey(`0,IEnumerable{Scream.UniMO.Collections.Container{`0,`1}})">ContainsKey(T, IEnumerable&lt;Container&lt;T, U&gt;&gt;)</h4>
-  <div class="markdown level1 summary"><p>Check if this collection contains specific key </p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool ContainsKey(T key, IEnumerable&lt;Container&lt;T, U&gt;&gt; collection)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td><span class="parametername">key</span></td>
-        <td><p>key to find</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="Scream.UniMO.Collections.Container-2.html">Container</a>&lt;T, U&gt;&gt;</td>
-        <td><span class="parametername">collection</span></td>
-        <td><p>which collection to be found</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><p>return the result</p>
+        <td><p>type of value</p>
 </td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Scream_UniMO_Collections_Container_2_ContainsValue_" data-uid="Scream.UniMO.Collections.Container`2.ContainsValue*"></a>
-  <h4 id="Scream_UniMO_Collections_Container_2_ContainsValue__1_IEnumerable_Scream_UniMO_Collections_Container__0__1___" data-uid="Scream.UniMO.Collections.Container`2.ContainsValue(`1,IEnumerable{Scream.UniMO.Collections.Container{`0,`1}})">ContainsValue(U, IEnumerable&lt;Container&lt;T, U&gt;&gt;)</h4>
+  <a id="Scream_UniMO_Collections_ContainerExtension_ContainsValue_" data-uid="Scream.UniMO.Collections.ContainerExtension.ContainsValue*"></a>
+  <h4 id="Scream_UniMO_Collections_ContainerExtension_ContainsValue__2_IEnumerable_Scream_UniMO_Collections_Container___0___1_____1_" data-uid="Scream.UniMO.Collections.ContainerExtension.ContainsValue``2(IEnumerable{Scream.UniMO.Collections.Container{``0,``1}},``1)">ContainsValue&lt;T, U&gt;(IEnumerable&lt;Container&lt;T, U&gt;&gt;, U)</h4>
   <div class="markdown level1 summary"><p>Check if this collection contains specific value</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool ContainsValue(U value, IEnumerable&lt;Container&lt;T, U&gt;&gt; collection)</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool ContainsValue&lt;T, U&gt;(this IEnumerable&lt;Container&lt;T, U&gt;&gt; collection, U value)
+    where T : struct</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -268,18 +218,18 @@
       </tr>
     </thead>
     <tbody>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="Scream.UniMO.Collections.Container-2.html">Container</a>&lt;T, U&gt;&gt;</td>
+        <td><span class="parametername">collection</span></td>
+        <td><p>resource collection</p>
+</td>
+      </tr>
       <tr>
         <td><span class="xref">U</span></td>
         <td><span class="parametername">value</span></td>
         <td><p>value to find</p>
 </td>
       </tr>
-      <tr>
-        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="Scream.UniMO.Collections.Container-2.html">Container</a>&lt;T, U&gt;&gt;</td>
-        <td><span class="parametername">collection</span></td>
-        <td><p>which collection to be found</p>
-</td>
-      </tr>
     </tbody>
   </table>
   <h5 class="returns">Returns</h5>
@@ -293,21 +243,43 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td><p>return the result</p>
+        <td><p>result</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>type of key</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">U</span></td>
+        <td><p>type of value</p>
 </td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Scream_UniMO_Collections_Container_2_Keys_" data-uid="Scream.UniMO.Collections.Container`2.Keys*"></a>
-  <h4 id="Scream_UniMO_Collections_Container_2_Keys_IEnumerable_Scream_UniMO_Collections_Container__0__1___" data-uid="Scream.UniMO.Collections.Container`2.Keys(IEnumerable{Scream.UniMO.Collections.Container{`0,`1}})">Keys(IEnumerable&lt;Container&lt;T, U&gt;&gt;)</h4>
+  <a id="Scream_UniMO_Collections_ContainerExtension_Keys_" data-uid="Scream.UniMO.Collections.ContainerExtension.Keys*"></a>
+  <h4 id="Scream_UniMO_Collections_ContainerExtension_Keys__2_IEnumerable_Scream_UniMO_Collections_Container___0___1___" data-uid="Scream.UniMO.Collections.ContainerExtension.Keys``2(IEnumerable{Scream.UniMO.Collections.Container{``0,``1}})">Keys&lt;T, U&gt;(IEnumerable&lt;Container&lt;T, U&gt;&gt;)</h4>
   <div class="markdown level1 summary"><p>Get all the keys from a collection</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static T[] Keys(IEnumerable&lt;Container&lt;T, U&gt;&gt; collection)</code></pre>
+    <pre><code class="lang-csharp hljs">public static T[] Keys&lt;T, U&gt;(this IEnumerable&lt;Container&lt;T, U&gt;&gt; collection)
+    where T : struct</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -343,16 +315,38 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>type of key</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">U</span></td>
+        <td><p>type of value</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   
   
-  <a id="Scream_UniMO_Collections_Container_2_ToDictionary_" data-uid="Scream.UniMO.Collections.Container`2.ToDictionary*"></a>
-  <h4 id="Scream_UniMO_Collections_Container_2_ToDictionary_IEnumerable_Scream_UniMO_Collections_Container__0__1___" data-uid="Scream.UniMO.Collections.Container`2.ToDictionary(IEnumerable{Scream.UniMO.Collections.Container{`0,`1}})">ToDictionary(IEnumerable&lt;Container&lt;T, U&gt;&gt;)</h4>
-  <div class="markdown level1 summary"><p>Convert to dictionary</p>
+  <a id="Scream_UniMO_Collections_ContainerExtension_ToDictionary_" data-uid="Scream.UniMO.Collections.ContainerExtension.ToDictionary*"></a>
+  <h4 id="Scream_UniMO_Collections_ContainerExtension_ToDictionary__2_IEnumerable_Scream_UniMO_Collections_Container___0___1___" data-uid="Scream.UniMO.Collections.ContainerExtension.ToDictionary``2(IEnumerable{Scream.UniMO.Collections.Container{``0,``1}})">ToDictionary&lt;T, U&gt;(IEnumerable&lt;Container&lt;T, U&gt;&gt;)</h4>
+  <div class="markdown level1 summary"><p>Convert to dictionary ,ignore value key pair if key already exists</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Dictionary&lt;T, U&gt; ToDictionary(IEnumerable&lt;Container&lt;T, U&gt;&gt; collection)</code></pre>
+    <pre><code class="lang-csharp hljs">public static Dictionary&lt;T, U&gt; ToDictionary&lt;T, U&gt;(this IEnumerable&lt;Container&lt;T, U&gt;&gt; collection)
+    where T : struct</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -367,7 +361,7 @@
       <tr>
         <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="Scream.UniMO.Collections.Container-2.html">Container</a>&lt;T, U&gt;&gt;</td>
         <td><span class="parametername">collection</span></td>
-        <td><p>which collection to be found</p>
+        <td><p>resource collection</p>
 </td>
       </tr>
     </tbody>
@@ -383,21 +377,43 @@
     <tbody>
       <tr>
         <td><span class="xref">Dictionary</span>&lt;T, U&gt;</td>
-        <td><p>Convert Objects to dictionary</p>
+        <td><p>all object to dictionary</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>type of key</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">U</span></td>
+        <td><p>type of value</p>
 </td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Scream_UniMO_Collections_Container_2_ToList_" data-uid="Scream.UniMO.Collections.Container`2.ToList*"></a>
-  <h4 id="Scream_UniMO_Collections_Container_2_ToList_IEnumerable_Scream_UniMO_Collections_Container__0__1___" data-uid="Scream.UniMO.Collections.Container`2.ToList(IEnumerable{Scream.UniMO.Collections.Container{`0,`1}})">ToList(IEnumerable&lt;Container&lt;T, U&gt;&gt;)</h4>
+  <a id="Scream_UniMO_Collections_ContainerExtension_ToList_" data-uid="Scream.UniMO.Collections.ContainerExtension.ToList*"></a>
+  <h4 id="Scream_UniMO_Collections_ContainerExtension_ToList__2_IEnumerable_Scream_UniMO_Collections_Container___0___1___" data-uid="Scream.UniMO.Collections.ContainerExtension.ToList``2(IEnumerable{Scream.UniMO.Collections.Container{``0,``1}})">ToList&lt;T, U&gt;(IEnumerable&lt;Container&lt;T, U&gt;&gt;)</h4>
   <div class="markdown level1 summary"><p>Convert to list and ignore key</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static List&lt;U&gt; ToList(IEnumerable&lt;Container&lt;T, U&gt;&gt; collection)</code></pre>
+    <pre><code class="lang-csharp hljs">public static List&lt;U&gt; ToList&lt;T, U&gt;(this IEnumerable&lt;Container&lt;T, U&gt;&gt; collection)
+    where T : struct</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -412,7 +428,7 @@
       <tr>
         <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="Scream.UniMO.Collections.Container-2.html">Container</a>&lt;T, U&gt;&gt;</td>
         <td><span class="parametername">collection</span></td>
-        <td><p>which collection to be found</p>
+        <td><p>resource collection</p>
 </td>
       </tr>
     </tbody>
@@ -428,21 +444,43 @@
     <tbody>
       <tr>
         <td><span class="xref">List</span>&lt;U&gt;</td>
-        <td><p>convert the array of Objects to list</p>
+        <td><p>all object to list</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>type of key</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">U</span></td>
+        <td><p>type of value</p>
 </td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Scream_UniMO_Collections_Container_2_Values_" data-uid="Scream.UniMO.Collections.Container`2.Values*"></a>
-  <h4 id="Scream_UniMO_Collections_Container_2_Values_IEnumerable_Scream_UniMO_Collections_Container__0__1___" data-uid="Scream.UniMO.Collections.Container`2.Values(IEnumerable{Scream.UniMO.Collections.Container{`0,`1}})">Values(IEnumerable&lt;Container&lt;T, U&gt;&gt;)</h4>
+  <a id="Scream_UniMO_Collections_ContainerExtension_Values_" data-uid="Scream.UniMO.Collections.ContainerExtension.Values*"></a>
+  <h4 id="Scream_UniMO_Collections_ContainerExtension_Values__2_IEnumerable_Scream_UniMO_Collections_Container___0___1___" data-uid="Scream.UniMO.Collections.ContainerExtension.Values``2(IEnumerable{Scream.UniMO.Collections.Container{``0,``1}})">Values&lt;T, U&gt;(IEnumerable&lt;Container&lt;T, U&gt;&gt;)</h4>
   <div class="markdown level1 summary"><p>Get all the values from a collection</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static U[] Values(IEnumerable&lt;Container&lt;T, U&gt;&gt; collection)</code></pre>
+    <pre><code class="lang-csharp hljs">public static U[] Values&lt;T, U&gt;(this IEnumerable&lt;Container&lt;T, U&gt;&gt; collection)
+    where T : struct</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -474,6 +512,27 @@
       <tr>
         <td>U[]</td>
         <td><p>all the values as array</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>type of key</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">U</span></td>
+        <td><p>type of value</p>
 </td>
       </tr>
     </tbody>
