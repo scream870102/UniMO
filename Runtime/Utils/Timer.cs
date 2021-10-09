@@ -1,9 +1,9 @@
 using UnityEngine;
 #if UNITY_EDITOR
-using Scream.UniMO.Editor;
+using Scream.UniMO.Editor.Utils;
 #endif
 
-namespace Scream.UniMO
+namespace Scream.UniMO.Utils
 {
     /// <summary>
     /// a countdown timer easy to use not affected by TimeScale

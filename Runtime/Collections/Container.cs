@@ -11,7 +11,7 @@ namespace Scream.UniMO.Collections
     /// <typeparam name="U">type of target object</typeparam>
     [Serializable]
     public class Container<T, U>
-    where T : struct
+    where T : IConvertible
     {
         public T Key;
         public U Value;
@@ -129,7 +129,7 @@ namespace Scream.UniMO.Collections
         /// <typeparam name="U">type of value</typeparam>
         /// <returns>all object to list</returns>
         public static List<U> ToList<T, U>(this IEnumerable<Container<T, U>> collection)
-        where T : struct
+        where T : IConvertible
         {
             return Container<T, U>.ToList(collection);
         }
@@ -142,7 +142,7 @@ namespace Scream.UniMO.Collections
         /// <typeparam name="U">type of value</typeparam>
         /// <returns>all object to dictionary</returns>
         public static Dictionary<T, U> ToDictionary<T, U>(this IEnumerable<Container<T, U>> collection)
-        where T : struct
+        where T : IConvertible
         {
             return Container<T, U>.ToDictionary(collection);
         }
@@ -156,7 +156,7 @@ namespace Scream.UniMO.Collections
         /// <typeparam name="U">type of value</typeparam>
         /// <returns>result</returns>
         public static bool ContainsValue<T, U>(this IEnumerable<Container<T, U>> collection, U value)
-        where T : struct
+        where T : IConvertible
         {
             return Container<T, U>.ContainsValue(value, collection);
         }
@@ -170,7 +170,7 @@ namespace Scream.UniMO.Collections
         /// <typeparam name="U">type of value</typeparam>
         /// <returns>result</returns>
         public static bool ContainsKey<T, U>(this IEnumerable<Container<T, U>> collection, T key)
-        where T : struct
+        where T : IConvertible
         {
             return Container<T, U>.ContainsKey(key, collection);
         }
@@ -183,7 +183,7 @@ namespace Scream.UniMO.Collections
         /// <typeparam name="U">type of value</typeparam>
         /// <returns>all the keys as array</returns>
         public static T[] Keys<T, U>(this IEnumerable<Container<T, U>> collection)
-        where T : struct
+        where T : IConvertible
         {
             return Container<T, U>.Keys(collection);
         }
@@ -196,7 +196,7 @@ namespace Scream.UniMO.Collections
         /// <typeparam name="U">type of value</typeparam>
         /// <returns>all the values as array</returns>
         public static U[] Values<T, U>(this IEnumerable<Container<T, U>> collection)
-        where T : struct
+        where T : IConvertible
         {
             return Container<T, U>.Values(collection);
         }

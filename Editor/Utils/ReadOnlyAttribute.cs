@@ -2,7 +2,7 @@
 using UnityEditor;
 using UnityEngine;
 
-namespace Scream.UniMO.Editor
+namespace Scream.UniMO.Editor.Utils
 {
     /// <summary>
     /// Add this property to make field become readonly in inspector

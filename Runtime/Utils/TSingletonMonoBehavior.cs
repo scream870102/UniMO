@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Scream.UniMO
+namespace Scream.UniMO.Utils
 {
     /// <summary>
     /// derived this class then you will got a monobehavior implement singleton

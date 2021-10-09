@@ -2,7 +2,7 @@
 using System.Linq;
 using System;
 
-namespace Scream.UniMO
+namespace Scream.UniMO.Common
 {
     /// <summary>
     /// <para>This class handles all events.</para>

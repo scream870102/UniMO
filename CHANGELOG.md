@@ -1,5 +1,17 @@
 # Changelog
 
+## 1.6.0
+
+- Add `AsyncHelper` in Scream.UniMO.Common
+- Add `ProcessTracker` in Scream.UniMO.Common
+- Add `IWaitable` in Scream.UniMO.Common
+- Add `TouchHelper` in Scream.UniMO.Control
+- Move `DomainEvents` to Scream.UniMO.Common
+- Move `GetInstanceID` and `ReadOnlyAttribute` to Scream.UniMO.Editor.Utils
+- Move `Timer` and `TSingletonMonoBehaviour` to Scream.UniMO.Utils
+- Fix `Container` error
+- Rename `AnimationEventHandler` to `AnimationEventHelper`
+
 ## 1.5.0
 
 - Update Container in Scream.UniMO.Collection

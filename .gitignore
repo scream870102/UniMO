@@ -1,6 +1,5 @@
 *.log
 *.log.meta
-LICENSE.meta
 _site/
 _site.meta
 Documentation/
@@ -8,4 +7,3 @@ obj/
 obj.meta
 docfxFix.cs
 docfxFix.cs.meta
-Runtime/Input/

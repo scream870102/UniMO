@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace Scream.UniMO
+namespace Scream.UniMO.Math
 {
     public static class Math
     {

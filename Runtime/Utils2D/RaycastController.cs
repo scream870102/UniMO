@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 #if UNITY_EDITOR
-using Scream.UniMO.Editor;
+using Scream.UniMO.Editor.Utils;
 #endif
 namespace Scream.UniMO.Utils2D
 {

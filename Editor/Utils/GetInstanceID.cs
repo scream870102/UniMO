@@ -2,7 +2,7 @@
 using UnityEditor;
 using UnityEngine;
 
-namespace Scream.UniMO.Editor
+namespace Scream.UniMO.Editor.Utils
 {
     /// <summary>
     /// Use this class to get object instance id 
