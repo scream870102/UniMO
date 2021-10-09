@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class RayCastController
+    <title>Class UnscaledTimer
    | UniMO </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class RayCastController
+    <meta name="title" content="Class UnscaledTimer
    | UniMO ">
     <meta name="generator" content="docfx 2.56.7.0">
     
@@ -78,19 +78,19 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Scream.UniMO.Utils2D.RayCastController">
+            <article class="content wrap" id="_content" data-uid="Scream.UniMO.Utils.UnscaledTimer">
   
   
-  <h1 id="Scream_UniMO_Utils2D_RayCastController" data-uid="Scream.UniMO.Utils2D.RayCastController" class="text-break">Class RayCastController
+  <h1 id="Scream_UniMO_Utils_UnscaledTimer" data-uid="Scream.UniMO.Utils.UnscaledTimer" class="text-break">Class UnscaledTimer
   </h1>
-  <div class="markdown level0 summary"><p>Class to shoot raycast around a box collider
-<p>return all raycast result</p></p>
+  <div class="markdown level0 summary"><p>a countdown timer easy to use not affected by TimeScale
+<p>call method Reset to reset timer and call property IsFinshed to check if countdown finished</p></p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">RayCastController</span></div>
+    <div class="level1"><span class="xref">UnscaledTimer</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -116,25 +116,25 @@
       <span class="xref">System.Object.MemberwiseClone()</span>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Scream.UniMO.Utils2D.html">Scream.UniMO.Utils2D</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Scream.UniMO.Utils.html">Scream.UniMO.Utils</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="Scream_UniMO_Utils2D_RayCastController_syntax">Syntax</h5>
+  <h5 id="Scream_UniMO_Utils_UnscaledTimer_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Serializable]
-public class RayCastController</code></pre>
+public class UnscaledTimer</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   
   
-  <a id="Scream_UniMO_Utils2D_RayCastController__ctor_" data-uid="Scream.UniMO.Utils2D.RayCastController.#ctor*"></a>
-  <h4 id="Scream_UniMO_Utils2D_RayCastController__ctor_LayerMask_Vector2_System_Single_System_Single_BoxCollider2D_" data-uid="Scream.UniMO.Utils2D.RayCastController.#ctor(LayerMask,Vector2,System.Single,System.Single,BoxCollider2D)">RayCastController(LayerMask, Vector2, Single, Single, BoxCollider2D)</h4>
+  <a id="Scream_UniMO_Utils_UnscaledTimer__ctor_" data-uid="Scream.UniMO.Utils.UnscaledTimer.#ctor*"></a>
+  <h4 id="Scream_UniMO_Utils_UnscaledTimer__ctor_System_Single_System_Boolean_" data-uid="Scream.UniMO.Utils.UnscaledTimer.#ctor(System.Single,System.Boolean)">UnscaledTimer(Single, Boolean)</h4>
   <div class="markdown level1 summary"><p>Constructor</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public RayCastController(LayerMask layers, Vector2 rayNums, float offset, float rayLength, BoxCollider2D collider2D)</code></pre>
+    <pre><code class="lang-csharp hljs">public UnscaledTimer(float timeSection = 0F, bool CanUseFirst = true)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -147,33 +147,15 @@ public class RayCastController</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">LayerMask</span></td>
-        <td><span class="parametername">layers</span></td>
-        <td><p>layers should rays detect</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">Vector2</span></td>
-        <td><span class="parametername">rayNums</span></td>
-        <td><p>how many rays will cast in one direction every time</p>
-</td>
-      </tr>
-      <tr>
         <td><span class="xref">System.Single</span></td>
-        <td><span class="parametername">offset</span></td>
-        <td><p>offset from center point</p>
+        <td><span class="parametername">timeSection</span></td>
+        <td><p>time section for this timer</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
-        <td><span class="parametername">rayLength</span></td>
-        <td><p>length of rays</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">BoxCollider2D</span></td>
-        <td><span class="parametername">collider2D</span></td>
-        <td><p>which collider to be the reference</p>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">CanUseFirst</span></td>
+        <td><p>isFinshed equals to true at first or not</p>
 </td>
       </tr>
     </tbody>
@@ -182,14 +164,14 @@ public class RayCastController</code></pre>
   </h3>
   
   
-  <a id="Scream_UniMO_Utils2D_RayCastController_Down_" data-uid="Scream.UniMO.Utils2D.RayCastController.Down*"></a>
-  <h4 id="Scream_UniMO_Utils2D_RayCastController_Down" data-uid="Scream.UniMO.Utils2D.RayCastController.Down">Down</h4>
-  <div class="markdown level1 summary"><p>if there is anything hits in down direction of this object</p>
+  <a id="Scream_UniMO_Utils_UnscaledTimer_IsFinished_" data-uid="Scream.UniMO.Utils.UnscaledTimer.IsFinished*"></a>
+  <h4 id="Scream_UniMO_Utils_UnscaledTimer_IsFinished" data-uid="Scream.UniMO.Utils.UnscaledTimer.IsFinished">IsFinished</h4>
+  <div class="markdown level1 summary"><p>if this countdown finished or not</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool Down { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public bool IsFinished { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -208,41 +190,14 @@ public class RayCastController</code></pre>
   </table>
   
   
-  <a id="Scream_UniMO_Utils2D_RayCastController_IsCollide_" data-uid="Scream.UniMO.Utils2D.RayCastController.IsCollide*"></a>
-  <h4 id="Scream_UniMO_Utils2D_RayCastController_IsCollide" data-uid="Scream.UniMO.Utils2D.RayCastController.IsCollide">IsCollide</h4>
-  <div class="markdown level1 summary"><p>if object collides with any objects</p>
+  <a id="Scream_UniMO_Utils_UnscaledTimer_IsPausing_" data-uid="Scream.UniMO.Utils.UnscaledTimer.IsPausing*"></a>
+  <h4 id="Scream_UniMO_Utils_UnscaledTimer_IsPausing" data-uid="Scream.UniMO.Utils.UnscaledTimer.IsPausing">IsPausing</h4>
+  <div class="markdown level1 summary"><p>timer is in pause state </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool IsCollide { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><p>result</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Scream_UniMO_Utils2D_RayCastController_Left_" data-uid="Scream.UniMO.Utils2D.RayCastController.Left*"></a>
-  <h4 id="Scream_UniMO_Utils2D_RayCastController_Left" data-uid="Scream.UniMO.Utils2D.RayCastController.Left">Left</h4>
-  <div class="markdown level1 summary"><p>if there is anything hits in left direction of this object</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool Left { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public bool IsPausing { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -261,14 +216,14 @@ public class RayCastController</code></pre>
   </table>
   
   
-  <a id="Scream_UniMO_Utils2D_RayCastController_Result_" data-uid="Scream.UniMO.Utils2D.RayCastController.Result*"></a>
-  <h4 id="Scream_UniMO_Utils2D_RayCastController_Result" data-uid="Scream.UniMO.Utils2D.RayCastController.Result">Result</h4>
-  <div class="markdown level1 summary"><p>Contains all hit result from four direcion</p>
+  <a id="Scream_UniMO_Utils_UnscaledTimer_Remain_" data-uid="Scream.UniMO.Utils.UnscaledTimer.Remain*"></a>
+  <h4 id="Scream_UniMO_Utils_UnscaledTimer_Remain" data-uid="Scream.UniMO.Utils.UnscaledTimer.Remain">Remain</h4>
+  <div class="markdown level1 summary"><p>remaining time until the countdown end</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public List&lt;HitResult&gt; Result { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public float Remain { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -280,21 +235,21 @@ public class RayCastController</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Scream.UniMO.Utils2D.HitResult.html">HitResult</a>&gt;</td>
+        <td><span class="xref">System.Single</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Scream_UniMO_Utils2D_RayCastController_Right_" data-uid="Scream.UniMO.Utils2D.RayCastController.Right*"></a>
-  <h4 id="Scream_UniMO_Utils2D_RayCastController_Right" data-uid="Scream.UniMO.Utils2D.RayCastController.Right">Right</h4>
-  <div class="markdown level1 summary"><p>if there is anything hits in right direction of this object</p>
+  <a id="Scream_UniMO_Utils_UnscaledTimer_Remain01_" data-uid="Scream.UniMO.Utils.UnscaledTimer.Remain01*"></a>
+  <h4 id="Scream_UniMO_Utils_UnscaledTimer_Remain01" data-uid="Scream.UniMO.Utils.UnscaledTimer.Remain01">Remain01</h4>
+  <div class="markdown level1 summary"><p>return the cd range from 0 to 1 0 means timer finished </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool Right { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public float Remain01 { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -306,33 +261,7 @@ public class RayCastController</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Scream_UniMO_Utils2D_RayCastController_Up_" data-uid="Scream.UniMO.Utils2D.RayCastController.Up*"></a>
-  <h4 id="Scream_UniMO_Utils2D_RayCastController_Up" data-uid="Scream.UniMO.Utils2D.RayCastController.Up">Up</h4>
-  <div class="markdown level1 summary"><p>if there is anything hits in up direction of this object</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool Up { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="xref">System.Single</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -341,14 +270,36 @@ public class RayCastController</code></pre>
   </h3>
   
   
-  <a id="Scream_UniMO_Utils2D_RayCastController_Init_" data-uid="Scream.UniMO.Utils2D.RayCastController.Init*"></a>
-  <h4 id="Scream_UniMO_Utils2D_RayCastController_Init_BoxCollider2D_" data-uid="Scream.UniMO.Utils2D.RayCastController.Init(BoxCollider2D)">Init(BoxCollider2D)</h4>
-  <div class="markdown level1 summary"><p>MUST Call this method to init raycastcontroller if you set value in inspector</p>
+  <a id="Scream_UniMO_Utils_UnscaledTimer_Pause_" data-uid="Scream.UniMO.Utils.UnscaledTimer.Pause*"></a>
+  <h4 id="Scream_UniMO_Utils_UnscaledTimer_Pause" data-uid="Scream.UniMO.Utils.UnscaledTimer.Pause">Pause()</h4>
+  <div class="markdown level1 summary"><p>Pause this timer</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Init(BoxCollider2D collider2D)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Pause()</code></pre>
+  </div>
+  
+  
+  <a id="Scream_UniMO_Utils_UnscaledTimer_Reset_" data-uid="Scream.UniMO.Utils.UnscaledTimer.Reset*"></a>
+  <h4 id="Scream_UniMO_Utils_UnscaledTimer_Reset" data-uid="Scream.UniMO.Utils.UnscaledTimer.Reset">Reset()</h4>
+  <div class="markdown level1 summary"><p>Reset countdown timer with default setting</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Reset()</code></pre>
+  </div>
+  
+  
+  <a id="Scream_UniMO_Utils_UnscaledTimer_Reset_" data-uid="Scream.UniMO.Utils.UnscaledTimer.Reset*"></a>
+  <h4 id="Scream_UniMO_Utils_UnscaledTimer_Reset_System_Single_" data-uid="Scream.UniMO.Utils.UnscaledTimer.Reset(System.Single)">Reset(Single)</h4>
+  <div class="markdown level1 summary"><p>reset countdown timer with new timeSection</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Reset(float timeSection)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -361,23 +312,23 @@ public class RayCastController</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">BoxCollider2D</span></td>
-        <td><span class="parametername">collider2D</span></td>
-        <td><p>which collider to be the reference</p>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">timeSection</span></td>
+        <td><p>new time section for this timer</p>
 </td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Scream_UniMO_Utils2D_RayCastController_Tick_" data-uid="Scream.UniMO.Utils2D.RayCastController.Tick*"></a>
-  <h4 id="Scream_UniMO_Utils2D_RayCastController_Tick" data-uid="Scream.UniMO.Utils2D.RayCastController.Tick">Tick()</h4>
-  <div class="markdown level1 summary"><p>Call this method to update information about hit result</p>
+  <a id="Scream_UniMO_Utils_UnscaledTimer_Resume_" data-uid="Scream.UniMO.Utils.UnscaledTimer.Resume*"></a>
+  <h4 id="Scream_UniMO_Utils_UnscaledTimer_Resume" data-uid="Scream.UniMO.Utils.UnscaledTimer.Resume">Resume()</h4>
+  <div class="markdown level1 summary"><p>Resume this timer</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Tick()</code></pre>
+    <pre><code class="lang-csharp hljs">public void Resume()</code></pre>
   </div>
 </article>
           </div>

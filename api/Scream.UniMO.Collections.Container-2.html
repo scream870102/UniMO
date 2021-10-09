@@ -120,8 +120,9 @@
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="Scream_UniMO_Collections_Container_2_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Container&lt;T, U&gt;
-    where T : struct</code></pre>
+    <pre><code class="lang-csharp hljs">[Serializable]
+public class Container&lt;T, U&gt;
+    where T : IConvertible</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -199,7 +200,7 @@
   
   
   <a id="Scream_UniMO_Collections_Container_2_ContainsKey_" data-uid="Scream.UniMO.Collections.Container`2.ContainsKey*"></a>
-  <h4 id="Scream_UniMO_Collections_Container_2_ContainsKey__0_IEnumerable_Scream_UniMO_Collections_Container__0__1___" data-uid="Scream.UniMO.Collections.Container`2.ContainsKey(`0,IEnumerable{Scream.UniMO.Collections.Container{`0,`1}})">ContainsKey(T, IEnumerable&lt;Container&lt;T, U&gt;&gt;)</h4>
+  <h4 id="Scream_UniMO_Collections_Container_2_ContainsKey__0_System_Collections_Generic_IEnumerable_Scream_UniMO_Collections_Container__0__1___" data-uid="Scream.UniMO.Collections.Container`2.ContainsKey(`0,System.Collections.Generic.IEnumerable{Scream.UniMO.Collections.Container{`0,`1}})">ContainsKey(T, IEnumerable&lt;Container&lt;T, U&gt;&gt;)</h4>
   <div class="markdown level1 summary"><p>Check if this collection contains specific key </p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -224,7 +225,7 @@
 </td>
       </tr>
       <tr>
-        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="Scream.UniMO.Collections.Container-2.html">Container</a>&lt;T, U&gt;&gt;</td>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Scream.UniMO.Collections.Container-2.html">Container</a>&lt;T, U&gt;&gt;</td>
         <td><span class="parametername">collection</span></td>
         <td><p>which collection to be found</p>
 </td>
@@ -250,7 +251,7 @@
   
   
   <a id="Scream_UniMO_Collections_Container_2_ContainsValue_" data-uid="Scream.UniMO.Collections.Container`2.ContainsValue*"></a>
-  <h4 id="Scream_UniMO_Collections_Container_2_ContainsValue__1_IEnumerable_Scream_UniMO_Collections_Container__0__1___" data-uid="Scream.UniMO.Collections.Container`2.ContainsValue(`1,IEnumerable{Scream.UniMO.Collections.Container{`0,`1}})">ContainsValue(U, IEnumerable&lt;Container&lt;T, U&gt;&gt;)</h4>
+  <h4 id="Scream_UniMO_Collections_Container_2_ContainsValue__1_System_Collections_Generic_IEnumerable_Scream_UniMO_Collections_Container__0__1___" data-uid="Scream.UniMO.Collections.Container`2.ContainsValue(`1,System.Collections.Generic.IEnumerable{Scream.UniMO.Collections.Container{`0,`1}})">ContainsValue(U, IEnumerable&lt;Container&lt;T, U&gt;&gt;)</h4>
   <div class="markdown level1 summary"><p>Check if this collection contains specific value</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -275,7 +276,7 @@
 </td>
       </tr>
       <tr>
-        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="Scream.UniMO.Collections.Container-2.html">Container</a>&lt;T, U&gt;&gt;</td>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Scream.UniMO.Collections.Container-2.html">Container</a>&lt;T, U&gt;&gt;</td>
         <td><span class="parametername">collection</span></td>
         <td><p>which collection to be found</p>
 </td>
@@ -301,7 +302,7 @@
   
   
   <a id="Scream_UniMO_Collections_Container_2_Keys_" data-uid="Scream.UniMO.Collections.Container`2.Keys*"></a>
-  <h4 id="Scream_UniMO_Collections_Container_2_Keys_IEnumerable_Scream_UniMO_Collections_Container__0__1___" data-uid="Scream.UniMO.Collections.Container`2.Keys(IEnumerable{Scream.UniMO.Collections.Container{`0,`1}})">Keys(IEnumerable&lt;Container&lt;T, U&gt;&gt;)</h4>
+  <h4 id="Scream_UniMO_Collections_Container_2_Keys_System_Collections_Generic_IEnumerable_Scream_UniMO_Collections_Container__0__1___" data-uid="Scream.UniMO.Collections.Container`2.Keys(System.Collections.Generic.IEnumerable{Scream.UniMO.Collections.Container{`0,`1}})">Keys(IEnumerable&lt;Container&lt;T, U&gt;&gt;)</h4>
   <div class="markdown level1 summary"><p>Get all the keys from a collection</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -320,7 +321,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="Scream.UniMO.Collections.Container-2.html">Container</a>&lt;T, U&gt;&gt;</td>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Scream.UniMO.Collections.Container-2.html">Container</a>&lt;T, U&gt;&gt;</td>
         <td><span class="parametername">collection</span></td>
         <td><p>resource collection</p>
 </td>
@@ -346,7 +347,7 @@
   
   
   <a id="Scream_UniMO_Collections_Container_2_ToDictionary_" data-uid="Scream.UniMO.Collections.Container`2.ToDictionary*"></a>
-  <h4 id="Scream_UniMO_Collections_Container_2_ToDictionary_IEnumerable_Scream_UniMO_Collections_Container__0__1___" data-uid="Scream.UniMO.Collections.Container`2.ToDictionary(IEnumerable{Scream.UniMO.Collections.Container{`0,`1}})">ToDictionary(IEnumerable&lt;Container&lt;T, U&gt;&gt;)</h4>
+  <h4 id="Scream_UniMO_Collections_Container_2_ToDictionary_System_Collections_Generic_IEnumerable_Scream_UniMO_Collections_Container__0__1___" data-uid="Scream.UniMO.Collections.Container`2.ToDictionary(System.Collections.Generic.IEnumerable{Scream.UniMO.Collections.Container{`0,`1}})">ToDictionary(IEnumerable&lt;Container&lt;T, U&gt;&gt;)</h4>
   <div class="markdown level1 summary"><p>Convert to dictionary</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -365,7 +366,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="Scream.UniMO.Collections.Container-2.html">Container</a>&lt;T, U&gt;&gt;</td>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Scream.UniMO.Collections.Container-2.html">Container</a>&lt;T, U&gt;&gt;</td>
         <td><span class="parametername">collection</span></td>
         <td><p>which collection to be found</p>
 </td>
@@ -382,7 +383,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Dictionary</span>&lt;T, U&gt;</td>
+        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;T, U&gt;</td>
         <td><p>Convert Objects to dictionary</p>
 </td>
       </tr>
@@ -391,7 +392,7 @@
   
   
   <a id="Scream_UniMO_Collections_Container_2_ToList_" data-uid="Scream.UniMO.Collections.Container`2.ToList*"></a>
-  <h4 id="Scream_UniMO_Collections_Container_2_ToList_IEnumerable_Scream_UniMO_Collections_Container__0__1___" data-uid="Scream.UniMO.Collections.Container`2.ToList(IEnumerable{Scream.UniMO.Collections.Container{`0,`1}})">ToList(IEnumerable&lt;Container&lt;T, U&gt;&gt;)</h4>
+  <h4 id="Scream_UniMO_Collections_Container_2_ToList_System_Collections_Generic_IEnumerable_Scream_UniMO_Collections_Container__0__1___" data-uid="Scream.UniMO.Collections.Container`2.ToList(System.Collections.Generic.IEnumerable{Scream.UniMO.Collections.Container{`0,`1}})">ToList(IEnumerable&lt;Container&lt;T, U&gt;&gt;)</h4>
   <div class="markdown level1 summary"><p>Convert to list and ignore key</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -410,7 +411,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="Scream.UniMO.Collections.Container-2.html">Container</a>&lt;T, U&gt;&gt;</td>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Scream.UniMO.Collections.Container-2.html">Container</a>&lt;T, U&gt;&gt;</td>
         <td><span class="parametername">collection</span></td>
         <td><p>which collection to be found</p>
 </td>
@@ -427,7 +428,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">List</span>&lt;U&gt;</td>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;U&gt;</td>
         <td><p>convert the array of Objects to list</p>
 </td>
       </tr>
@@ -436,7 +437,7 @@
   
   
   <a id="Scream_UniMO_Collections_Container_2_Values_" data-uid="Scream.UniMO.Collections.Container`2.Values*"></a>
-  <h4 id="Scream_UniMO_Collections_Container_2_Values_IEnumerable_Scream_UniMO_Collections_Container__0__1___" data-uid="Scream.UniMO.Collections.Container`2.Values(IEnumerable{Scream.UniMO.Collections.Container{`0,`1}})">Values(IEnumerable&lt;Container&lt;T, U&gt;&gt;)</h4>
+  <h4 id="Scream_UniMO_Collections_Container_2_Values_System_Collections_Generic_IEnumerable_Scream_UniMO_Collections_Container__0__1___" data-uid="Scream.UniMO.Collections.Container`2.Values(System.Collections.Generic.IEnumerable{Scream.UniMO.Collections.Container{`0,`1}})">Values(IEnumerable&lt;Container&lt;T, U&gt;&gt;)</h4>
   <div class="markdown level1 summary"><p>Get all the values from a collection</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -455,7 +456,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="Scream.UniMO.Collections.Container-2.html">Container</a>&lt;T, U&gt;&gt;</td>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Scream.UniMO.Collections.Container-2.html">Container</a>&lt;T, U&gt;&gt;</td>
         <td><span class="parametername">collection</span></td>
         <td><p>resource collection</p>
 </td>

@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class PrefabContainer
+    <title>Class AnimationEventHelper
    | UniMO </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class PrefabContainer
+    <meta name="title" content="Class AnimationEventHelper
    | UniMO ">
     <meta name="generator" content="docfx 2.56.7.0">
     
@@ -78,37 +78,40 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Scream.UniMO.Collections.PrefabContainer">
+            <article class="content wrap" id="_content" data-uid="Scream.UniMO.Utils.AnimationEventHelper">
   
   
-  <h1 id="Scream_UniMO_Collections_PrefabContainer" data-uid="Scream.UniMO.Collections.PrefabContainer" class="text-break">Class PrefabContainer
+  <h1 id="Scream_UniMO_Utils_AnimationEventHelper" data-uid="Scream.UniMO.Utils.AnimationEventHelper" class="text-break">Class AnimationEventHelper
   </h1>
-  <div class="markdown level0 summary"><p>Use this scriptableobject to store all prefab you need.</p>
+  <div class="markdown level0 summary"><p>this is a class can add to gameObject then when animation finished you can use animation event to call AnimationFinished
+<p>it will broadcast the animation clip it set on animation event who subscribe the event OnAnimationFinshed</p></p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">PrefabContainer</span></div>
+    <div class="level1"><span class="xref">AnimationEventHelper</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Scream.UniMO.Collections.html">Scream.UniMO.Collections</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Scream.UniMO.Utils.html">Scream.UniMO.Utils</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="Scream_UniMO_Collections_PrefabContainer_syntax">Syntax</h5>
+  <h5 id="Scream_UniMO_Utils_AnimationEventHelper_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class PrefabContainer : ScriptableObject</code></pre>
+    <pre><code class="lang-csharp hljs">public class AnimationEventHelper : MonoBehaviour</code></pre>
   </div>
-  <h3 id="fields">Fields
+  <h3 id="properties">Properties
   </h3>
   
   
-  <h4 id="Scream_UniMO_Collections_PrefabContainer_PrefabDictionary" data-uid="Scream.UniMO.Collections.PrefabContainer.PrefabDictionary">PrefabDictionary</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="Scream_UniMO_Utils_AnimationEventHelper_Animation_" data-uid="Scream.UniMO.Utils.AnimationEventHelper.Animation*"></a>
+  <h4 id="Scream_UniMO_Utils_AnimationEventHelper_Animation" data-uid="Scream.UniMO.Utils.AnimationEventHelper.Animation">Animation</h4>
+  <div class="markdown level1 summary"><p>Animation component</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Container&lt;string, object&gt;[] PrefabDictionary</code></pre>
+    <pre><code class="lang-csharp hljs">public Animation Animation { get; }</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -118,7 +121,85 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Scream.UniMO.Collections.Container-2.html">Container</a>&lt;<span class="xref">System.String</span>, <span class="xref">System.Object</span>&gt;[]</td>
+        <td><span class="xref">Animation</span></td>
+        <td><p>return animation component this gameobject hold</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="events">Events
+  </h3>
+  
+  
+  <h4 id="Scream_UniMO_Utils_AnimationEventHelper_OnAnimationFinClip" data-uid="Scream.UniMO.Utils.AnimationEventHelper.OnAnimationFinClip">OnAnimationFinClip</h4>
+  <div class="markdown level1 summary"><p>this callback will return a animation clip</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action&lt;AnimationClip&gt; OnAnimationFinClip</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">AnimationClip</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Scream_UniMO_Utils_AnimationEventHelper_OnAnimationFinString" data-uid="Scream.UniMO.Utils.AnimationEventHelper.OnAnimationFinString">OnAnimationFinString</h4>
+  <div class="markdown level1 summary"><p>this callback will return a string</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action&lt;string&gt; OnAnimationFinString</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Scream_UniMO_Utils_AnimationEventHelper_OnAnimationFinVoid" data-uid="Scream.UniMO.Utils.AnimationEventHelper.OnAnimationFinVoid">OnAnimationFinVoid</h4>
+  <div class="markdown level1 summary"><p>this callback won&apos;t return anything</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action OnAnimationFinVoid</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
         <td></td>
       </tr>
     </tbody>
