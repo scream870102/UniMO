@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.6.1
+
+- Fix `AsyncHelper` Bug
+
 ## 1.6.0
 
 - Add `AsyncHelper` in Scream.UniMO.Common
