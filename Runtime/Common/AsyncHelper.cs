@@ -56,6 +56,7 @@ namespace Scream.UniMO.Common
 		/// <param name="data">the input data</param>
 		public void Request(Input data)
 		{
+			IsReady = false;
 			request?.Invoke(data);
 		}
 
