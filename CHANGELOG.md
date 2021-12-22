@@ -1,5 +1,16 @@
 # Changelog
 
+## 1.7.0
+
+- Add `TMonoSingleton`
+- Add `TSceneMonoSingleton`
+- Add `TSingleton`
+- Add `MonoHelper`
+- Add `SceneLoader`
+- Add `UnitUIExtension`
+- Update `AsyncHelper`
+- Update `ProcessTracker`
+
 ## 1.6.1
 
 - Fix `AsyncHelper` Bug

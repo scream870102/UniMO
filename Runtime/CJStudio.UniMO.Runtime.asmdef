@@ -1,7 +1,7 @@
 {
     "name": "CJStudio.UniMO",
+    "rootNamespace": "",
     "references": [
-        "GUID:75469ad4d38634e559750d17036d5f7c",
         "GUID:2bafac87e7f4b9b418d9448d219b01ab",
         "GUID:ad7d3af6abce4454c89115c217eb01a3"
     ],

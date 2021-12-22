@@ -73,26 +73,25 @@ namespace Scream.UniMO.Common
 		/// Wait an action in Coroutine
 		/// </summary>
 		/// <param name="onFinish">Pass the method to catch the result</param>
-		public IEnumerator Wait(Action<bool> onFinish = null)
+		public IEnumerator Wait(Action onFinish = null)
 		{
 			while (!IsReady)
 			{
 				yield return null;
 			}
-			onFinish?.Invoke(true);
+			onFinish?.Invoke();
 		}
 
 		/// <summary>
 		/// Wait an action as async method
 		/// </summary>
 		/// <returns>Result</returns>
-		public async Task<bool> Wait()
+		public async Task Wait()
 		{
 			while (!IsReady)
 			{
 				await Task.Yield();
 			}
-			return true;
 		}
 
 		/// <summary>

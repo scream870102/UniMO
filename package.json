@@ -1,12 +1,14 @@
 {
-    "name": "com.cj-studio.unimo",
-    "version": "1.6.1",
-    "displayName": "UniMO",
-    "keywords": [
-        "Utils",
-        "Tools"
-    ],
-    "author": {
-        "name": "Scream"
-    }
+  "name": "com.cj-studio.unimo",
+  "version": "1.7.0",
+  "displayName": "UniMO",
+  "keywords": [
+    "Utils",
+    "Tools"
+  ],
+  "author": {
+    "name": "Scream"
+  },
+  "description": "This is a toolkit for unity made by Scream",
+  "type": "library"
 }
