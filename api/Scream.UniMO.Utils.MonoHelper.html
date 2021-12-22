@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class DomainEvents
+    <title>Class MonoHelper
    | UniMO </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class DomainEvents
+    <meta name="title" content="Class MonoHelper
    | UniMO ">
     <meta name="generator" content="docfx 2.56.7.0">
     
@@ -78,201 +78,249 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Scream.UniMO.Common.DomainEvents">
+            <article class="content wrap" id="_content" data-uid="Scream.UniMO.Utils.MonoHelper">
   
   
-  <h1 id="Scream_UniMO_Common_DomainEvents" data-uid="Scream.UniMO.Common.DomainEvents" class="text-break">Class DomainEvents
+  <h1 id="Scream_UniMO_Utils_MonoHelper" data-uid="Scream.UniMO.Utils.MonoHelper" class="text-break">Class MonoHelper
   </h1>
-  <div class="markdown level0 summary"><p><p>This class handles all events.</p>
-You can raise event register and unregister event use this class</p>
+  <div class="markdown level0 summary"><p>this class is inherit from MonoBehaviour 
+you can subscribe for mono event use this class
+even if your class isn&apos;t inherit from  MonoBehaviour</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">DomainEvents</span></div>
+    <div class="level1"><a class="xref" href="Scream.UniMO.Common.TMonoSingleton-1.html">TMonoSingleton</a>&lt;<a class="xref" href="Scream.UniMO.Utils.MonoHelper.html">MonoHelper</a>&gt;</div>
+    <div class="level2"><span class="xref">MonoHelper</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
+      <a class="xref" href="Scream.UniMO.Common.TMonoSingleton-1.html#Scream_UniMO_Common_TMonoSingleton_1_Instance">TMonoSingleton&lt;MonoHelper&gt;.Instance</a>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Scream.UniMO.Common.html">Scream.UniMO.Common</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Scream.UniMO.Utils.html">Scream.UniMO.Utils</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="Scream_UniMO_Common_DomainEvents_syntax">Syntax</h5>
+  <h5 id="Scream_UniMO_Utils_MonoHelper_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class DomainEvents</code></pre>
+    <pre><code class="lang-csharp hljs">public class MonoHelper : TMonoSingleton&lt;MonoHelper&gt;</code></pre>
   </div>
-  <h3 id="methods">Methods
+  <h3 id="events">Events
   </h3>
   
   
-  <a id="Scream_UniMO_Common_DomainEvents_Clear_" data-uid="Scream.UniMO.Common.DomainEvents.Clear*"></a>
-  <h4 id="Scream_UniMO_Common_DomainEvents_Clear" data-uid="Scream.UniMO.Common.DomainEvents.Clear">Clear()</h4>
-  <div class="markdown level1 summary"><p>Clear all event have subscribed</p>
-</div>
+  <h4 id="Scream_UniMO_Utils_MonoHelper_OnApplicationQuitAction" data-uid="Scream.UniMO.Utils.MonoHelper.OnApplicationQuitAction">OnApplicationQuitAction</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Clear()</code></pre>
+    <pre><code class="lang-csharp hljs">public event Action OnApplicationQuitAction</code></pre>
   </div>
-  
-  
-  <a id="Scream_UniMO_Common_DomainEvents_Raise_" data-uid="Scream.UniMO.Common.DomainEvents.Raise*"></a>
-  <h4 id="Scream_UniMO_Common_DomainEvents_Raise__1___0_" data-uid="Scream.UniMO.Common.DomainEvents.Raise``1(``0)">Raise&lt;T&gt;(T)</h4>
-  <div class="markdown level1 summary"><p>Call this method to raise the event</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Raise&lt;T&gt;(T args)
-
-    where T : IDomainEvent</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="eventType">Event Type</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">T</span></td>
-        <td><span class="parametername">args</span></td>
-        <td><p>argument for this event</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>the event type</p>
-</td>
+        <td><span class="xref">System.Action</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Scream_UniMO_Common_DomainEvents_Register_" data-uid="Scream.UniMO.Common.DomainEvents.Register*"></a>
-  <h4 id="Scream_UniMO_Common_DomainEvents_Register__1_System_Action___0__" data-uid="Scream.UniMO.Common.DomainEvents.Register``1(System.Action{``0})">Register&lt;T&gt;(Action&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"><p>Call this method to subscribe an event</p>
-</div>
+  <h4 id="Scream_UniMO_Utils_MonoHelper_OnAwakeAction" data-uid="Scream.UniMO.Utils.MonoHelper.OnAwakeAction">OnAwakeAction</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Register&lt;T&gt;(Action&lt;T&gt; callback)
-
-    where T : IDomainEvent</code></pre>
+    <pre><code class="lang-csharp hljs">public event Action OnAwakeAction</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="eventType">Event Type</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Action</span>&lt;T&gt;</td>
-        <td><span class="parametername">callback</span></td>
-        <td><p>the callback function to subscribe</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>which event you want to subscribe</p>
-</td>
+        <td><span class="xref">System.Action</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Scream_UniMO_Common_DomainEvents_UnRegister_" data-uid="Scream.UniMO.Common.DomainEvents.UnRegister*"></a>
-  <h4 id="Scream_UniMO_Common_DomainEvents_UnRegister__1_System_Action___0__" data-uid="Scream.UniMO.Common.DomainEvents.UnRegister``1(System.Action{``0})">UnRegister&lt;T&gt;(Action&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"><p>Call this method to unsubscribe</p>
-</div>
+  <h4 id="Scream_UniMO_Utils_MonoHelper_OnDestroyAction" data-uid="Scream.UniMO.Utils.MonoHelper.OnDestroyAction">OnDestroyAction</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void UnRegister&lt;T&gt;(Action&lt;T&gt; callback)
-
-    where T : IDomainEvent</code></pre>
+    <pre><code class="lang-csharp hljs">public event Action OnDestroyAction</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="eventType">Event Type</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Action</span>&lt;T&gt;</td>
-        <td><span class="parametername">callback</span></td>
-        <td><p>the callback function to unsubscribe</p>
-</td>
+        <td><span class="xref">System.Action</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 class="typeParameters">Type Parameters</h5>
+  
+  
+  <h4 id="Scream_UniMO_Utils_MonoHelper_OnDisableAction" data-uid="Scream.UniMO.Utils.MonoHelper.OnDisableAction">OnDisableAction</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action OnDisableAction</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
-        <th>Name</th>
+        <th>Type</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>which event you want to unsubscribe</p>
-</td>
+        <td><span class="xref">System.Action</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Scream_UniMO_Utils_MonoHelper_OnEnableAction" data-uid="Scream.UniMO.Utils.MonoHelper.OnEnableAction">OnEnableAction</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action OnEnableAction</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Scream_UniMO_Utils_MonoHelper_OnFixedUpdateAction" data-uid="Scream.UniMO.Utils.MonoHelper.OnFixedUpdateAction">OnFixedUpdateAction</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action OnFixedUpdateAction</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Scream_UniMO_Utils_MonoHelper_OnLateUpdateAction" data-uid="Scream.UniMO.Utils.MonoHelper.OnLateUpdateAction">OnLateUpdateAction</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action OnLateUpdateAction</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Scream_UniMO_Utils_MonoHelper_OnStartAction" data-uid="Scream.UniMO.Utils.MonoHelper.OnStartAction">OnStartAction</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action OnStartAction</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Scream_UniMO_Utils_MonoHelper_OnUpdateAction" data-uid="Scream.UniMO.Utils.MonoHelper.OnUpdateAction">OnUpdateAction</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action OnUpdateAction</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>

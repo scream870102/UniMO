@@ -3,7 +3,7 @@
     "baseUrl": "https://scream870102.github.io/UniMO/"
   },
   "homepages": [],
-  "source_base_path": "D:/Project/UniMO/Packages/UniMO/Documentation",
+  "source_base_path": "D:/Project/UniMO/Packages/com.cj-studio.unimo/Documentation",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Scream.UniMO.Collections.Container-2.html",
-          "hash": "OvzjygMIRUjc1JYVU5InKA=="
+          "hash": "TxWlFkoqg9Xra591l2KoyQ=="
         }
       },
       "is_incremental": false,
@@ -33,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Scream.UniMO.Collections.ContainerExtension.html",
-          "hash": "4bTI90nmpLp+4GYapZy0fQ=="
+          "hash": "f7fAurIsj1Fh7HMcj//q5A=="
         }
       },
       "is_incremental": false,
@@ -89,6 +89,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Scream.UniMO.Common.AsyncHelper-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Scream.UniMO.Common.AsyncHelper-1.html",
+          "hash": "L6XkoVq+pVIxtd5MTYRsjQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Scream.UniMO.Common.AsyncHelper-2.yml",
       "output": {
         ".html": {
@@ -101,11 +113,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Scream.UniMO.Common.AsyncHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Scream.UniMO.Common.AsyncHelper.html",
+          "hash": "bBdkHz3D+VpLBMApU1L4TA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Scream.UniMO.Common.DomainEvents.yml",
       "output": {
         ".html": {
           "relative_path": "api/Scream.UniMO.Common.DomainEvents.html",
-          "hash": "jvp90GIh/R1r8iufdWZ4Aw=="
+          "hash": "s8KxKXNlan+hecw0RfeU9A=="
         }
       },
       "is_incremental": false,
@@ -129,7 +153,43 @@
       "output": {
         ".html": {
           "relative_path": "api/Scream.UniMO.Common.ProcessTracker.html",
-          "hash": "PpRCB2+Rfwew5nDt9Tv4pg=="
+          "hash": "sL3G8KV2f3ekiTRVWeueDQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Scream.UniMO.Common.TMonoSingleton-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Scream.UniMO.Common.TMonoSingleton-1.html",
+          "hash": "beBbdk7CB7c9cgPhutM5mw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Scream.UniMO.Common.TSceneMonoSingleton-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Scream.UniMO.Common.TSceneMonoSingleton-1.html",
+          "hash": "1U6KrbPYkjpgjM/f9lYXyw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Scream.UniMO.Common.TSingleton-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Scream.UniMO.Common.TSingleton-1.html",
+          "hash": "sJdmemtVrpxGSgywz0N9dA=="
         }
       },
       "is_incremental": false,
@@ -141,7 +201,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Scream.UniMO.Common.html",
-          "hash": "9decCRcmZ3a0Fmct4pHUCg=="
+          "hash": "PMdRxveZCHtL1Jkezz3l1Q=="
         }
       },
       "is_incremental": false,
@@ -233,6 +293,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Scream.UniMO.Utils.MonoHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Scream.UniMO.Utils.MonoHelper.html",
+          "hash": "edyJtmZkdZuyj447CQpZ1w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Scream.UniMO.Utils.ScaledTimer.yml",
       "output": {
         ".html": {
@@ -245,11 +317,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Scream.UniMO.Utils.TSingletonMonoBehavior-1.yml",
+      "source_relative_path": "api/Scream.UniMO.Utils.SceneLoader.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Scream.UniMO.Utils.TSingletonMonoBehavior-1.html",
-          "hash": "4Lrs+1FQ6Dhh/TofQdxuRA=="
+          "relative_path": "api/Scream.UniMO.Utils.SceneLoader.html",
+          "hash": "AEtEZng/Gjr0a04OSORIAw=="
         }
       },
       "is_incremental": false,
@@ -257,11 +329,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Scream.UniMO.Utils.TSingletonMonoBehaviorDestroy-1.yml",
+      "source_relative_path": "api/Scream.UniMO.Utils.UnityUIExtension.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Scream.UniMO.Utils.TSingletonMonoBehaviorDestroy-1.html",
-          "hash": "v2tL8yf6Ila5C3wGs5EAaw=="
+          "relative_path": "api/Scream.UniMO.Utils.UnityUIExtension.html",
+          "hash": "EZljECLPJ8Nx84Uf4Mb+7w=="
         }
       },
       "is_incremental": false,
@@ -285,7 +357,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Scream.UniMO.Utils.html",
-          "hash": "e1pEVcEEImZ8vDjzzWB70g=="
+          "hash": "4of87khDlcuEplxhLOjSxw=="
         }
       },
       "is_incremental": false,
@@ -369,7 +441,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "0NGy7wlb46oMNkwFns+/Bw=="
+          "hash": "RwdRcnKYYnnqZ6/LlFZQcg=="
         }
       },
       "is_incremental": false,
@@ -442,23 +514,25 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": true,
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
         "ConceptualDocumentProcessor": {
-          "can_incremental": true,
+          "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 3,
-          "skipped_file_count": 3
+          "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
-          "can_incremental": true,
+          "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 29,
-          "skipped_file_count": 29
+          "total_file_count": 35,
+          "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
           "can_incremental": false,

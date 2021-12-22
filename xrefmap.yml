@@ -419,6 +419,204 @@ references:
   commentId: N:Scream.UniMO.Common
   fullName: Scream.UniMO.Common
   nameWithType: Scream.UniMO.Common
+- uid: Scream.UniMO.Common.AsyncHelper
+  name: AsyncHelper
+  href: api/Scream.UniMO.Common.AsyncHelper.html
+  commentId: T:Scream.UniMO.Common.AsyncHelper
+  fullName: Scream.UniMO.Common.AsyncHelper
+  nameWithType: AsyncHelper
+- uid: Scream.UniMO.Common.AsyncHelper.#ctor(System.Action)
+  name: AsyncHelper(Action)
+  href: api/Scream.UniMO.Common.AsyncHelper.html#Scream_UniMO_Common_AsyncHelper__ctor_System_Action_
+  commentId: M:Scream.UniMO.Common.AsyncHelper.#ctor(System.Action)
+  fullName: Scream.UniMO.Common.AsyncHelper.AsyncHelper(System.Action)
+  nameWithType: AsyncHelper.AsyncHelper(Action)
+- uid: Scream.UniMO.Common.AsyncHelper.#ctor*
+  name: AsyncHelper
+  href: api/Scream.UniMO.Common.AsyncHelper.html#Scream_UniMO_Common_AsyncHelper__ctor_
+  commentId: Overload:Scream.UniMO.Common.AsyncHelper.#ctor
+  isSpec: "True"
+  fullName: Scream.UniMO.Common.AsyncHelper.AsyncHelper
+  nameWithType: AsyncHelper.AsyncHelper
+- uid: Scream.UniMO.Common.AsyncHelper.Callback
+  name: Callback()
+  href: api/Scream.UniMO.Common.AsyncHelper.html#Scream_UniMO_Common_AsyncHelper_Callback
+  commentId: M:Scream.UniMO.Common.AsyncHelper.Callback
+  fullName: Scream.UniMO.Common.AsyncHelper.Callback()
+  nameWithType: AsyncHelper.Callback()
+- uid: Scream.UniMO.Common.AsyncHelper.Callback*
+  name: Callback
+  href: api/Scream.UniMO.Common.AsyncHelper.html#Scream_UniMO_Common_AsyncHelper_Callback_
+  commentId: Overload:Scream.UniMO.Common.AsyncHelper.Callback
+  isSpec: "True"
+  fullName: Scream.UniMO.Common.AsyncHelper.Callback
+  nameWithType: AsyncHelper.Callback
+- uid: Scream.UniMO.Common.AsyncHelper.IsReady
+  name: IsReady
+  href: api/Scream.UniMO.Common.AsyncHelper.html#Scream_UniMO_Common_AsyncHelper_IsReady
+  commentId: P:Scream.UniMO.Common.AsyncHelper.IsReady
+  fullName: Scream.UniMO.Common.AsyncHelper.IsReady
+  nameWithType: AsyncHelper.IsReady
+- uid: Scream.UniMO.Common.AsyncHelper.IsReady*
+  name: IsReady
+  href: api/Scream.UniMO.Common.AsyncHelper.html#Scream_UniMO_Common_AsyncHelper_IsReady_
+  commentId: Overload:Scream.UniMO.Common.AsyncHelper.IsReady
+  isSpec: "True"
+  fullName: Scream.UniMO.Common.AsyncHelper.IsReady
+  nameWithType: AsyncHelper.IsReady
+- uid: Scream.UniMO.Common.AsyncHelper.Request
+  name: Request()
+  href: api/Scream.UniMO.Common.AsyncHelper.html#Scream_UniMO_Common_AsyncHelper_Request
+  commentId: M:Scream.UniMO.Common.AsyncHelper.Request
+  fullName: Scream.UniMO.Common.AsyncHelper.Request()
+  nameWithType: AsyncHelper.Request()
+- uid: Scream.UniMO.Common.AsyncHelper.Request*
+  name: Request
+  href: api/Scream.UniMO.Common.AsyncHelper.html#Scream_UniMO_Common_AsyncHelper_Request_
+  commentId: Overload:Scream.UniMO.Common.AsyncHelper.Request
+  isSpec: "True"
+  fullName: Scream.UniMO.Common.AsyncHelper.Request
+  nameWithType: AsyncHelper.Request
+- uid: Scream.UniMO.Common.AsyncHelper.Wait
+  name: Wait()
+  href: api/Scream.UniMO.Common.AsyncHelper.html#Scream_UniMO_Common_AsyncHelper_Wait
+  commentId: M:Scream.UniMO.Common.AsyncHelper.Wait
+  fullName: Scream.UniMO.Common.AsyncHelper.Wait()
+  nameWithType: AsyncHelper.Wait()
+- uid: Scream.UniMO.Common.AsyncHelper.Wait(System.Action)
+  name: Wait(Action)
+  href: api/Scream.UniMO.Common.AsyncHelper.html#Scream_UniMO_Common_AsyncHelper_Wait_System_Action_
+  commentId: M:Scream.UniMO.Common.AsyncHelper.Wait(System.Action)
+  fullName: Scream.UniMO.Common.AsyncHelper.Wait(System.Action)
+  nameWithType: AsyncHelper.Wait(Action)
+- uid: Scream.UniMO.Common.AsyncHelper.Wait*
+  name: Wait
+  href: api/Scream.UniMO.Common.AsyncHelper.html#Scream_UniMO_Common_AsyncHelper_Wait_
+  commentId: Overload:Scream.UniMO.Common.AsyncHelper.Wait
+  isSpec: "True"
+  fullName: Scream.UniMO.Common.AsyncHelper.Wait
+  nameWithType: AsyncHelper.Wait
+- uid: Scream.UniMO.Common.AsyncHelper`1
+  name: AsyncHelper<Result>
+  href: api/Scream.UniMO.Common.AsyncHelper-1.html
+  commentId: T:Scream.UniMO.Common.AsyncHelper`1
+  name.vb: AsyncHelper(Of Result)
+  fullName: Scream.UniMO.Common.AsyncHelper<Result>
+  fullName.vb: Scream.UniMO.Common.AsyncHelper(Of Result)
+  nameWithType: AsyncHelper<Result>
+  nameWithType.vb: AsyncHelper(Of Result)
+- uid: Scream.UniMO.Common.AsyncHelper`1.#ctor(System.Action)
+  name: AsyncHelper(Action)
+  href: api/Scream.UniMO.Common.AsyncHelper-1.html#Scream_UniMO_Common_AsyncHelper_1__ctor_System_Action_
+  commentId: M:Scream.UniMO.Common.AsyncHelper`1.#ctor(System.Action)
+  fullName: Scream.UniMO.Common.AsyncHelper<Result>.AsyncHelper(System.Action)
+  fullName.vb: Scream.UniMO.Common.AsyncHelper(Of Result).AsyncHelper(System.Action)
+  nameWithType: AsyncHelper<Result>.AsyncHelper(Action)
+  nameWithType.vb: AsyncHelper(Of Result).AsyncHelper(Action)
+- uid: Scream.UniMO.Common.AsyncHelper`1.#ctor*
+  name: AsyncHelper
+  href: api/Scream.UniMO.Common.AsyncHelper-1.html#Scream_UniMO_Common_AsyncHelper_1__ctor_
+  commentId: Overload:Scream.UniMO.Common.AsyncHelper`1.#ctor
+  isSpec: "True"
+  fullName: Scream.UniMO.Common.AsyncHelper<Result>.AsyncHelper
+  fullName.vb: Scream.UniMO.Common.AsyncHelper(Of Result).AsyncHelper
+  nameWithType: AsyncHelper<Result>.AsyncHelper
+  nameWithType.vb: AsyncHelper(Of Result).AsyncHelper
+- uid: Scream.UniMO.Common.AsyncHelper`1.Callback(`0)
+  name: Callback(Result)
+  href: api/Scream.UniMO.Common.AsyncHelper-1.html#Scream_UniMO_Common_AsyncHelper_1_Callback__0_
+  commentId: M:Scream.UniMO.Common.AsyncHelper`1.Callback(`0)
+  fullName: Scream.UniMO.Common.AsyncHelper<Result>.Callback(Result)
+  fullName.vb: Scream.UniMO.Common.AsyncHelper(Of Result).Callback(Result)
+  nameWithType: AsyncHelper<Result>.Callback(Result)
+  nameWithType.vb: AsyncHelper(Of Result).Callback(Result)
+- uid: Scream.UniMO.Common.AsyncHelper`1.Callback*
+  name: Callback
+  href: api/Scream.UniMO.Common.AsyncHelper-1.html#Scream_UniMO_Common_AsyncHelper_1_Callback_
+  commentId: Overload:Scream.UniMO.Common.AsyncHelper`1.Callback
+  isSpec: "True"
+  fullName: Scream.UniMO.Common.AsyncHelper<Result>.Callback
+  fullName.vb: Scream.UniMO.Common.AsyncHelper(Of Result).Callback
+  nameWithType: AsyncHelper<Result>.Callback
+  nameWithType.vb: AsyncHelper(Of Result).Callback
+- uid: Scream.UniMO.Common.AsyncHelper`1.IsReady
+  name: IsReady
+  href: api/Scream.UniMO.Common.AsyncHelper-1.html#Scream_UniMO_Common_AsyncHelper_1_IsReady
+  commentId: P:Scream.UniMO.Common.AsyncHelper`1.IsReady
+  fullName: Scream.UniMO.Common.AsyncHelper<Result>.IsReady
+  fullName.vb: Scream.UniMO.Common.AsyncHelper(Of Result).IsReady
+  nameWithType: AsyncHelper<Result>.IsReady
+  nameWithType.vb: AsyncHelper(Of Result).IsReady
+- uid: Scream.UniMO.Common.AsyncHelper`1.IsReady*
+  name: IsReady
+  href: api/Scream.UniMO.Common.AsyncHelper-1.html#Scream_UniMO_Common_AsyncHelper_1_IsReady_
+  commentId: Overload:Scream.UniMO.Common.AsyncHelper`1.IsReady
+  isSpec: "True"
+  fullName: Scream.UniMO.Common.AsyncHelper<Result>.IsReady
+  fullName.vb: Scream.UniMO.Common.AsyncHelper(Of Result).IsReady
+  nameWithType: AsyncHelper<Result>.IsReady
+  nameWithType.vb: AsyncHelper(Of Result).IsReady
+- uid: Scream.UniMO.Common.AsyncHelper`1.Request
+  name: Request()
+  href: api/Scream.UniMO.Common.AsyncHelper-1.html#Scream_UniMO_Common_AsyncHelper_1_Request
+  commentId: M:Scream.UniMO.Common.AsyncHelper`1.Request
+  fullName: Scream.UniMO.Common.AsyncHelper<Result>.Request()
+  fullName.vb: Scream.UniMO.Common.AsyncHelper(Of Result).Request()
+  nameWithType: AsyncHelper<Result>.Request()
+  nameWithType.vb: AsyncHelper(Of Result).Request()
+- uid: Scream.UniMO.Common.AsyncHelper`1.Request*
+  name: Request
+  href: api/Scream.UniMO.Common.AsyncHelper-1.html#Scream_UniMO_Common_AsyncHelper_1_Request_
+  commentId: Overload:Scream.UniMO.Common.AsyncHelper`1.Request
+  isSpec: "True"
+  fullName: Scream.UniMO.Common.AsyncHelper<Result>.Request
+  fullName.vb: Scream.UniMO.Common.AsyncHelper(Of Result).Request
+  nameWithType: AsyncHelper<Result>.Request
+  nameWithType.vb: AsyncHelper(Of Result).Request
+- uid: Scream.UniMO.Common.AsyncHelper`1.TryGetResult(`0@)
+  name: TryGetResult(out Result)
+  href: api/Scream.UniMO.Common.AsyncHelper-1.html#Scream_UniMO_Common_AsyncHelper_1_TryGetResult__0__
+  commentId: M:Scream.UniMO.Common.AsyncHelper`1.TryGetResult(`0@)
+  name.vb: TryGetResult(ByRef Result)
+  fullName: Scream.UniMO.Common.AsyncHelper<Result>.TryGetResult(out Result)
+  fullName.vb: Scream.UniMO.Common.AsyncHelper(Of Result).TryGetResult(ByRef Result)
+  nameWithType: AsyncHelper<Result>.TryGetResult(out Result)
+  nameWithType.vb: AsyncHelper(Of Result).TryGetResult(ByRef Result)
+- uid: Scream.UniMO.Common.AsyncHelper`1.TryGetResult*
+  name: TryGetResult
+  href: api/Scream.UniMO.Common.AsyncHelper-1.html#Scream_UniMO_Common_AsyncHelper_1_TryGetResult_
+  commentId: Overload:Scream.UniMO.Common.AsyncHelper`1.TryGetResult
+  isSpec: "True"
+  fullName: Scream.UniMO.Common.AsyncHelper<Result>.TryGetResult
+  fullName.vb: Scream.UniMO.Common.AsyncHelper(Of Result).TryGetResult
+  nameWithType: AsyncHelper<Result>.TryGetResult
+  nameWithType.vb: AsyncHelper(Of Result).TryGetResult
+- uid: Scream.UniMO.Common.AsyncHelper`1.Wait
+  name: Wait()
+  href: api/Scream.UniMO.Common.AsyncHelper-1.html#Scream_UniMO_Common_AsyncHelper_1_Wait
+  commentId: M:Scream.UniMO.Common.AsyncHelper`1.Wait
+  fullName: Scream.UniMO.Common.AsyncHelper<Result>.Wait()
+  fullName.vb: Scream.UniMO.Common.AsyncHelper(Of Result).Wait()
+  nameWithType: AsyncHelper<Result>.Wait()
+  nameWithType.vb: AsyncHelper(Of Result).Wait()
+- uid: Scream.UniMO.Common.AsyncHelper`1.Wait(System.Action{`0})
+  name: Wait(Action<Result>)
+  href: api/Scream.UniMO.Common.AsyncHelper-1.html#Scream_UniMO_Common_AsyncHelper_1_Wait_System_Action__0__
+  commentId: M:Scream.UniMO.Common.AsyncHelper`1.Wait(System.Action{`0})
+  name.vb: Wait(Action(Of Result))
+  fullName: Scream.UniMO.Common.AsyncHelper<Result>.Wait(System.Action<Result>)
+  fullName.vb: Scream.UniMO.Common.AsyncHelper(Of Result).Wait(System.Action(Of Result))
+  nameWithType: AsyncHelper<Result>.Wait(Action<Result>)
+  nameWithType.vb: AsyncHelper(Of Result).Wait(Action(Of Result))
+- uid: Scream.UniMO.Common.AsyncHelper`1.Wait*
+  name: Wait
+  href: api/Scream.UniMO.Common.AsyncHelper-1.html#Scream_UniMO_Common_AsyncHelper_1_Wait_
+  commentId: Overload:Scream.UniMO.Common.AsyncHelper`1.Wait
+  isSpec: "True"
+  fullName: Scream.UniMO.Common.AsyncHelper<Result>.Wait
+  fullName.vb: Scream.UniMO.Common.AsyncHelper(Of Result).Wait
+  nameWithType: AsyncHelper<Result>.Wait
+  nameWithType.vb: AsyncHelper(Of Result).Wait
 - uid: Scream.UniMO.Common.AsyncHelper`2
   name: AsyncHelper<Input, Result>
   href: api/Scream.UniMO.Common.AsyncHelper-2.html
@@ -717,15 +915,12 @@ references:
   commentId: M:Scream.UniMO.Common.ProcessTracker.Wait
   fullName: Scream.UniMO.Common.ProcessTracker.Wait()
   nameWithType: ProcessTracker.Wait()
-- uid: Scream.UniMO.Common.ProcessTracker.Wait(System.Action{System.Boolean})
-  name: Wait(Action<Boolean>)
-  href: api/Scream.UniMO.Common.ProcessTracker.html#Scream_UniMO_Common_ProcessTracker_Wait_System_Action_System_Boolean__
-  commentId: M:Scream.UniMO.Common.ProcessTracker.Wait(System.Action{System.Boolean})
-  name.vb: Wait(Action(Of Boolean))
-  fullName: Scream.UniMO.Common.ProcessTracker.Wait(System.Action<System.Boolean>)
-  fullName.vb: Scream.UniMO.Common.ProcessTracker.Wait(System.Action(Of System.Boolean))
-  nameWithType: ProcessTracker.Wait(Action<Boolean>)
-  nameWithType.vb: ProcessTracker.Wait(Action(Of Boolean))
+- uid: Scream.UniMO.Common.ProcessTracker.Wait(System.Action)
+  name: Wait(Action)
+  href: api/Scream.UniMO.Common.ProcessTracker.html#Scream_UniMO_Common_ProcessTracker_Wait_System_Action_
+  commentId: M:Scream.UniMO.Common.ProcessTracker.Wait(System.Action)
+  fullName: Scream.UniMO.Common.ProcessTracker.Wait(System.Action)
+  nameWithType: ProcessTracker.Wait(Action)
 - uid: Scream.UniMO.Common.ProcessTracker.Wait*
   name: Wait
   href: api/Scream.UniMO.Common.ProcessTracker.html#Scream_UniMO_Common_ProcessTracker_Wait_
@@ -733,6 +928,118 @@ references:
   isSpec: "True"
   fullName: Scream.UniMO.Common.ProcessTracker.Wait
   nameWithType: ProcessTracker.Wait
+- uid: Scream.UniMO.Common.TMonoSingleton`1
+  name: TMonoSingleton<T>
+  href: api/Scream.UniMO.Common.TMonoSingleton-1.html
+  commentId: T:Scream.UniMO.Common.TMonoSingleton`1
+  name.vb: TMonoSingleton(Of T)
+  fullName: Scream.UniMO.Common.TMonoSingleton<T>
+  fullName.vb: Scream.UniMO.Common.TMonoSingleton(Of T)
+  nameWithType: TMonoSingleton<T>
+  nameWithType.vb: TMonoSingleton(Of T)
+- uid: Scream.UniMO.Common.TMonoSingleton`1.Instance
+  name: Instance
+  href: api/Scream.UniMO.Common.TMonoSingleton-1.html#Scream_UniMO_Common_TMonoSingleton_1_Instance
+  commentId: P:Scream.UniMO.Common.TMonoSingleton`1.Instance
+  fullName: Scream.UniMO.Common.TMonoSingleton<T>.Instance
+  fullName.vb: Scream.UniMO.Common.TMonoSingleton(Of T).Instance
+  nameWithType: TMonoSingleton<T>.Instance
+  nameWithType.vb: TMonoSingleton(Of T).Instance
+- uid: Scream.UniMO.Common.TMonoSingleton`1.Instance*
+  name: Instance
+  href: api/Scream.UniMO.Common.TMonoSingleton-1.html#Scream_UniMO_Common_TMonoSingleton_1_Instance_
+  commentId: Overload:Scream.UniMO.Common.TMonoSingleton`1.Instance
+  isSpec: "True"
+  fullName: Scream.UniMO.Common.TMonoSingleton<T>.Instance
+  fullName.vb: Scream.UniMO.Common.TMonoSingleton(Of T).Instance
+  nameWithType: TMonoSingleton<T>.Instance
+  nameWithType.vb: TMonoSingleton(Of T).Instance
+- uid: Scream.UniMO.Common.TSceneMonoSingleton`1
+  name: TSceneMonoSingleton<T>
+  href: api/Scream.UniMO.Common.TSceneMonoSingleton-1.html
+  commentId: T:Scream.UniMO.Common.TSceneMonoSingleton`1
+  name.vb: TSceneMonoSingleton(Of T)
+  fullName: Scream.UniMO.Common.TSceneMonoSingleton<T>
+  fullName.vb: Scream.UniMO.Common.TSceneMonoSingleton(Of T)
+  nameWithType: TSceneMonoSingleton<T>
+  nameWithType.vb: TSceneMonoSingleton(Of T)
+- uid: Scream.UniMO.Common.TSceneMonoSingleton`1.Awake
+  name: Awake()
+  href: api/Scream.UniMO.Common.TSceneMonoSingleton-1.html#Scream_UniMO_Common_TSceneMonoSingleton_1_Awake
+  commentId: M:Scream.UniMO.Common.TSceneMonoSingleton`1.Awake
+  fullName: Scream.UniMO.Common.TSceneMonoSingleton<T>.Awake()
+  fullName.vb: Scream.UniMO.Common.TSceneMonoSingleton(Of T).Awake()
+  nameWithType: TSceneMonoSingleton<T>.Awake()
+  nameWithType.vb: TSceneMonoSingleton(Of T).Awake()
+- uid: Scream.UniMO.Common.TSceneMonoSingleton`1.Awake*
+  name: Awake
+  href: api/Scream.UniMO.Common.TSceneMonoSingleton-1.html#Scream_UniMO_Common_TSceneMonoSingleton_1_Awake_
+  commentId: Overload:Scream.UniMO.Common.TSceneMonoSingleton`1.Awake
+  isSpec: "True"
+  fullName: Scream.UniMO.Common.TSceneMonoSingleton<T>.Awake
+  fullName.vb: Scream.UniMO.Common.TSceneMonoSingleton(Of T).Awake
+  nameWithType: TSceneMonoSingleton<T>.Awake
+  nameWithType.vb: TSceneMonoSingleton(Of T).Awake
+- uid: Scream.UniMO.Common.TSceneMonoSingleton`1.Instance
+  name: Instance
+  href: api/Scream.UniMO.Common.TSceneMonoSingleton-1.html#Scream_UniMO_Common_TSceneMonoSingleton_1_Instance
+  commentId: P:Scream.UniMO.Common.TSceneMonoSingleton`1.Instance
+  fullName: Scream.UniMO.Common.TSceneMonoSingleton<T>.Instance
+  fullName.vb: Scream.UniMO.Common.TSceneMonoSingleton(Of T).Instance
+  nameWithType: TSceneMonoSingleton<T>.Instance
+  nameWithType.vb: TSceneMonoSingleton(Of T).Instance
+- uid: Scream.UniMO.Common.TSceneMonoSingleton`1.Instance*
+  name: Instance
+  href: api/Scream.UniMO.Common.TSceneMonoSingleton-1.html#Scream_UniMO_Common_TSceneMonoSingleton_1_Instance_
+  commentId: Overload:Scream.UniMO.Common.TSceneMonoSingleton`1.Instance
+  isSpec: "True"
+  fullName: Scream.UniMO.Common.TSceneMonoSingleton<T>.Instance
+  fullName.vb: Scream.UniMO.Common.TSceneMonoSingleton(Of T).Instance
+  nameWithType: TSceneMonoSingleton<T>.Instance
+  nameWithType.vb: TSceneMonoSingleton(Of T).Instance
+- uid: Scream.UniMO.Common.TSceneMonoSingleton`1.OnDestroy
+  name: OnDestroy()
+  href: api/Scream.UniMO.Common.TSceneMonoSingleton-1.html#Scream_UniMO_Common_TSceneMonoSingleton_1_OnDestroy
+  commentId: M:Scream.UniMO.Common.TSceneMonoSingleton`1.OnDestroy
+  fullName: Scream.UniMO.Common.TSceneMonoSingleton<T>.OnDestroy()
+  fullName.vb: Scream.UniMO.Common.TSceneMonoSingleton(Of T).OnDestroy()
+  nameWithType: TSceneMonoSingleton<T>.OnDestroy()
+  nameWithType.vb: TSceneMonoSingleton(Of T).OnDestroy()
+- uid: Scream.UniMO.Common.TSceneMonoSingleton`1.OnDestroy*
+  name: OnDestroy
+  href: api/Scream.UniMO.Common.TSceneMonoSingleton-1.html#Scream_UniMO_Common_TSceneMonoSingleton_1_OnDestroy_
+  commentId: Overload:Scream.UniMO.Common.TSceneMonoSingleton`1.OnDestroy
+  isSpec: "True"
+  fullName: Scream.UniMO.Common.TSceneMonoSingleton<T>.OnDestroy
+  fullName.vb: Scream.UniMO.Common.TSceneMonoSingleton(Of T).OnDestroy
+  nameWithType: TSceneMonoSingleton<T>.OnDestroy
+  nameWithType.vb: TSceneMonoSingleton(Of T).OnDestroy
+- uid: Scream.UniMO.Common.TSingleton`1
+  name: TSingleton<T>
+  href: api/Scream.UniMO.Common.TSingleton-1.html
+  commentId: T:Scream.UniMO.Common.TSingleton`1
+  name.vb: TSingleton(Of T)
+  fullName: Scream.UniMO.Common.TSingleton<T>
+  fullName.vb: Scream.UniMO.Common.TSingleton(Of T)
+  nameWithType: TSingleton<T>
+  nameWithType.vb: TSingleton(Of T)
+- uid: Scream.UniMO.Common.TSingleton`1.Instance
+  name: Instance
+  href: api/Scream.UniMO.Common.TSingleton-1.html#Scream_UniMO_Common_TSingleton_1_Instance
+  commentId: P:Scream.UniMO.Common.TSingleton`1.Instance
+  fullName: Scream.UniMO.Common.TSingleton<T>.Instance
+  fullName.vb: Scream.UniMO.Common.TSingleton(Of T).Instance
+  nameWithType: TSingleton<T>.Instance
+  nameWithType.vb: TSingleton(Of T).Instance
+- uid: Scream.UniMO.Common.TSingleton`1.Instance*
+  name: Instance
+  href: api/Scream.UniMO.Common.TSingleton-1.html#Scream_UniMO_Common_TSingleton_1_Instance_
+  commentId: Overload:Scream.UniMO.Common.TSingleton`1.Instance
+  isSpec: "True"
+  fullName: Scream.UniMO.Common.TSingleton<T>.Instance
+  fullName.vb: Scream.UniMO.Common.TSingleton(Of T).Instance
+  nameWithType: TSingleton<T>.Instance
+  nameWithType.vb: TSingleton(Of T).Instance
 - uid: Scream.UniMO.Control
   name: Scream.UniMO.Control
   href: api/Scream.UniMO.Control.html
@@ -1195,6 +1502,66 @@ references:
   fullName.vb: Scream.UniMO.Utils.JsonFileUtility.Load(Of T)(System.String)
   nameWithType: JsonFileUtility.Load<T>(String)
   nameWithType.vb: JsonFileUtility.Load(Of T)(String)
+- uid: Scream.UniMO.Utils.MonoHelper
+  name: MonoHelper
+  href: api/Scream.UniMO.Utils.MonoHelper.html
+  commentId: T:Scream.UniMO.Utils.MonoHelper
+  fullName: Scream.UniMO.Utils.MonoHelper
+  nameWithType: MonoHelper
+- uid: Scream.UniMO.Utils.MonoHelper.OnApplicationQuitAction
+  name: OnApplicationQuitAction
+  href: api/Scream.UniMO.Utils.MonoHelper.html#Scream_UniMO_Utils_MonoHelper_OnApplicationQuitAction
+  commentId: E:Scream.UniMO.Utils.MonoHelper.OnApplicationQuitAction
+  fullName: Scream.UniMO.Utils.MonoHelper.OnApplicationQuitAction
+  nameWithType: MonoHelper.OnApplicationQuitAction
+- uid: Scream.UniMO.Utils.MonoHelper.OnAwakeAction
+  name: OnAwakeAction
+  href: api/Scream.UniMO.Utils.MonoHelper.html#Scream_UniMO_Utils_MonoHelper_OnAwakeAction
+  commentId: E:Scream.UniMO.Utils.MonoHelper.OnAwakeAction
+  fullName: Scream.UniMO.Utils.MonoHelper.OnAwakeAction
+  nameWithType: MonoHelper.OnAwakeAction
+- uid: Scream.UniMO.Utils.MonoHelper.OnDestroyAction
+  name: OnDestroyAction
+  href: api/Scream.UniMO.Utils.MonoHelper.html#Scream_UniMO_Utils_MonoHelper_OnDestroyAction
+  commentId: E:Scream.UniMO.Utils.MonoHelper.OnDestroyAction
+  fullName: Scream.UniMO.Utils.MonoHelper.OnDestroyAction
+  nameWithType: MonoHelper.OnDestroyAction
+- uid: Scream.UniMO.Utils.MonoHelper.OnDisableAction
+  name: OnDisableAction
+  href: api/Scream.UniMO.Utils.MonoHelper.html#Scream_UniMO_Utils_MonoHelper_OnDisableAction
+  commentId: E:Scream.UniMO.Utils.MonoHelper.OnDisableAction
+  fullName: Scream.UniMO.Utils.MonoHelper.OnDisableAction
+  nameWithType: MonoHelper.OnDisableAction
+- uid: Scream.UniMO.Utils.MonoHelper.OnEnableAction
+  name: OnEnableAction
+  href: api/Scream.UniMO.Utils.MonoHelper.html#Scream_UniMO_Utils_MonoHelper_OnEnableAction
+  commentId: E:Scream.UniMO.Utils.MonoHelper.OnEnableAction
+  fullName: Scream.UniMO.Utils.MonoHelper.OnEnableAction
+  nameWithType: MonoHelper.OnEnableAction
+- uid: Scream.UniMO.Utils.MonoHelper.OnFixedUpdateAction
+  name: OnFixedUpdateAction
+  href: api/Scream.UniMO.Utils.MonoHelper.html#Scream_UniMO_Utils_MonoHelper_OnFixedUpdateAction
+  commentId: E:Scream.UniMO.Utils.MonoHelper.OnFixedUpdateAction
+  fullName: Scream.UniMO.Utils.MonoHelper.OnFixedUpdateAction
+  nameWithType: MonoHelper.OnFixedUpdateAction
+- uid: Scream.UniMO.Utils.MonoHelper.OnLateUpdateAction
+  name: OnLateUpdateAction
+  href: api/Scream.UniMO.Utils.MonoHelper.html#Scream_UniMO_Utils_MonoHelper_OnLateUpdateAction
+  commentId: E:Scream.UniMO.Utils.MonoHelper.OnLateUpdateAction
+  fullName: Scream.UniMO.Utils.MonoHelper.OnLateUpdateAction
+  nameWithType: MonoHelper.OnLateUpdateAction
+- uid: Scream.UniMO.Utils.MonoHelper.OnStartAction
+  name: OnStartAction
+  href: api/Scream.UniMO.Utils.MonoHelper.html#Scream_UniMO_Utils_MonoHelper_OnStartAction
+  commentId: E:Scream.UniMO.Utils.MonoHelper.OnStartAction
+  fullName: Scream.UniMO.Utils.MonoHelper.OnStartAction
+  nameWithType: MonoHelper.OnStartAction
+- uid: Scream.UniMO.Utils.MonoHelper.OnUpdateAction
+  name: OnUpdateAction
+  href: api/Scream.UniMO.Utils.MonoHelper.html#Scream_UniMO_Utils_MonoHelper_OnUpdateAction
+  commentId: E:Scream.UniMO.Utils.MonoHelper.OnUpdateAction
+  fullName: Scream.UniMO.Utils.MonoHelper.OnUpdateAction
+  nameWithType: MonoHelper.OnUpdateAction
 - uid: Scream.UniMO.Utils.ScaledTimer
   name: ScaledTimer
   href: api/Scream.UniMO.Utils.ScaledTimer.html
@@ -1311,126 +1678,72 @@ references:
   isSpec: "True"
   fullName: Scream.UniMO.Utils.ScaledTimer.Resume
   nameWithType: ScaledTimer.Resume
-- uid: Scream.UniMO.Utils.TSingletonMonoBehavior`1
-  name: TSingletonMonoBehavior<T>
-  href: api/Scream.UniMO.Utils.TSingletonMonoBehavior-1.html
-  commentId: T:Scream.UniMO.Utils.TSingletonMonoBehavior`1
-  name.vb: TSingletonMonoBehavior(Of T)
-  fullName: Scream.UniMO.Utils.TSingletonMonoBehavior<T>
-  fullName.vb: Scream.UniMO.Utils.TSingletonMonoBehavior(Of T)
-  nameWithType: TSingletonMonoBehavior<T>
-  nameWithType.vb: TSingletonMonoBehavior(Of T)
-- uid: Scream.UniMO.Utils.TSingletonMonoBehavior`1.Awake
-  name: Awake()
-  href: api/Scream.UniMO.Utils.TSingletonMonoBehavior-1.html#Scream_UniMO_Utils_TSingletonMonoBehavior_1_Awake
-  commentId: M:Scream.UniMO.Utils.TSingletonMonoBehavior`1.Awake
-  fullName: Scream.UniMO.Utils.TSingletonMonoBehavior<T>.Awake()
-  fullName.vb: Scream.UniMO.Utils.TSingletonMonoBehavior(Of T).Awake()
-  nameWithType: TSingletonMonoBehavior<T>.Awake()
-  nameWithType.vb: TSingletonMonoBehavior(Of T).Awake()
-- uid: Scream.UniMO.Utils.TSingletonMonoBehavior`1.Awake*
-  name: Awake
-  href: api/Scream.UniMO.Utils.TSingletonMonoBehavior-1.html#Scream_UniMO_Utils_TSingletonMonoBehavior_1_Awake_
-  commentId: Overload:Scream.UniMO.Utils.TSingletonMonoBehavior`1.Awake
+- uid: Scream.UniMO.Utils.SceneLoader
+  name: SceneLoader
+  href: api/Scream.UniMO.Utils.SceneLoader.html
+  commentId: T:Scream.UniMO.Utils.SceneLoader
+  fullName: Scream.UniMO.Utils.SceneLoader
+  nameWithType: SceneLoader
+- uid: Scream.UniMO.Utils.SceneLoader.LoadScenesAsync(System.Action,System.Action{System.Single},System.String[])
+  name: LoadScenesAsync(Action, Action<Single>, String[])
+  href: api/Scream.UniMO.Utils.SceneLoader.html#Scream_UniMO_Utils_SceneLoader_LoadScenesAsync_System_Action_System_Action_System_Single__System_String___
+  commentId: M:Scream.UniMO.Utils.SceneLoader.LoadScenesAsync(System.Action,System.Action{System.Single},System.String[])
+  name.vb: LoadScenesAsync(Action, Action(Of Single), String())
+  fullName: Scream.UniMO.Utils.SceneLoader.LoadScenesAsync(System.Action, System.Action<System.Single>, System.String[])
+  fullName.vb: Scream.UniMO.Utils.SceneLoader.LoadScenesAsync(System.Action, System.Action(Of System.Single), System.String())
+  nameWithType: SceneLoader.LoadScenesAsync(Action, Action<Single>, String[])
+  nameWithType.vb: SceneLoader.LoadScenesAsync(Action, Action(Of Single), String())
+- uid: Scream.UniMO.Utils.SceneLoader.LoadScenesAsync(System.String,System.Action,System.Action{System.Single},System.String[])
+  name: LoadScenesAsync(String, Action, Action<Single>, String[])
+  href: api/Scream.UniMO.Utils.SceneLoader.html#Scream_UniMO_Utils_SceneLoader_LoadScenesAsync_System_String_System_Action_System_Action_System_Single__System_String___
+  commentId: M:Scream.UniMO.Utils.SceneLoader.LoadScenesAsync(System.String,System.Action,System.Action{System.Single},System.String[])
+  name.vb: LoadScenesAsync(String, Action, Action(Of Single), String())
+  fullName: Scream.UniMO.Utils.SceneLoader.LoadScenesAsync(System.String, System.Action, System.Action<System.Single>, System.String[])
+  fullName.vb: Scream.UniMO.Utils.SceneLoader.LoadScenesAsync(System.String, System.Action, System.Action(Of System.Single), System.String())
+  nameWithType: SceneLoader.LoadScenesAsync(String, Action, Action<Single>, String[])
+  nameWithType.vb: SceneLoader.LoadScenesAsync(String, Action, Action(Of Single), String())
+- uid: Scream.UniMO.Utils.SceneLoader.LoadScenesAsync*
+  name: LoadScenesAsync
+  href: api/Scream.UniMO.Utils.SceneLoader.html#Scream_UniMO_Utils_SceneLoader_LoadScenesAsync_
+  commentId: Overload:Scream.UniMO.Utils.SceneLoader.LoadScenesAsync
   isSpec: "True"
-  fullName: Scream.UniMO.Utils.TSingletonMonoBehavior<T>.Awake
-  fullName.vb: Scream.UniMO.Utils.TSingletonMonoBehavior(Of T).Awake
-  nameWithType: TSingletonMonoBehavior<T>.Awake
-  nameWithType.vb: TSingletonMonoBehavior(Of T).Awake
-- uid: Scream.UniMO.Utils.TSingletonMonoBehavior`1.Instance
-  name: Instance
-  href: api/Scream.UniMO.Utils.TSingletonMonoBehavior-1.html#Scream_UniMO_Utils_TSingletonMonoBehavior_1_Instance
-  commentId: P:Scream.UniMO.Utils.TSingletonMonoBehavior`1.Instance
-  fullName: Scream.UniMO.Utils.TSingletonMonoBehavior<T>.Instance
-  fullName.vb: Scream.UniMO.Utils.TSingletonMonoBehavior(Of T).Instance
-  nameWithType: TSingletonMonoBehavior<T>.Instance
-  nameWithType.vb: TSingletonMonoBehavior(Of T).Instance
-- uid: Scream.UniMO.Utils.TSingletonMonoBehavior`1.Instance*
-  name: Instance
-  href: api/Scream.UniMO.Utils.TSingletonMonoBehavior-1.html#Scream_UniMO_Utils_TSingletonMonoBehavior_1_Instance_
-  commentId: Overload:Scream.UniMO.Utils.TSingletonMonoBehavior`1.Instance
+  fullName: Scream.UniMO.Utils.SceneLoader.LoadScenesAsync
+  nameWithType: SceneLoader.LoadScenesAsync
+- uid: Scream.UniMO.Utils.UnityUIExtension
+  name: UnityUIExtension
+  href: api/Scream.UniMO.Utils.UnityUIExtension.html
+  commentId: T:Scream.UniMO.Utils.UnityUIExtension
+  fullName: Scream.UniMO.Utils.UnityUIExtension
+  nameWithType: UnityUIExtension
+- uid: Scream.UniMO.Utils.UnityUIExtension.SetImg(Image,Sprite)
+  name: SetImg(Image, Sprite)
+  href: api/Scream.UniMO.Utils.UnityUIExtension.html#Scream_UniMO_Utils_UnityUIExtension_SetImg_Image_Sprite_
+  commentId: M:Scream.UniMO.Utils.UnityUIExtension.SetImg(Image,Sprite)
+  fullName: Scream.UniMO.Utils.UnityUIExtension.SetImg(Image, Sprite)
+  nameWithType: UnityUIExtension.SetImg(Image, Sprite)
+- uid: Scream.UniMO.Utils.UnityUIExtension.SetImg*
+  name: SetImg
+  href: api/Scream.UniMO.Utils.UnityUIExtension.html#Scream_UniMO_Utils_UnityUIExtension_SetImg_
+  commentId: Overload:Scream.UniMO.Utils.UnityUIExtension.SetImg
   isSpec: "True"
-  fullName: Scream.UniMO.Utils.TSingletonMonoBehavior<T>.Instance
-  fullName.vb: Scream.UniMO.Utils.TSingletonMonoBehavior(Of T).Instance
-  nameWithType: TSingletonMonoBehavior<T>.Instance
-  nameWithType.vb: TSingletonMonoBehavior(Of T).Instance
-- uid: Scream.UniMO.Utils.TSingletonMonoBehavior`1.OnDestroy
-  name: OnDestroy()
-  href: api/Scream.UniMO.Utils.TSingletonMonoBehavior-1.html#Scream_UniMO_Utils_TSingletonMonoBehavior_1_OnDestroy
-  commentId: M:Scream.UniMO.Utils.TSingletonMonoBehavior`1.OnDestroy
-  fullName: Scream.UniMO.Utils.TSingletonMonoBehavior<T>.OnDestroy()
-  fullName.vb: Scream.UniMO.Utils.TSingletonMonoBehavior(Of T).OnDestroy()
-  nameWithType: TSingletonMonoBehavior<T>.OnDestroy()
-  nameWithType.vb: TSingletonMonoBehavior(Of T).OnDestroy()
-- uid: Scream.UniMO.Utils.TSingletonMonoBehavior`1.OnDestroy*
-  name: OnDestroy
-  href: api/Scream.UniMO.Utils.TSingletonMonoBehavior-1.html#Scream_UniMO_Utils_TSingletonMonoBehavior_1_OnDestroy_
-  commentId: Overload:Scream.UniMO.Utils.TSingletonMonoBehavior`1.OnDestroy
+  fullName: Scream.UniMO.Utils.UnityUIExtension.SetImg
+  nameWithType: UnityUIExtension.SetImg
+- uid: Scream.UniMO.Utils.UnityUIExtension.SetText*
+  name: SetText
+  href: api/Scream.UniMO.Utils.UnityUIExtension.html#Scream_UniMO_Utils_UnityUIExtension_SetText_
+  commentId: Overload:Scream.UniMO.Utils.UnityUIExtension.SetText
   isSpec: "True"
-  fullName: Scream.UniMO.Utils.TSingletonMonoBehavior<T>.OnDestroy
-  fullName.vb: Scream.UniMO.Utils.TSingletonMonoBehavior(Of T).OnDestroy
-  nameWithType: TSingletonMonoBehavior<T>.OnDestroy
-  nameWithType.vb: TSingletonMonoBehavior(Of T).OnDestroy
-- uid: Scream.UniMO.Utils.TSingletonMonoBehaviorDestroy`1
-  name: TSingletonMonoBehaviorDestroy<T>
-  href: api/Scream.UniMO.Utils.TSingletonMonoBehaviorDestroy-1.html
-  commentId: T:Scream.UniMO.Utils.TSingletonMonoBehaviorDestroy`1
-  name.vb: TSingletonMonoBehaviorDestroy(Of T)
-  fullName: Scream.UniMO.Utils.TSingletonMonoBehaviorDestroy<T>
-  fullName.vb: Scream.UniMO.Utils.TSingletonMonoBehaviorDestroy(Of T)
-  nameWithType: TSingletonMonoBehaviorDestroy<T>
-  nameWithType.vb: TSingletonMonoBehaviorDestroy(Of T)
-- uid: Scream.UniMO.Utils.TSingletonMonoBehaviorDestroy`1.Awake
-  name: Awake()
-  href: api/Scream.UniMO.Utils.TSingletonMonoBehaviorDestroy-1.html#Scream_UniMO_Utils_TSingletonMonoBehaviorDestroy_1_Awake
-  commentId: M:Scream.UniMO.Utils.TSingletonMonoBehaviorDestroy`1.Awake
-  fullName: Scream.UniMO.Utils.TSingletonMonoBehaviorDestroy<T>.Awake()
-  fullName.vb: Scream.UniMO.Utils.TSingletonMonoBehaviorDestroy(Of T).Awake()
-  nameWithType: TSingletonMonoBehaviorDestroy<T>.Awake()
-  nameWithType.vb: TSingletonMonoBehaviorDestroy(Of T).Awake()
-- uid: Scream.UniMO.Utils.TSingletonMonoBehaviorDestroy`1.Awake*
-  name: Awake
-  href: api/Scream.UniMO.Utils.TSingletonMonoBehaviorDestroy-1.html#Scream_UniMO_Utils_TSingletonMonoBehaviorDestroy_1_Awake_
-  commentId: Overload:Scream.UniMO.Utils.TSingletonMonoBehaviorDestroy`1.Awake
-  isSpec: "True"
-  fullName: Scream.UniMO.Utils.TSingletonMonoBehaviorDestroy<T>.Awake
-  fullName.vb: Scream.UniMO.Utils.TSingletonMonoBehaviorDestroy(Of T).Awake
-  nameWithType: TSingletonMonoBehaviorDestroy<T>.Awake
-  nameWithType.vb: TSingletonMonoBehaviorDestroy(Of T).Awake
-- uid: Scream.UniMO.Utils.TSingletonMonoBehaviorDestroy`1.Instance
-  name: Instance
-  href: api/Scream.UniMO.Utils.TSingletonMonoBehaviorDestroy-1.html#Scream_UniMO_Utils_TSingletonMonoBehaviorDestroy_1_Instance
-  commentId: P:Scream.UniMO.Utils.TSingletonMonoBehaviorDestroy`1.Instance
-  fullName: Scream.UniMO.Utils.TSingletonMonoBehaviorDestroy<T>.Instance
-  fullName.vb: Scream.UniMO.Utils.TSingletonMonoBehaviorDestroy(Of T).Instance
-  nameWithType: TSingletonMonoBehaviorDestroy<T>.Instance
-  nameWithType.vb: TSingletonMonoBehaviorDestroy(Of T).Instance
-- uid: Scream.UniMO.Utils.TSingletonMonoBehaviorDestroy`1.Instance*
-  name: Instance
-  href: api/Scream.UniMO.Utils.TSingletonMonoBehaviorDestroy-1.html#Scream_UniMO_Utils_TSingletonMonoBehaviorDestroy_1_Instance_
-  commentId: Overload:Scream.UniMO.Utils.TSingletonMonoBehaviorDestroy`1.Instance
-  isSpec: "True"
-  fullName: Scream.UniMO.Utils.TSingletonMonoBehaviorDestroy<T>.Instance
-  fullName.vb: Scream.UniMO.Utils.TSingletonMonoBehaviorDestroy(Of T).Instance
-  nameWithType: TSingletonMonoBehaviorDestroy<T>.Instance
-  nameWithType.vb: TSingletonMonoBehaviorDestroy(Of T).Instance
-- uid: Scream.UniMO.Utils.TSingletonMonoBehaviorDestroy`1.OnDestroy
-  name: OnDestroy()
-  href: api/Scream.UniMO.Utils.TSingletonMonoBehaviorDestroy-1.html#Scream_UniMO_Utils_TSingletonMonoBehaviorDestroy_1_OnDestroy
-  commentId: M:Scream.UniMO.Utils.TSingletonMonoBehaviorDestroy`1.OnDestroy
-  fullName: Scream.UniMO.Utils.TSingletonMonoBehaviorDestroy<T>.OnDestroy()
-  fullName.vb: Scream.UniMO.Utils.TSingletonMonoBehaviorDestroy(Of T).OnDestroy()
-  nameWithType: TSingletonMonoBehaviorDestroy<T>.OnDestroy()
-  nameWithType.vb: TSingletonMonoBehaviorDestroy(Of T).OnDestroy()
-- uid: Scream.UniMO.Utils.TSingletonMonoBehaviorDestroy`1.OnDestroy*
-  name: OnDestroy
-  href: api/Scream.UniMO.Utils.TSingletonMonoBehaviorDestroy-1.html#Scream_UniMO_Utils_TSingletonMonoBehaviorDestroy_1_OnDestroy_
-  commentId: Overload:Scream.UniMO.Utils.TSingletonMonoBehaviorDestroy`1.OnDestroy
-  isSpec: "True"
-  fullName: Scream.UniMO.Utils.TSingletonMonoBehaviorDestroy<T>.OnDestroy
-  fullName.vb: Scream.UniMO.Utils.TSingletonMonoBehaviorDestroy(Of T).OnDestroy
-  nameWithType: TSingletonMonoBehaviorDestroy<T>.OnDestroy
-  nameWithType.vb: TSingletonMonoBehaviorDestroy(Of T).OnDestroy
+  fullName: Scream.UniMO.Utils.UnityUIExtension.SetText
+  nameWithType: UnityUIExtension.SetText
+- uid: Scream.UniMO.Utils.UnityUIExtension.SetText``1(Text,``0)
+  name: SetText<T>(Text, T)
+  href: api/Scream.UniMO.Utils.UnityUIExtension.html#Scream_UniMO_Utils_UnityUIExtension_SetText__1_Text___0_
+  commentId: M:Scream.UniMO.Utils.UnityUIExtension.SetText``1(Text,``0)
+  name.vb: SetText(Of T)(Text, T)
+  fullName: Scream.UniMO.Utils.UnityUIExtension.SetText<T>(Text, T)
+  fullName.vb: Scream.UniMO.Utils.UnityUIExtension.SetText(Of T)(Text, T)
+  nameWithType: UnityUIExtension.SetText<T>(Text, T)
+  nameWithType.vb: UnityUIExtension.SetText(Of T)(Text, T)
 - uid: Scream.UniMO.Utils.UnscaledTimer
   name: UnscaledTimer
   href: api/Scream.UniMO.Utils.UnscaledTimer.html

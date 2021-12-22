@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class DomainEvents
+    <title>Class AsyncHelper&lt;Result&gt;
    | UniMO </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class DomainEvents
+    <meta name="title" content="Class AsyncHelper&lt;Result&gt;
    | UniMO ">
     <meta name="generator" content="docfx 2.56.7.0">
     
@@ -78,19 +78,18 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Scream.UniMO.Common.DomainEvents">
+            <article class="content wrap" id="_content" data-uid="Scream.UniMO.Common.AsyncHelper`1">
   
   
-  <h1 id="Scream_UniMO_Common_DomainEvents" data-uid="Scream.UniMO.Common.DomainEvents" class="text-break">Class DomainEvents
+  <h1 id="Scream_UniMO_Common_AsyncHelper_1" data-uid="Scream.UniMO.Common.AsyncHelper`1" class="text-break">Class AsyncHelper&lt;Result&gt;
   </h1>
-  <div class="markdown level0 summary"><p><p>This class handles all events.</p>
-You can raise event register and unregister event use this class</p>
+  <div class="markdown level0 summary"><p>Listen for event and wait until the event callback invoke as IEnumerator or Async method</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">DomainEvents</span></div>
+    <div class="level1"><span class="xref">AsyncHelper&lt;Result&gt;</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -118,35 +117,95 @@ You can raise event register and unregister event use this class</p>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Scream.UniMO.Common.html">Scream.UniMO.Common</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="Scream_UniMO_Common_DomainEvents_syntax">Syntax</h5>
+  <h5 id="Scream_UniMO_Common_AsyncHelper_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class DomainEvents</code></pre>
+    <pre><code class="lang-csharp hljs">public class AsyncHelper&lt;Result&gt; : IWaitable&lt;Result&gt;</code></pre>
   </div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">Result</span></td>
+        <td><p>The result type for callback</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="Scream_UniMO_Common_AsyncHelper_1__ctor_" data-uid="Scream.UniMO.Common.AsyncHelper`1.#ctor*"></a>
+  <h4 id="Scream_UniMO_Common_AsyncHelper_1__ctor_System_Action_" data-uid="Scream.UniMO.Common.AsyncHelper`1.#ctor(System.Action)">AsyncHelper(Action)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AsyncHelper(Action request)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td><span class="parametername">request</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Scream_UniMO_Common_AsyncHelper_1_IsReady_" data-uid="Scream.UniMO.Common.AsyncHelper`1.IsReady*"></a>
+  <h4 id="Scream_UniMO_Common_AsyncHelper_1_IsReady" data-uid="Scream.UniMO.Common.AsyncHelper`1.IsReady">IsReady</h4>
+  <div class="markdown level1 summary"><p>Return if this action already finish</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsReady { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="Scream_UniMO_Common_DomainEvents_Clear_" data-uid="Scream.UniMO.Common.DomainEvents.Clear*"></a>
-  <h4 id="Scream_UniMO_Common_DomainEvents_Clear" data-uid="Scream.UniMO.Common.DomainEvents.Clear">Clear()</h4>
-  <div class="markdown level1 summary"><p>Clear all event have subscribed</p>
+  <a id="Scream_UniMO_Common_AsyncHelper_1_Callback_" data-uid="Scream.UniMO.Common.AsyncHelper`1.Callback*"></a>
+  <h4 id="Scream_UniMO_Common_AsyncHelper_1_Callback__0_" data-uid="Scream.UniMO.Common.AsyncHelper`1.Callback(`0)">Callback(Result)</h4>
+  <div class="markdown level1 summary"><p>Use this method to register the event you want to wait</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Clear()</code></pre>
-  </div>
-  
-  
-  <a id="Scream_UniMO_Common_DomainEvents_Raise_" data-uid="Scream.UniMO.Common.DomainEvents.Raise*"></a>
-  <h4 id="Scream_UniMO_Common_DomainEvents_Raise__1___0_" data-uid="Scream.UniMO.Common.DomainEvents.Raise``1(``0)">Raise&lt;T&gt;(T)</h4>
-  <div class="markdown level1 summary"><p>Call this method to raise the event</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Raise&lt;T&gt;(T args)
-
-    where T : IDomainEvent</code></pre>
+    <pre><code class="lang-csharp hljs">public void Callback(Result result)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -159,41 +218,35 @@ You can raise event register and unregister event use this class</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">T</span></td>
-        <td><span class="parametername">args</span></td>
-        <td><p>argument for this event</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>the event type</p>
+        <td><span class="xref">Result</span></td>
+        <td><span class="parametername">result</span></td>
+        <td><p>result</p>
 </td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Scream_UniMO_Common_DomainEvents_Register_" data-uid="Scream.UniMO.Common.DomainEvents.Register*"></a>
-  <h4 id="Scream_UniMO_Common_DomainEvents_Register__1_System_Action___0__" data-uid="Scream.UniMO.Common.DomainEvents.Register``1(System.Action{``0})">Register&lt;T&gt;(Action&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"><p>Call this method to subscribe an event</p>
+  <a id="Scream_UniMO_Common_AsyncHelper_1_Request_" data-uid="Scream.UniMO.Common.AsyncHelper`1.Request*"></a>
+  <h4 id="Scream_UniMO_Common_AsyncHelper_1_Request" data-uid="Scream.UniMO.Common.AsyncHelper`1.Request">Request()</h4>
+  <div class="markdown level1 summary"><p>Raise a request</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Register&lt;T&gt;(Action&lt;T&gt; callback)
-
-    where T : IDomainEvent</code></pre>
+    <pre><code class="lang-csharp hljs">public void Request()</code></pre>
+  </div>
+  
+  
+  <a id="Scream_UniMO_Common_AsyncHelper_1_TryGetResult_" data-uid="Scream.UniMO.Common.AsyncHelper`1.TryGetResult*"></a>
+  <h4 id="Scream_UniMO_Common_AsyncHelper_1_TryGetResult__0__" data-uid="Scream.UniMO.Common.AsyncHelper`1.TryGetResult(`0@)">TryGetResult(out Result)</h4>
+  <div class="markdown level1 summary"><p>Call this method to try to get the method at anytime.
+It won&apos;t return the result if callback is not invoke</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TryGetResult(out Result result)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -206,41 +259,66 @@ You can raise event register and unregister event use this class</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Action</span>&lt;T&gt;</td>
-        <td><span class="parametername">callback</span></td>
-        <td><p>the callback function to subscribe</p>
+        <td><span class="xref">Result</span></td>
+        <td><span class="parametername">result</span></td>
+        <td><p>result</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="typeParameters">Type Parameters</h5>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
-        <th>Name</th>
+        <th>Type</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>which event you want to subscribe</p>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>if callback is already invoke</p>
 </td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Scream_UniMO_Common_DomainEvents_UnRegister_" data-uid="Scream.UniMO.Common.DomainEvents.UnRegister*"></a>
-  <h4 id="Scream_UniMO_Common_DomainEvents_UnRegister__1_System_Action___0__" data-uid="Scream.UniMO.Common.DomainEvents.UnRegister``1(System.Action{``0})">UnRegister&lt;T&gt;(Action&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"><p>Call this method to unsubscribe</p>
+  <a id="Scream_UniMO_Common_AsyncHelper_1_Wait_" data-uid="Scream.UniMO.Common.AsyncHelper`1.Wait*"></a>
+  <h4 id="Scream_UniMO_Common_AsyncHelper_1_Wait" data-uid="Scream.UniMO.Common.AsyncHelper`1.Wait">Wait()</h4>
+  <div class="markdown level1 summary"><p>Call this to wait as async method</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void UnRegister&lt;T&gt;(Action&lt;T&gt; callback)
-
-    where T : IDomainEvent</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;Result&gt; Wait()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;Result&gt;</td>
+        <td><p>the result</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Scream_UniMO_Common_AsyncHelper_1_Wait_" data-uid="Scream.UniMO.Common.AsyncHelper`1.Wait*"></a>
+  <h4 id="Scream_UniMO_Common_AsyncHelper_1_Wait_System_Action__0__" data-uid="Scream.UniMO.Common.AsyncHelper`1.Wait(System.Action{`0})">Wait(Action&lt;Result&gt;)</h4>
+  <div class="markdown level1 summary"><p>Call this to wait in coroutine</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerator Wait(Action&lt;Result&gt; onFinish = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -253,26 +331,25 @@ You can raise event register and unregister event use this class</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Action</span>&lt;T&gt;</td>
-        <td><span class="parametername">callback</span></td>
-        <td><p>the callback function to unsubscribe</p>
+        <td><span class="xref">System.Action</span>&lt;Result&gt;</td>
+        <td><span class="parametername">onFinish</span></td>
+        <td><p>when callback is invoke you can use this method to catch the result</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="typeParameters">Type Parameters</h5>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
-        <th>Name</th>
+        <th>Type</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>which event you want to unsubscribe</p>
-</td>
+        <td><span class="xref">System.Collections.Generic.IEnumerator</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
