@@ -468,7 +468,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/changelog.html",
-          "hash": "F5AxlVz6I9xASrsXtsZ9Lg=="
+          "hash": "oa2cj95CzHORF3QXswilnw=="
         }
       },
       "is_incremental": false,
@@ -492,7 +492,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/unimo_manual.html",
-          "hash": "NSlmtTUrpRQRldCt/+AQKA=="
+          "hash": "UzBIClrRLe+Zg+jaaxMcug=="
         }
       },
       "is_incremental": false,
@@ -514,25 +514,23 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": false,
-        "details": "Cannot build incrementally because last build info is missing.",
+        "can_incremental": true,
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0,
-        "full_build_reason_code": "NoAvailableBuildCache"
+        "skipped_file_count": 0
       },
       "processors": {
         "ConceptualDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 3,
-          "skipped_file_count": 0
+          "skipped_file_count": 1
         },
         "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 35,
-          "skipped_file_count": 0
+          "skipped_file_count": 35
         },
         "TocDocumentProcessor": {
           "can_incremental": false,
