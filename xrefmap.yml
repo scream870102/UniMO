@@ -1464,6 +1464,37 @@ references:
   isSpec: "True"
   fullName: Scream.UniMO.Utils.ColorUtils.SetAlphaHalf
   nameWithType: ColorUtils.SetAlphaHalf
+- uid: Scream.UniMO.Utils.GameObjectExtension
+  name: GameObjectExtension
+  href: api/Scream.UniMO.Utils.GameObjectExtension.html
+  commentId: T:Scream.UniMO.Utils.GameObjectExtension
+  fullName: Scream.UniMO.Utils.GameObjectExtension
+  nameWithType: GameObjectExtension
+- uid: Scream.UniMO.Utils.GameObjectExtension.GetComponentLog*
+  name: GetComponentLog
+  href: api/Scream.UniMO.Utils.GameObjectExtension.html#Scream_UniMO_Utils_GameObjectExtension_GetComponentLog_
+  commentId: Overload:Scream.UniMO.Utils.GameObjectExtension.GetComponentLog
+  isSpec: "True"
+  fullName: Scream.UniMO.Utils.GameObjectExtension.GetComponentLog
+  nameWithType: GameObjectExtension.GetComponentLog
+- uid: Scream.UniMO.Utils.GameObjectExtension.GetComponentLog``1(Component)
+  name: GetComponentLog<T>(Component)
+  href: api/Scream.UniMO.Utils.GameObjectExtension.html#Scream_UniMO_Utils_GameObjectExtension_GetComponentLog__1_Component_
+  commentId: M:Scream.UniMO.Utils.GameObjectExtension.GetComponentLog``1(Component)
+  name.vb: GetComponentLog(Of T)(Component)
+  fullName: Scream.UniMO.Utils.GameObjectExtension.GetComponentLog<T>(Component)
+  fullName.vb: Scream.UniMO.Utils.GameObjectExtension.GetComponentLog(Of T)(Component)
+  nameWithType: GameObjectExtension.GetComponentLog<T>(Component)
+  nameWithType.vb: GameObjectExtension.GetComponentLog(Of T)(Component)
+- uid: Scream.UniMO.Utils.GameObjectExtension.GetComponentLog``1(GameObject)
+  name: GetComponentLog<T>(GameObject)
+  href: api/Scream.UniMO.Utils.GameObjectExtension.html#Scream_UniMO_Utils_GameObjectExtension_GetComponentLog__1_GameObject_
+  commentId: M:Scream.UniMO.Utils.GameObjectExtension.GetComponentLog``1(GameObject)
+  name.vb: GetComponentLog(Of T)(GameObject)
+  fullName: Scream.UniMO.Utils.GameObjectExtension.GetComponentLog<T>(GameObject)
+  fullName.vb: Scream.UniMO.Utils.GameObjectExtension.GetComponentLog(Of T)(GameObject)
+  nameWithType: GameObjectExtension.GetComponentLog<T>(GameObject)
+  nameWithType.vb: GameObjectExtension.GetComponentLog(Of T)(GameObject)
 - uid: Scream.UniMO.Utils.JsonFileUtility
   name: JsonFileUtility
   href: api/Scream.UniMO.Utils.JsonFileUtility.html

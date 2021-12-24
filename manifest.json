@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Scream.UniMO.Collections.Container-2.html",
-          "hash": "TxWlFkoqg9Xra591l2KoyQ=="
+          "hash": "OvzjygMIRUjc1JYVU5InKA=="
         }
       },
       "is_incremental": false,
@@ -33,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Scream.UniMO.Collections.ContainerExtension.html",
-          "hash": "f7fAurIsj1Fh7HMcj//q5A=="
+          "hash": "4bTI90nmpLp+4GYapZy0fQ=="
         }
       },
       "is_incremental": false,
@@ -129,7 +129,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Scream.UniMO.Common.DomainEvents.html",
-          "hash": "s8KxKXNlan+hecw0RfeU9A=="
+          "hash": "jvp90GIh/R1r8iufdWZ4Aw=="
         }
       },
       "is_incremental": false,
@@ -189,7 +189,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Scream.UniMO.Common.TSingleton-1.html",
-          "hash": "sJdmemtVrpxGSgywz0N9dA=="
+          "hash": "Owr3xRyw4I+sp+oRrPWKBg=="
         }
       },
       "is_incremental": false,
@@ -281,6 +281,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Scream.UniMO.Utils.GameObjectExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Scream.UniMO.Utils.GameObjectExtension.html",
+          "hash": "nIcvXemhJCNMcKsZmWkTRA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Scream.UniMO.Utils.JsonFileUtility.yml",
       "output": {
         ".html": {
@@ -357,7 +369,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Scream.UniMO.Utils.html",
-          "hash": "4of87khDlcuEplxhLOjSxw=="
+          "hash": "gkUTJgFptdBLWlKtN6w1lg=="
         }
       },
       "is_incremental": false,
@@ -441,7 +453,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "RwdRcnKYYnnqZ6/LlFZQcg=="
+          "hash": "UYO2/Jqidrvc4JZsbck2VA=="
         }
       },
       "is_incremental": false,
@@ -468,7 +480,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/changelog.html",
-          "hash": "oa2cj95CzHORF3QXswilnw=="
+          "hash": "ybXm3Qw7yCxXtXDjC5fV2Q=="
         }
       },
       "is_incremental": false,
@@ -524,13 +536,13 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 3,
-          "skipped_file_count": 1
+          "skipped_file_count": 2
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 35,
-          "skipped_file_count": 35
+          "total_file_count": 36,
+          "skipped_file_count": 11
         },
         "TocDocumentProcessor": {
           "can_incremental": false,
