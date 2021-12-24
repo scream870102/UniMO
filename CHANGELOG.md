@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.8.0
+
+- Add `GameObjectExtension`
+
 ## 1.7.0
 
 - Add `TMonoSingleton`
@@ -11,9 +15,13 @@
 - Update `AsyncHelper`
 - Update `ProcessTracker`
 
+---
+
 ## 1.6.1
 
 - Fix `AsyncHelper` Bug
+
+---
 
 ## 1.6.0
 
@@ -27,11 +35,15 @@
 - Fix `Container` error
 - Rename `AnimationEventHandler` to `AnimationEventHelper`
 
+---
+
 ## 1.5.0
 
 - Update Container in Scream.UniMO.Collection
 - Delete ObjectContainer in Scream.UniMO.Collection
 - Update PrefabContainer in Scream.UniMO.Collection
+
+---
 
 ## 1.4.0
 
