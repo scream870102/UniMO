@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.8.0
+
+- Add `GameObjectExtension`
+
 ## 1.7.0
 
 - Add `TMonoSingleton`
