@@ -149,6 +149,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Scream.UniMO.Common.Logger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Scream.UniMO.Common.Logger.html",
+          "hash": "7qq0KHwk5May8IrH/QJ5Mg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Scream.UniMO.Common.ProcessTracker.yml",
       "output": {
         ".html": {
@@ -201,7 +213,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Scream.UniMO.Common.html",
-          "hash": "PMdRxveZCHtL1Jkezz3l1Q=="
+          "hash": "rz9tBMgwZC0mTi6lFrXGyA=="
         }
       },
       "is_incremental": false,
@@ -453,7 +465,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "UYO2/Jqidrvc4JZsbck2VA=="
+          "hash": "IRTTNYAnXZQJQi6KBqt0WA=="
         }
       },
       "is_incremental": false,
@@ -480,7 +492,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/changelog.html",
-          "hash": "ybXm3Qw7yCxXtXDjC5fV2Q=="
+          "hash": "ZsiZnbw0AKEAqs6rLnw8cw=="
         }
       },
       "is_incremental": false,
@@ -541,8 +553,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 36,
-          "skipped_file_count": 11
+          "total_file_count": 37,
+          "skipped_file_count": 15
         },
         "TocDocumentProcessor": {
           "can_incremental": false,
