@@ -1,6 +1,6 @@
-using System;
 using UnityEngine;
 using Object = UnityEngine.Object;
+using static Scream.UniMO.Common.Logger;
 
 namespace Scream.UniMO.Utils
 {
@@ -43,7 +43,7 @@ namespace Scream.UniMO.Utils
 			if (result == null)
 			{
 				var type = typeof(T);
-				Debug.LogError($"Get Component type of \"{type}\" failed in \"{obj.name}\"\n{Environment.StackTrace}");
+				Error($"Get Component type of \"{type}\" failed in \"{obj.name}");
 			}
 		}
 #endif
