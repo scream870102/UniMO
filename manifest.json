@@ -528,7 +528,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/changelog.html",
-          "hash": "ZsiZnbw0AKEAqs6rLnw8cw=="
+          "hash": "Gv0F5lzcVVrFcr3YlHKUdg=="
         }
       },
       "is_incremental": false,
@@ -584,13 +584,13 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 3,
-          "skipped_file_count": 3
+          "skipped_file_count": 2
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 40,
-          "skipped_file_count": 5
+          "skipped_file_count": 40
         },
         "TocDocumentProcessor": {
           "can_incremental": false,
