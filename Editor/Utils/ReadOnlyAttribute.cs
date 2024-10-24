@@ -1,14 +1,10 @@
 #if UNITY_EDITOR
 using UnityEditor;
 using UnityEngine;
+using Scream.UniMO.Utils;
 
 namespace Scream.UniMO.Editor.Utils
 {
-    /// <summary>
-    /// Add this property to make field become readonly in inspector
-    /// </summary>
-    public class ReadOnlyAttribute : PropertyAttribute { }
-
     [CustomPropertyDrawer(typeof(ReadOnlyAttribute))]
     public class ReadOnlyDrawer : PropertyDrawer
     {

@@ -1,5 +1,6 @@
 ﻿#if UNITY_EDITOR
 using UnityEditor;
+#endif
 using UnityEngine;
 
 namespace Scream.UniMO.Editor.Utils
@@ -17,6 +18,7 @@ namespace Scream.UniMO.Editor.Utils
         public void GetID() => Debug.Log(_object.GetInstanceID());
     }
 
+#if UNITY_EDITOR
     [CustomEditor(typeof(GetInstanceID))]
     public class GetInStanceIDEditor : UnityEditor.Editor
     {
@@ -29,6 +31,6 @@ namespace Scream.UniMO.Editor.Utils
                 myScript.GetID();
         }
     }
+#endif
 
 }
-#endif

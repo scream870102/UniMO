@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.10.0
+- Refactor ReadOnly Attribute
+
 ## 1.9.0
 
 - Add `Logger`

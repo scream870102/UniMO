@@ -1,7 +1,5 @@
 using UnityEngine;
-#if UNITY_EDITOR
 using Scream.UniMO.Editor.Utils;
-#endif
 
 namespace Scream.UniMO.Utils
 {
@@ -13,10 +11,8 @@ namespace Scream.UniMO.Utils
     public class UnscaledTimer
     {
 
-#if UNITY_EDITOR
         [ReadOnly, SerializeField] float remain = 0f;
         [ReadOnly, SerializeField] bool bFinished = false;
-#endif
         float timeSection = 0f;
         float timer = 0f;
         float remainTime = 0f;
@@ -110,10 +106,8 @@ namespace Scream.UniMO.Utils
     public class ScaledTimer
     {
 
-#if UNITY_EDITOR
         [ReadOnly, SerializeField] float remain = 0f;
         [ReadOnly, SerializeField] bool bFinished = false;
-#endif
         float timeSection = 0f;
         float timer = 0f;
         float remainTime = 0f;

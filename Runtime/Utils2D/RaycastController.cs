@@ -1,8 +1,6 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
-#if UNITY_EDITOR
-using Scream.UniMO.Editor.Utils;
-#endif
+using Scream.UniMO.Utils;
 namespace Scream.UniMO.Utils2D
 {
     /// <summary>
@@ -12,14 +10,10 @@ namespace Scream.UniMO.Utils2D
     [System.Serializable]
     public class RayCastController
     {
-#if UNITY_EDITOR
         [ReadOnly, SerializeField]
-#endif
         List<HitResult> result = new List<HitResult>();
         BoxCollider2D col = null;
-#if UNITY_EDITOR
         [ReadOnly, SerializeField]
-#endif
         RayCastInfo info = null;
         RayCastPoint points = null;
         float horiSpace = 0f;
