@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Scream.UniMO.Collections.Container-2.html",
-          "hash": "OvzjygMIRUjc1JYVU5InKA=="
+          "hash": "JTRXoaCiULbMJh2mhMmj+g=="
         }
       },
       "is_incremental": false,
@@ -33,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Scream.UniMO.Collections.ContainerExtension.html",
-          "hash": "4bTI90nmpLp+4GYapZy0fQ=="
+          "hash": "ufMd0AeZhRSkPnQy3EU3xA=="
         }
       },
       "is_incremental": false,
@@ -69,7 +69,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Scream.UniMO.Collections.PrefabContainer.html",
-          "hash": "SIzfpQEM6t7SEnBBGyIaUg=="
+          "hash": "EIT49IkvQp+0AfqiDf3+IQ=="
         }
       },
       "is_incremental": false,
@@ -93,7 +93,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Scream.UniMO.Common.AsyncHelper-1.html",
-          "hash": "L6XkoVq+pVIxtd5MTYRsjQ=="
+          "hash": "m9oMsRpJb7IpcWWN5gmyUQ=="
         }
       },
       "is_incremental": false,
@@ -105,7 +105,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Scream.UniMO.Common.AsyncHelper-2.html",
-          "hash": "iJmN7H7+0fNkvCDEJ3f4Eg=="
+          "hash": "F4t7+7J9pWHvdl6eS4rYuw=="
         }
       },
       "is_incremental": false,
@@ -117,7 +117,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Scream.UniMO.Common.AsyncHelper.html",
-          "hash": "bBdkHz3D+VpLBMApU1L4TA=="
+          "hash": "5tOaGo1pX6psb+TeUplmCA=="
         }
       },
       "is_incremental": false,
@@ -129,7 +129,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Scream.UniMO.Common.DomainEvents.html",
-          "hash": "jvp90GIh/R1r8iufdWZ4Aw=="
+          "hash": "qOcbOgvtReiGtgReWAcAZQ=="
         }
       },
       "is_incremental": false,
@@ -165,7 +165,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Scream.UniMO.Common.ProcessTracker.html",
-          "hash": "sL3G8KV2f3ekiTRVWeueDQ=="
+          "hash": "02ki3RC/5iIe1d3y/o+/kg=="
         }
       },
       "is_incremental": false,
@@ -245,6 +245,30 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Scream.UniMO.Editor.Utils.GetInstanceID.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Scream.UniMO.Editor.Utils.GetInstanceID.html",
+          "hash": "F56BVt0ricdvF4TTMPN38A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Scream.UniMO.Editor.Utils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Scream.UniMO.Editor.Utils.html",
+          "hash": "7XvUrkQJNn6bxxDHSwqZYg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Scream.UniMO.Math.Math.yml",
       "output": {
         ".html": {
@@ -273,7 +297,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Scream.UniMO.Utils.AnimationEventHelper.html",
-          "hash": "k96BJmjGWRlH7I93yH1jFg=="
+          "hash": "YV0iWBXXwRY5+DgP/3c6Wg=="
         }
       },
       "is_incremental": false,
@@ -321,7 +345,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Scream.UniMO.Utils.MonoHelper.html",
-          "hash": "edyJtmZkdZuyj447CQpZ1w=="
+          "hash": "1GAz8wjcBIx9WlQn9+04FA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Scream.UniMO.Utils.ReadOnlyAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Scream.UniMO.Utils.ReadOnlyAttribute.html",
+          "hash": "bvLVe3Y5h2sjdfE115aWtg=="
         }
       },
       "is_incremental": false,
@@ -345,7 +381,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Scream.UniMO.Utils.SceneLoader.html",
-          "hash": "AEtEZng/Gjr0a04OSORIAw=="
+          "hash": "oTIFlTHA9sKwsLh+WwJwvQ=="
         }
       },
       "is_incremental": false,
@@ -381,7 +417,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Scream.UniMO.Utils.html",
-          "hash": "gkUTJgFptdBLWlKtN6w1lg=="
+          "hash": "KervzKp0w1DeMQnWkdx34Q=="
         }
       },
       "is_incremental": false,
@@ -429,7 +465,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Scream.UniMO.Utils2D.RayCastController.html",
-          "hash": "3LG8Wg8ASVHv3h1a9QCq/Q=="
+          "hash": "A0QD9xxOcJjRJBVmZaRAPw=="
         }
       },
       "is_incremental": false,
@@ -465,7 +501,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "IRTTNYAnXZQJQi6KBqt0WA=="
+          "hash": "HiKvJcJyQPuR7bGJ3Zg8Mg=="
         }
       },
       "is_incremental": false,
@@ -548,13 +584,13 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 3,
-          "skipped_file_count": 2
+          "skipped_file_count": 3
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 37,
-          "skipped_file_count": 15
+          "total_file_count": 40,
+          "skipped_file_count": 5
         },
         "TocDocumentProcessor": {
           "can_incremental": false,
